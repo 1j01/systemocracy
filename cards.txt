@@ -1,0 +1,674 @@
+
+Corporate Blockade - 1m - C
+permanent
+
+Fill a branch of an enemy corporate type.
+
+corporate
+
+
+
+
+Offshore Account - 1m - C
+place
+
+0 / 0
+
+Action: Either move any amount of money from your leadership / a person of influence onto Offshore Account OR move any amount of money from Offshore Account to your leadership / a person of influence.
+Offshore Account cannot be attacked, and if it is removed all money on it is transferred to your leader.
+
+corporate, electronic
+
+
+
+Ice-Ray - 2m - F
+force
+
+6 / 2 
+Any human type attacked by Ice-Ray is paralyzed for one turn.
+
+fantastic, electronic
+
+
+
+Fortress - 2m - M
+place
+
+0 / 12
+
+military
+
+"There's a fortress, you know"
+
+
+
+Mercs - 1m - MC
+force
+
+3 / 3
+In order for Mercs to perform an attack, 1m must be removed from either Mercs, the card directly above Mercs, or your leader. Passive defence is free.
+
+military, human
+
+
+
+Hired Gun - 0m - MC
+force
+
+2 / 1
+In order for Hired Gun to perform an attack, 1m must be removed from either Hired Gun, the card directly above Hired Gun, or your leader. Passive defence is free.
+
+single, human
+
+
+
+PMC - 2m - MC
+force
+
+7 / 6
+In order for PMC to perform an attack, 3m must be removed from either PMC, the card directly above PMC, or your leader. Passive defence is free.
+
+corporate, military, human
+
+
+
+Doom Fortress - 1m - MF
+place
+
+0 / 6
+Doom fortress grants +4 / +0 to any fantastic type force attached to it.
+
+fantastic
+
+
+
+Chemical Attack - 1m - M
+instant
+
+Deal 4 damage to any one force with a defence greater than 4, or 2 to any other force.
+
+military
+
+
+
+Sacrifice - 0m - O
+instant
+
+Play any occult card weaker than 4 / 4 from your hand at no cost.
+
+occult
+
+
+
+Militia - 0m - M
+force
+
+1 / 3
+You can have a maximum of two Militia either in your field or in your discard pile.
+
+military, human
+
+
+
+Nuclear Capability - 4m - M
+permanent
+
+You may play nuclear type cards as long as Nuclear Capability is under your control.
+
+military, electronic
+
+
+
+Nuclear Power Plant - 6m - N
+place
+
+0 / 2
+Generates 1m per turn.
+
+income, electronic, nuclear
+
+
+
+Nuclear Bomb - 0m - M
+force
+
+5 / 2
+If Nuclear Bomb succeeds in an attack, destroy the target and discard Nuclear Bomb.
+
+military, nuclear, flying
+
+
+
+ICBM - 7m - M
+permanent
+
+Pick a card directly under the leadership of an enemy. Destroy that card and all child cards. Place ICBM in the destroyed branch.
+
+military, nuclear
+
+
+
+Coup de grâce - 2m - N
+instant
+
+Destroy any single type force with damage on it.
+
+
+
+
+High Profile Assassin - 2m - N
+force
+
+4 / 3
+Played hidden.
+Action: If High Profile Assassin is hidden, you may remove 6m from it to destroy a single person of influence. After destroying the card, High Profile Assassin gains the stats 0 / 0 until the end of your turn, is revealed, and may be attacked.
+
+single, human
+
+
+
+Ice Cream Supreme - n/a - F
+leader
+
++0 / +3 to all forces and places with “Ice” in their name.
+
+fantastic
+
+
+
+Ice Cream Trucks - 0m - F
+force
+
+0 / 0
+Generates 1m every three turns.
+
+fantastic, income
+
+
+
+Oil Fields - n/a - N
+place
+
+Resource.
+
+income, military
+
+
+
+Oil Platform - n/a - N
+place
+
+Resource.
+
+income, corporate, naval
+
+
+
+Gold Mine - n/a  - N
+place
+
+Resource.
+
+income
+
+
+
+Rich Waters - n/a - N
+place
+
+Resource.
+
+income, naval
+
+
+
+Enriched Uranium - 1m - M
+permanent
+
+Resource. The owner of Enriched Uranium can play nuclear type cards at a cost reduction of 1m.
+Special: You may remove 1m from Uranium to generate 4m in three turns.
+
+
+nuclear, military
+
+
+
+Jungle - n/a - N
+place
+
+0 / 4
+Action: Deal 1 damage to Jungle and restore 1 health to any human type card.
+
+income
+
+
+
+Platinum - 1m - N
+permanent
+
+Resource.
+Special: You may remove 1m from Platinum to generate 4m in three turns.
+
+
+
+Conflict Diamonds - 1m - N
+permanent
+
+Resource.
+Special: You may remove 1m from Conflict Diamonds to generate 4m in three turns.
+
+military
+
+
+
+Minefield - 1m - M
+permanent
+
+Played hidden, on a place. When either Minefield or the place it is attached to is attacked, deal 4 damage to the attacker (unless the attacker is a flying type) and discard Minefield. Minefield does not take damage from attacks.
+
+military
+
+
+
+Lesser Demon - 2m - O
+force
+
+3 / 1
+
+occult, single
+
+
+
+Imps - 1m - O
+force
+
+1 / 1
+Imps gain +1 / +2 versus single types.
+
+occult
+
+
+
+Imbune - 1m - O
+instant
+
+Grants +1 / +1 to any occult type force.
+
+occult
+
+
+
+Curse - 1m - O
+permanent
+
+-1 / -2 to target (if it would be reduce to 0, round to 1).
+
+occult
+
+
+
+Embargo - 0m - MC
+permanent
+
+Play on an enemy leadership. If two players place their boon on Embargo, target enemy can no longer convert resources directly into money.
+
+corporate, military
+
+
+
+Escape Pod - 1m - F
+permanent
+
+Played hidden on a single type force. If the force Escape Pod is attached to would be destroyed, discard Escape Pod and return that force to your hand. If Escape Pod is attacked, return it to your hand.
+
+fantastic
+
+
+
+Zombies - 2m - FO
+force
+
+1 / 3
+Every time a force is destroyed by Zombies, Zombies gains +1 / +2.
+
+occult, fantastic
+
+
+
+Brute - 2m - F
+force
+
+2 / 6
+
+fantastic, human, single
+
+
+
+Black Operatives - 2m - M
+force
+
+4 / 1
+Played hidden. Black Operatives still deals 2 damage to its target even if it is successfully blocked.
+
+military, human
+
+
+
+Giant Mech - 3m - MF
+force
+
+6 / 8
+
+fantastic, single
+
+
+
+Diamloch - 3m - O
+force
+
+10 / 10
+In order to play Diamloch, you must discard forces thats defence add up to exactly 6.
+
+occult, single
+
+
+
+Rebels - 1m - M
+force
+
+2 / 3
+Played on an enemy branch. Every turn a boon is on Rebels, add a counter to Rebels. Whenever Rebels accumulates three counters, place a revolution counter on the enemy leadership.
+
+military, revolutionary
+
+
+
+Terrorist Attack - 1m - M
+instant
+
+Deal 1 damage to any place and add a revolution counter to that place’s leadership. Terrorist attack cannot destroy a place.
+
+revolutionary, military
+
+
+Shadow Diarchy - n/a - CO
+system
+
+Shadow Diarchy only requires 3 revolution counters to enter a revolution. Quelling a revolution only requires the neutralization / destruction of one place. When in revolution, resources produce double the profit, but the forces of the Shadow Diarchy may not make any attacks, including defence. Shadow Diarchy may play revolutionary type cards on itself for free.
+
+revolutionary, corporate, occult
+
+
+
+Full Complement - 3m - M
+force
+
+14 / 10
+1m must be removed every turn from Full Complement or your leadership to keep it in play. If Full Compliment is destroyed or discarded add 1 revolution counter to your leadership.
+
+military, naval, flying
+
+
+
+Voodoo - 1m - O
+instant
+
+You may attack with a single type enemy force, however you may not attack the owner of that force.
+
+occult
+
+
+
+Hackers - 1m - C
+force
+1 / 0
+Hackers may only attack electronic types, and may not be blocked.
+Action: Remove 1m from Hackers. Disable any electronic type for one turn.
+
+electronic, human, corporate
+
+
+
+Hacktivists - 1m - N
+force
+
+1 / 1
+Hacktivists can be played on an enemy branch. For every electronic type in the power structure Hacktivists is attached to (not including itself), put a counter on Hacktivists per turn. Every time Hacktivists accumulates 3 counters, put a revolution counter on the leadership of the power structure Hacktivists is attached to.
+
+revolutionary, electronic, human
+
+
+
+Command Center - 2m - MC
+place
+
+0 / 7
+Special: You may remove 2m from Command Center to allow a selected force to act twice in the same turn.
+
+electronic, military
+
+
+
+Wet Op - 1m - M
+instant
+
+Destroy a human type force with a defence of 3 or less.
+
+military
+
+
+
+Patriot Act - 0m - N
+instant
+
+In the same turn a revolutionary card is played on you, you may play Patriot Act and immediately remove 1 revolution counter from your leadership.
+
+
+
+
+Unmanned Aerial Drone - 2m - M
+force
+
+4 / 2
+
+military, electronic, flying
+
+
+
+Drug Cartel - 3m - N
+force
+
+2 / 6
+Gain 1m per three turns for every drug resource connected to Drug Cartel. Drug Cartel may not be used to attack.
+
+
+
+
+Drug Bust - 1m - N
+instant
+
+Destroy a drug resource in your power structure and immediately gain 2m.
+
+
+
+
+Scorched Earth Policy - 0m - M
+permanent
+
+In a revolution, cards destroyed using other cards count towards quelling the uprising.
+
+military
+
+
+
+Hostages - 0m - M
+instant
+
+When destroying an enemy human type force, remove 1m from the leadership of that enemy if they have any.
+
+military
+
+
+Liquidize Asset - 0m - C
+instant
+
+Discard a force or neutralize a place and add its play cost onto your leadership
+
+corporate
+
+
+ESP - 1m - O
+instant
+
+Pick a player. That player must show you their hand.
+
+occult
+
+
+Secret Underwater Base - 2m - F
+place
+
+0 / 2
+Played hidden. Secret Underwater Base only takes damage from naval attacks.
+
+fantastic
+
+
+Sleeper Agent - 2m - MO
+instant
+
+Target non-single force, that force takes 2 damage and you gain a 1/1 single [MO] token
+
+Types
+
+
+The Ark of the Covenant - 3m - MO
+permanent
+
+The Ark of the Covenant is played on a force. That force gains +0 / +4 and may not be blocked.
+
+military, occult
+
+
+Spidertank - 2m - MF
+force
+
+4 / 3
+“Designed for maximum mobility in urban engagements.” 
+
+Electronic
+
+
+Philadelphia Experiment - 1m - MO
+instant
+
+Transfer one of your forces to an open space on your power structure.
+
+military, occult
+
+
+Pyromancer - 2m - O
+force
+
+3 / 1
+Played hidden. If Pyromancer successfully attacks a place, deal an additional 1 damage.
+
+occult, single
+
+
+Think Tank - 0m - C
+force
+
+0 / 2
+“think, think, think”
+Action: Remove 1m from your leadership to put two tokens on this card. You may remove one token at the beginning of your turn to draw a card.
+
+Types
+
+
+Necromancer - 2m - O
+force
+
+1 / 2
+Action: Place a human single type card from your discard pile under Necromancer. That card gains -1 / -1 (round to 1 if the card has only 1, 0 remains 0).
+
+occult, single, human
+
+
+Glutton - 1m - O
+force
+
+1 / 2
+Every time a force is destroyed by Glutton, Glutton gains +0 / +1.
+
+occult, single
+
+
+Sunken Ruins - 1m - O
+place
+
+0 / 3
+Occult permanents may be played on any child cards of Sunken Ruins for only 1m (this effect also applies to enemies).
+
+occult
+
+
+Dark Influence - n/a - O
+leader
+
+The boon of Dark Influence may be played on any card in play. The boon fulfils the role of a counter for that card.
+
+occult
+
+
+Chairman Meow - n/a - CF
+leader
+
+GO TO WAAAARRRRRRR!!!!! *2!!!!!!!!!
+
+corporate, fantastic
+
+
+Money Movers - 1m - C
+force
+
+0 / 1
+Action: Move up to 2m from one of your corporate types to any other corporate type.
+
+corporate
+
+
+Desert - n/a - N
+place
+
+Any force attached to Desert gains -1 / -1. Any attack against forces attached to Desert gain -2 / +0.
+
+
+
+
+Mountains - n/a - N
+place
+
+Any force or place attached to Mountains gains +0 / +1.
+
+
+
+
+Banshee - 2m - O
+force
+
+3 / 2
+Banshee’s attacks deal no damage. If Banshee successfully attacks a single type force, discard it at the end of your opponent’s next turn. If Banshee successfully attacks a non-single force, deal 1 damage instead.
+
+occult, single
+
+
+Airship - 2m - F
+place
+
+3 / 4
+Any flying forces attached to Airship gain -1 / +3. Non-flying forces attached to Airship may not attack.
+
+fantastic, flying
+
+
