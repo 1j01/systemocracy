@@ -7,7 +7,7 @@
 	border-radius: 5px;
 	border: 5px solid #444;
 	background-color: rgba(255,255,255,0.5);
-	background-image: url("/very-unorganized/marble1.png");
+	background-image: url("texture.png");
 	color: #000;
 	box-shadow: 0 0 250px 10px rgba(255,255,255,0.9) inset, 0 0 250px 10px rgba(255,255,255,0.9) inset, 0 0 250px 10px rgba(20,0,0,0.9) inset;
 }
