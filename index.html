@@ -2,11 +2,8 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Cardifier</title>
+		<title>Cards</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="author" content="Isaiah Odhner">
-		<meta name="description" content="Isaiah Odhner's portfolio website.">
-		<meta name="keywords" content="Isaiah Odhner, 1j0, 1j01">
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="cards.css">
 		<style type="text/css">
@@ -15,34 +12,37 @@
 				-moz-transition: all .8s ease-in-out;
 				-o-transition: all .8s ease-in-out;
 				transition: all .8s ease-in-out;
-                -webkit-user-select: none;
-                -moz-user-select: none;
-                -o-user-select: none;
-                user-select: none;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-o-user-select: none;
+				user-select: none;
 			}
-            p, .name, .description {
-                -webkit-user-select: text;
-                -moz-user-select: text;
-                -o-user-select: text;
-                user-select: text;
-            }
+			p, .name, .description, .subthing {
+				-webkit-user-select: text;
+				-moz-user-select: text;
+				-o-user-select: text;
+				user-select: text;
+			}
 			body, html {
 				height: 100%;
 				width: 100%;
 				margin: 0;
 				border: 0;
+				padding: 0;
 				font-family: "Helvetica";
 				background: #FFF;
+				text-align: center;
 			}
-			main {
-				padding: 5px;
+			.card {
+				display: inline-block;
+				vertical-align: bottom;
 			}
 		</style>
-    	<script src="https://www.google.com/jsapi"></script>
 	</head>
 	<body>
-		<main></main>
-		<script src="generator.js"></script>
-		<script src="/kc.js" async></script>
+		<script src="http://www.google.com/jsapi"></script>
+		<script src="lib/jquery-2.1.1-min.js"></script>
+		<script src="generator.coffee" type="text/coffeescript"></script>
+		<script src="lib/coffee-script.js"></script>
 	</body>
 </html>
