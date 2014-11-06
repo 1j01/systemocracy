@@ -38,8 +38,6 @@ place
 
 military
 
-"There's a fortress, you know"
-
 
 
 Mercs - 1m - MC
@@ -62,7 +60,7 @@ single, human
 
 
 
-PMC - 2m - MC
+PMC - 1m - MC
 force
 
 7 / 6
@@ -148,7 +146,7 @@ military, nuclear
 
 
 
-Coup de grâce - 2m - N
+Coup de Gras - 2m - N
 instant
 
 Destroy any single type force with damage on it.
@@ -264,7 +262,7 @@ military
 Minefield - 1m - M
 permanent
 
-Played hidden, on a place. When either Minefield or the place it is attached to is attacked, deal 4 damage to the attacker (unless the attacker is a flying type) and discard Minefield. Minefield does not take damage from attacks.
+Played hidden, on a place. When either Minefield or the place it is attached to is attacked, deal 4 damage to the attacker (unless the attacker is a flying type) and discard Minefield.
 
 military
 
@@ -304,6 +302,7 @@ permanent
 -1 / -2 to target (if it would be reduce to 0, round to 1).
 
 occult
+
 
 
 
@@ -495,7 +494,7 @@ Destroy a drug resource in your power structure and immediately gain 2m.
 Scorched Earth Policy - 0m - M
 permanent
 
-In a revolution, cards destroyed using other cards count towards quelling the uprising.
+May be played hidden or revealed. If an enemy attempts to neutralize a place attached to your power structure, instead destroy that place.
 
 military
 
@@ -559,7 +558,7 @@ force
 Electronic
 
 
-Philadelphia Experiment - 1m - MO
+Philadelphia Experiment - 0m - MO
 instant
 
 Transfer one of your forces to an open space on your power structure.
@@ -657,7 +656,7 @@ Any force or place attached to Mountains gains +0 / +1.
 Banshee - 2m - O
 force
 
-3 / 2
+3 / 1
 Banshee’s attacks deal no damage. If Banshee successfully attacks a single type force, discard it at the end of your opponent’s next turn. If Banshee successfully attacks a non-single force, deal 1 damage instead.
 
 occult, single
@@ -670,5 +669,45 @@ place
 Any flying forces attached to Airship gain -1 / +3. Non-flying forces attached to Airship may not attack.
 
 fantastic, flying
+
+
+Multipass - 1m - C
+permanent
+
+Multipass is played on a pure Corporate type. Attacks made by the card Multipass is attached to may not be blocked by any Corporate type. If the Multipass is successfully attacked by a Corporate or Electronic type, discard it.
+
+corporate
+
+
+Synergy - Xm - C
+permanent
+
+Destroy two target corporate type cards. The cost of Synergy is equal to the cost of the target cards added together. Synergy gains offense and defense equal to the offense and defense of the two target cards added together, and any abilities or conditions of the cards.
+
+corporate
+
+
+Military-Industrial Complex - n/a - MC
+system
+
+Whenever you are at war, at the start of your turn place a counter on Military-Industrial Complex. Whenever you accumulate 3 counters, gain 1m on your leader.
+
+military, corporate
+
+
+Misinformation Campaign - 3m - CO
+instant
+
+Pick and number of forces that are on the bottom of your power structure. You may switch the cards to any spaces previously occupied by another, and they become hidden (however they keep all damage and tokens).
+
+corporate, occult
+
+
+Honeypot - 1m - C
+permanent
+
+Played hidden. If either Honeypot or the car it is attached to is attacked by an electronic type, the defending player may make one free attack before damage is dealt. If the attacker is destroyed, it does not deal damage. If Honeypot is revealed, discard it. 
+
+corporate, electronic
 
 
