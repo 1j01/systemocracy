@@ -11,7 +11,8 @@ function generateCards(data){
 		"C": "Corporate",
 		"O": "Occult",
 		"M": "Military",
-		"N": "Neutral"
+		"N": "Neutral",
+		"F": "Fantastic",
 	};
 	
 	var cards = data.split("\f");
@@ -89,15 +90,26 @@ function generateCards(data){
 		
 		console.assert(category !== null, "no category");
 		
+		var majorTypesNames = "";
+		for(var mti=0; mti<majorTypes.length; mti++){
+			if(majorTypesNames != ""){
+				majorTypesNames += " ";
+			}
+			majorTypesNames += majorTypeNames[majorTypes[mti]];
+		}
+		
 		$card.innerHTML += ""
 		//	+ "<div class='back'>"
 		//		+ "this is the back lol"
 		//	+ "</div>"
 		//	+ "<div class='front'>"
 				+ "<div class='header'>"
-					+ "<span class='major-types'>"+majorTypes+"</span>"
 					+ "<span class='name'>"+name+"</span>"
 					+ (isNaN(cost)?"":("<span class='cost'>"+cost+"<span class='m'></span></span>"))
+				+ "</div>"
+				+ "<div class='subheader'>"
+					+ "<span class='category subthing' style='float: left'>"+category+"</span>"
+					+ "<span class='type-major subthing' style='float: right'>"+majorTypesNames+"</span>"
 				+ "</div>"
 				+ "<div class='image'>"
 					+ "<img class='img' title='das a pictr' src='images/"+name+".png'>"

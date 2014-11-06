@@ -14,6 +14,15 @@
 .header * {
 	display: inline-block;
 }
+.subheader {
+	outline: 1px solid black;
+	line-height: 1;
+	font-size: 0.25cm;
+	height: 1em;
+}
+.subheader > * {
+	text-transform: uppercase;
+}
 .m {
 	display: inline-block;
 	vertical-align: top;
