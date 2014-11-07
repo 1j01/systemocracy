@@ -1,21 +1,9 @@
 
-E = (e)->
-	parts = e.split '.'
-	tagName = parts[0]
-	$e = document.createElement tagName
-	$e.className = parts[1] if parts[1]
-	$e
-
-$id = (id)-> document.getElementById id
-
 after = (ms, fn)-> setTimeout(fn, ms)
 every = (ms, fn)-> setInterval(fn, ms)
 
 
-
 render_cards = (data)->
-	
-	$e = document.body
 	
 	major_type_names =
 		C: "Corporate"
@@ -27,11 +15,10 @@ render_cards = (data)->
 	cards = data.split "\f"
 	for card_text, card_index in cards
 		
-		if card_text.match /^[\s\r\n]*$/
-			continue
+		continue if card_text.match /^[\s\r\n]*$/
 		
-		$container = E "div.container"
-		$card = E "div.card"
+		$container = ($ "<div class='container'/>").appendTo "body"
+		$card = ($ "<div class='card'/>").appendTo $container
 		name = ""
 		description = ""
 		major_types = ""
@@ -45,8 +32,7 @@ render_cards = (data)->
 		lwt = 0
 		for line in lines
 			line = line.trim()
-			if line.match /^[\s\n\r]*$/m
-				continue
+			continue if line.match /^[\s\n\r]*$/m
 			
 			lwt += 1
 			from_context = ->
@@ -99,7 +85,7 @@ render_cards = (data)->
 		#		this is the back lol
 		#	</div>
 		#	<div class='front'>
-		$card.innerHTML = """
+		$card.html """
 			<div class='header'>
 				<div class='name'>#{name}</div>
 				#{if cost? then "<div class='money'><div>#{cost}</div></div>" else ""}
@@ -123,12 +109,12 @@ render_cards = (data)->
 						# 	"<a href='https://twitter.com/hashtag/#{type}'>#{type}</a>"
 						# ).join " "
 		
-		$card.querySelector("img").onerror = do (name)-> ->
+		$card.find("img").on 'error', ->
 			@onerror = null
 			google_image name, (src)=>
 				@src = src
 		
-		$card.style.backgroundPosition = "#{Math.random()*5000}px #{Math.random()*5000}px"
+		$card.css backgroundPosition: "#{Math.random()*5000}px #{Math.random()*5000}px"
 		
 		###sat = 90
 		lit = 50
@@ -139,29 +125,15 @@ render_cards = (data)->
 			when "permanent" then hue = 230
 			else sat = 0; hue = 0
 		
-		$card.style.backgroundColor = "hsla(#{hue}, #{sat}%, #{lit}%, 1)"
-		$card.style.boxShadow = "
+		$card.css backgroundColor: "hsla(#{hue}, #{sat}%, #{lit}%, 1)"
+		$card.css boxShadow: "
 			0 0 250px 10px hsla(#{hue-40}, #{sat-10}%, #{lit+30}%, 0.9) inset,
 			0 0 250px 10px hsla(#{hue-40}, #{sat-10}%, #{lit+30}%, 0.9) inset,
 			0 0 250px 10px rgba(20,0,0,0.9) inset
 		";###
-		
-		$container.appendChild($card)
-		$e.appendChild($container)
 
 
-
-xhr = new XMLHttpRequest
-
-xhr.onerror = ->
-	alert "error"
-
-xhr.onreadystatechange = ->
-	if xhr.readyState is 4
-		render_cards xhr.responseText
-
-xhr.open "GET", "cards.txt"
-xhr.send()
+$.get "cards.txt", render_cards
 
 
 
