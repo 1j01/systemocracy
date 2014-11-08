@@ -5,8 +5,7 @@ every = (ms, fn)-> setInterval(fn, ms)
 
 class $Card extends $
 	constructor: ({name, description, category, attack, defence, cost, major_types, minor_types, card_index})->
-		$container = $("<div class='container'/>").appendTo("body")
-		$card = $("<div class='card'/>").appendTo($container)
+		$card = $("<div class='card'/>").appendTo("body")
 		# $.fn.init.call $card.get(0)
 		
 		major_types_text = (major_types).join " "
@@ -17,19 +16,19 @@ class $Card extends $
 				<div class='name'>#{name}</div>
 				#{if cost? then "<div class='money'><span>#{cost}</span></div>" else ""}
 			</div>
-			<div class='subheader'>
+			<div class='upper-stat-bar'>
 				<div class='category subthing' style='float: left'>#{category}</div>
 				<div class='major-types subthing' style='float: right'>#{major_types_text}</div>
 			</div>
 			<div class='image'>
 				<img class='img' src='images/#{name}.png'>
 			</div>
-			<div class='lower'>
-				#{if attack? then "<br><div class='attack-defence'>#{attack}/#{defence}</div>" else ""}
-				<div class='description'>#{description}</div>
-				<div class='id'>#{card_index + 1}</div>
-				<div class='minor-types'>#{minor_types_text}</div>
+			<div class='lower-stat-bar'>
+				<div class='minor-types' style='float: left'>#{minor_types_text}</div>
+				#{if attack? then "<div class='attack-defence' style='float: right'>#{attack}/#{defence}</div>" else ""}
 			</div>
+			<div class='description'>#{description}</div>
+			<div class='id'>#{card_index + 1}</div>
 		"""
 		
 		$card.find("img").one "error", ->
