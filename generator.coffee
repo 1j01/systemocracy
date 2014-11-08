@@ -13,8 +13,8 @@ class $Card extends $
 		
 		$card.html """
 			<div class='header'>
-				<div class='name'>#{name}</div>
-				#{if cost? then "<div class='money'><span>#{cost}</span></div>" else ""}
+				<span class='name'>#{name}</span>
+				#{if cost? then "<span class='money'><span>#{cost}</span></span>" else ""}
 			</div>
 			<div class='upper-stat-bar'>
 				<div class='category subthing' style='float: left'>#{category}</div>
@@ -82,7 +82,7 @@ parse_card_data = (data)->
 			line = line.trim()
 			lwt += 1
 			
-			from_context = ->
+			from_content_context = ->
 				if line.match /^(([a-z]+, )*[a-z]+)$/
 					# Minor Types
 					minor_types = line.split /,\s?/
@@ -91,9 +91,11 @@ parse_card_data = (data)->
 					description += "<q>#{m[1]}</q>"
 				else
 					# Description (with money symbols)
+					money_symbol = (match, money)->
+						"<span class='money'><span>#{money}</span></span>"
+					
 					description += "<p>#{
-						line.replace /(\d+)m/g, (m, m1)->
-							"<div class='money'><span>#{m1}</span></div>"
+						line.replace /(\d+)m/g, money_symbol
 					}</p>"
 			
 			switch lwt
@@ -119,9 +121,9 @@ parse_card_data = (data)->
 						attack = parseFloat m[1]
 						defence = parseFloat m[2]
 					else
-						from_context()
+						from_content_context()
 				else
-					from_context()
+					from_content_context()
 		
 		console?.assert? category?, "no category"
 		
