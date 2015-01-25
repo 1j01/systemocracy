@@ -35,25 +35,23 @@ class $Card extends $
 			google_image name, (src)=>
 				@src = src
 		
-		$card.css backgroundPosition: "#{Math.random()*5000}px #{Math.random()*5000}px"
+		#$card.css backgroundPosition: "#{Math.random()*5000}px #{Math.random()*5000}px"
 		
-		###
 		sat = 90
 		lit = 50
 		switch category
 			when "force" then hue = 160
 			when "static" then hue = 0
 			when "place" then hue = 40
-			when "permanent" then hue = 230
+			when "permanent" then hue = 0; lit = 10
 			else sat = 0; hue = 0
 		
 		$card.css backgroundColor: "hsla(#{hue}, #{sat}%, #{lit}%, 1)"
-		$card.css boxShadow: "
+		###$card.css boxShadow: "
 			0 0 250px 10px hsla(#{hue-40}, #{sat-10}%, #{lit+30}%, 0.9) inset,
 			0 0 250px 10px hsla(#{hue-40}, #{sat-10}%, #{lit+30}%, 0.9) inset,
 			0 0 250px 10px rgba(20,0,0,0.9) inset
-		"
-		###
+		"###
 
 parse_card_data = (data)->
 	
