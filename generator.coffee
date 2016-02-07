@@ -4,21 +4,25 @@ every = (ms, fn)-> setInterval(fn, ms)
 
 
 class $Card extends $
-	constructor: ({name, description, category, attack, defence, cost, major_types, minor_types, card_index})->
+	constructor: ({name, description, category, attack, defence, cost, major_types, minor_types, arrows, card_index})->
 		$card = $("<div class='card'/>").appendTo("body")
 		# $.fn.init.call $card.get(0)
 		
 		major_types_text = (major_types).join " "
 		minor_types_text = (minor_types).join ", "
 		
+		# $card.addClass(type) for type in major_types
+		# $card.addClass(type) for type in minor_types
+		$card.addClass(category)
+		
 		$card.html """
 			<div class='header'>
-				<span class='name'>#{name}</span>
 				#{if cost? then "<span class='money'><span>#{cost}</span></span>" else ""}
+				<span class='name'>#{name}</span>
 			</div>
 			<div class='upper-stat-bar'>
-				<div class='category subthing' style='float: left'>#{category}</div>
-				<div class='major-types subthing' style='float: right'>#{major_types_text}</div>
+				<div class='category' style='float: left'>#{category}</div>
+				<div class='major-types' style='float: right'>#{major_types_text}</div>
 			</div>
 			<div class='image'>
 				<img class='img' src='images/#{name}.png'>
@@ -31,22 +35,25 @@ class $Card extends $
 			<div class='id'>#{card_index + 1}</div>
 		"""
 		
-		$card.find("img").one "error", ->
-			google_image name, (src)=>
-				@src = src
+		for arrow in arrows
+			$card.append("<div class='arrow #{arrow.in_or_out} #{arrow.direction}'>")
+		
+		# $card.find("img").one "error", ->
+		# 	google_image name, (src)=>
+		# 		@src = src
 		
 		#$card.css backgroundPosition: "#{Math.random()*5000}px #{Math.random()*5000}px"
 		
-		sat = 90
-		lit = 50
-		switch category
-			when "force" then hue = 160
-			when "static" then hue = 0
-			when "place" then hue = 40
-			when "permanent" then hue = 0; lit = 10
-			else sat = 0; hue = 0
+		# sat = 90
+		# lit = 50
+		# switch category
+		# 	when "force" then hue = 160
+		# 	when "static" then hue = 0
+		# 	when "place" then hue = 40
+		# 	when "permanent" then hue = 0; lit = 10
+		# 	else sat = 0; hue = 0
 		
-		$card.css backgroundColor: "hsla(#{hue}, #{sat}%, #{lit}%, 1)"
+		# $card.css backgroundColor: "hsla(#{hue}, #{sat}%, #{lit}%, 1)"
 		###$card.css boxShadow: "
 			0 0 250px 10px hsla(#{hue-40}, #{sat-10}%, #{lit+30}%, 0.9) inset,
 			0 0 250px 10px hsla(#{hue-40}, #{sat-10}%, #{lit+30}%, 0.9) inset,
@@ -69,6 +76,7 @@ parse_card_data = (data)->
 		description = ""
 		major_types = []
 		minor_types = []
+		arrows = []
 		attack = undefined
 		defence = undefined
 		category = undefined
@@ -114,6 +122,22 @@ parse_card_data = (data)->
 					# Category
 					category = line
 				when 3
+					# Arrows
+					# arrows = []
+					# for arrow_descriptor in line.split ","
+					# 	[direction, in_or_out] = arrow_descriptor.split " "
+					# 	if (direction in ["left", "right", "up", "down"]) and (in_or_out in ["in", "out"])
+					# 		arrows.push {direction, in_or_out}
+					# 	else
+					# 		console.error "Card `#{name}` missing arrows", {direction, in_or_out}
+					for arrow_descriptor in line.split ","
+						direction = arrow_descriptor.match(/up|down|left|right/)?[0]
+						in_or_out = arrow_descriptor.match(/in|out/)?[0]
+						if direction and in_or_out
+							arrows.push {direction, in_or_out}
+						else
+							console.error "Card '#{name}' missing arrows", {direction, in_or_out}
+				when 4
 					# Attack / Defence
 					if m = line.match /^(-?\d+) \/ (-?\d+)$/
 						attack = parseFloat m[1]
@@ -125,7 +149,7 @@ parse_card_data = (data)->
 		
 		console?.assert? category?, "no category"
 		
-		new $Card {name, description, category, attack, defence, cost, major_types, minor_types, card_index}
+		new $Card {name, description, category, attack, defence, cost, major_types, minor_types, arrows, card_index}
 
 
 
