@@ -18,6 +18,11 @@
 	box-shadow: 0 0 500px 0 rgb(255, 255, 255) inset;
 	padding: 10px 15px;
 }
+.card.back {
+/*	background-image: url("congruent_pentagon.png"), url("contemporary_china.png");
+	background-blend-mode: multiply;*/
+	background-blend-mode: normal;
+}
 .card.system,
 .card.leader {
 	background-color: #607D8B;
@@ -46,11 +51,13 @@
 .arrow.in {
 	/*color: #444;*/
 	/*color: #607D8B;*/
+	color: #D41D5B;
 }
 .arrow.out {
 /*	color: #F1F1F1;
 	-webkit-filter: drop-shadow(black 0px 0px 2px);*/
 	/*color: #03A9F4;*/
+	color: #0087C3;
 }
 .arrow.left.in,
 .arrow.right.out {
@@ -105,6 +112,9 @@
 .header * {
 	vertical-align: middle;
 }
+.header {
+	min-height: 2em;
+}
 .header .money {
 	float: right;
 }
@@ -142,22 +152,29 @@
 	/*height: 110%;
 	z-index: -21;*/
 }
-.lower-stat-bar {
-	font-size: 1em;
+.lower {
+	position: absolute;
+	bottom: 15px;
+	left: 0;
+	right: 0;
+}
+.minor-types {
+	font-size: 0.8em;
 	line-height: 1em;
 	height: 1em;
 	vertical-align: middle;
 	padding: 1mm;
 }
-.minor-types {
-	/*opacity: 0.8;*/
-	font-size: 0.8em;
+.attack-defence {
+	float: right;
+	padding: 5px;
+	font-size: 14pt;
 }
 
 .money {
 	display: inline-block;
-	width: 1em;
-	height: 1em;
+	width: 1.1em;
+	height: 1.1em;
 	border-radius: 100% 100%;
 	border: 0.3mm solid black;
 	background: yellow;
@@ -165,7 +182,7 @@
 	text-align: center;
 	vertical-align: middle;
 	line-height: 0.8em;
-	font-family: serif;
+	font-family: "Impact", serif;
 	overflow: hidden;
 	display: inline-flex;
 	align-items: center;
@@ -195,10 +212,10 @@
 }
 .id {
 	position: absolute;
-	right: 1px;
+	left: 1px;
 	bottom: 1px;
 	color: rgba(0,0,0,0.8);
-	font-size: 5pt;
+	font-size: 10pt;
 }
 .description {
 	font-size: 7.4pt;
@@ -206,6 +223,7 @@
 	padding: 1mm;
 	margin: 1mm;
 }
+
 .name {
 	/*font-weight: bold;*/
 	/*font-size: 10pt;*/
