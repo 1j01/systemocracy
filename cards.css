@@ -34,58 +34,22 @@
 .card.instant {
 	background-color: #FFEB3B;
 }
-.arrow {
+.arrows {
 	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+}
+.arrow {
+	width: 0;
 	border-style: solid;
-	border-width: 50px;
+	border-width: 10px;
 	border-color: transparent;
-	color: rgba(53, 53, 53, 0.68);
-}
-.arrow.in {
-	color: #D41D5B;
-}
-.arrow.out {
-	color: #0087C3;
-}
-.arrow.left.in,
-.arrow.right.out {
-	border-left-color: currentColor;
-	border-left-width: 10px;
-	border-right-width: 0;
-}
-.arrow.right.in,
-.arrow.left.out {
-	border-right-color: currentColor;
-	border-right-width: 10px;
-	border-left-width: 0;
-}
-.arrow.down.in,
-.arrow.up.out {
-	border-bottom-color: currentColor;
-	border-bottom-width: 10px;
-	border-top-width: 0;
-}
-.arrow.up.in,
-.arrow.down.out {
-	border-top-color: currentColor;
+	border-top-color: #D41D5B;
 	border-top-width: 10px;
 	border-bottom-width: 0;
-}
-.arrow.left {
-	left: 0;
-	top: calc(50% - 50px);
-}
-.arrow.right {
-	right: 0;
-	top: calc(50% - 50px);
-}
-.arrow.up {
-	top: 0;
-	left: calc(50% - 50px);
-}
-.arrow.down {
-	bottom: 0;
-	left: calc(50% - 50px);
 }
 .header,
 .header * {
