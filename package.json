@@ -1,14 +1,9 @@
 {
   "name": "cards",
   "version": "1.0.0",
-  "description": "Cardz, bro",
-  "devDependencies": {
-    "coffee-script": "^1.10.0",
-    "webshot": "^0.17.0"
-  },
+  "description": "A card game",
   "scripts": {
-    "export": "nw",
-    "export-webshot": "coffee export-webshot.coffee"
+    "export": "nw"
   },
   "main": "export.html"
 }

@@ -1,8 +1,6 @@
 gui = require "nw.gui"
 fs = require "fs"
 
-# options = JSON.parse(gui.App.argv.toString())
-
 css = """
 	body {
 		zoom: 2;
@@ -14,10 +12,10 @@ css = """
 
 options =
 	url: "index.html"
-	width: 4800 # 1920 * 2 + 480 * 2
-	height: 1080
+	width: 4800
+	height: 6000
 	format: "png"
-	evalDelay: 4000
+	evalDelay: 14000
 	code: """
 		var css = #{JSON.stringify(css)};
 		var style = document.createElement('style');
@@ -34,22 +32,6 @@ height += 38 if process.platform is "linux"
 
 datatype = if encoding is "base64" then "raw" else "buffer"
 
-newline = new Buffer("\n")
-
-# capture = (code, callback) ->
-# 	win.eval null, code if code
-# 	setTimeout ->
-# 		win.capturePage callback
-# 		# win.capturePage (buffer) ->
-# 		# 	if buffer.toString("utf8", 0, 10) is "data:image"
-# 		# 		win.close true
-# 		# 		callback null, buffer
-# 		# 	else
-# 		# 		console.log buffer.toString("utf8", 0, 10)
-# 		# 		callback new Error "Buffer returned by capturePage does not contain image data, it returned magic instead. Your magic balance has been increased by 350mp."
-# 		, {format, datatype}
-# 	, evalDelay
-
 show = yes
 gui.Window.get().show() if show
 
@@ -60,19 +42,6 @@ win.once "document-end", ->
 	win.width = width
 	win.height = height
 	setTimeout ->
-		win.height = height
-		# capture code, (err)->
-		# 	if err
-		# 		console.error err
-		# 	else
-		# 		console.log "k, got some image data"
-				
-			# gui.Window.get().close true
-		# capture code, (buffer)->
-		# 	console.log "got some image data"
-		# 	fs.writeFile "cardz.png", buffer, (err)->
-		# 		throw err if err
-		# 		console.log "k"
 		win.eval null, code if code
 		setTimeout ->
 			win.capturePage (buffer)->

@@ -10,8 +10,6 @@ render_card = ({name, description, category, attack, defence, cost, major_types,
 	major_types_text = (major_types).join " "
 	minor_types_text = (minor_types).join ", "
 	
-	# $card.addClass(type) for type in major_types
-	# $card.addClass(type) for type in minor_types
 	$card.addClass(category)
 	
 	$card.html """
@@ -36,40 +34,6 @@ render_card = ({name, description, category, attack, defence, cost, major_types,
 	
 	for arrow in arrows
 		$card.append("<div class='arrow #{arrow.in_or_out} #{arrow.direction}'>")
-	
-	# $card.find("img").one "error", ->
-	# 	google_image name, (src)=>
-	# 		@src = src
-	
-	# $card.click ->
-	# 	canvas = document.createElement "canvas"
-	# 	ctx = canvas.getContext "2d"
-	# 	canvas.width = $card.outerWidth()
-	# 	canvas.height = $card.outerHeight()
-		
-	# 	data = """
-	# 		<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
-	# 			<foreignObject width="100%" height="100%">
-	# 				<div xmlns="http://www.w3.org/1999/xhtml">
-	# 					<!--<em>I</em> like <span style="color:white; text-shadow:0 0 2px blue;">cheese</span>-->
-	# 					#{$card.text()}
-	# 				</div>
-	# 			</foreignObject>
-	# 		</svg>
-	# 	"""
-		
-	# 	img = new Image
-	# 	# svg = new Blob [data], type: "image/svg+xml;charset=utf-8"
-	# 	# url = URL.createObjectURL svg
-	# 	# console.log svg, url
-	# 	url = "data:image/svg+xml;charset=utf-8,#{encodeURIComponent(data)}"
-		
-	# 	img.onload = ->
-	# 		ctx.drawImage img, 0, 0
-	# 		open canvas.toDataURL()
-	# 		URL.revokeObjectURL url
-		
-	# 	img.src = url
 
 
 parse_card_data = (data)->
@@ -160,51 +124,6 @@ parse_card_data = (data)->
 		render_card {name, description, category, attack, defence, cost, major_types, minor_types, arrows, card_index}
 	
 	$("<div class='card back'/>").appendTo($cards)
-	
-	# setTimeout ->
-	# 	window.callPhantom('takeShot')
-	# , 5000
-
-# 	$("body").mixItUp()
-# $("body").append('<button class="filter" data-filter=".category-1">Category 1</button>')
-# $("body").append('<button class="filter" data-filter=".category-2">Category 2</button>')
-
-
 
 $.get "cards.txt", parse_card_data
-
-
-
-
-search_queue = []
-google_image = (query, callback)->
-	search_queue.push {query, callback}
-
-
-
-
-google.load "search", "1", callback: ->
-
-	searcher = new google.search.ImageSearch()
-	searcher.setNoHtmlGeneration()
-	searcher.setResultSetSize(1)
-	searcher.setRestriction(
-		google.search.ImageSearch.RESTRICT_IMAGESIZE
-		google.search.ImageSearch.IMAGESIZE_MEDIUM
-	)
-	do next = ->
-		after 100, ->
-			if search_queue.length
-				search = search_queue.shift()
-				searcher.setSearchCompleteCallback @, ->
-					do next
-					if searcher.results?[0]
-						search.callback(searcher.results[0].tbUrl)
-						# search.callback(searcher.results[0].url)
-					else
-						console.error "no search results: ", searcher
-				
-				searcher.execute search.query
-	
-	google.search.Search.getBranding $("<div/>").appendTo("body").get(0)
 
