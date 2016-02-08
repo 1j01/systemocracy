@@ -61,7 +61,7 @@
 .header .money {
 	float: right;
 }
-.upper-stat-bar {
+.categorical-bar {
 	margin: 3px 0;
 	padding: 2px;
 	border: 1px solid black;
@@ -81,11 +81,12 @@
 			#eee,
 			#999
 		);
+	overflow: hidden;
 }
-.upper-stat-bar > div {
+.categorical-bar > div {
 	text-transform: uppercase;
 	background: rgba(255, 255, 255, 0.5); /*#D2D1D5;*/
-	box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.5);
+	box-shadow: 0 0 9px 5px rgba(255, 255, 255, 0.5);
 }
 .lower {
 	position: absolute;

@@ -17,7 +17,7 @@ render_card = ({name, description, category, attack, defence, cost, major_types,
 			#{if cost? then "<span class='money'><span>#{cost}</span></span>" else ""}
 			<span class='name'>#{name}</span>
 		</div>
-		<div class='upper-stat-bar'>
+		<div class='categorical-bar'>
 			<div class='category' style='float: left'>#{category}</div>
 			<div class='major-types' style='float: right'>#{major_types_text}</div>
 		</div>
