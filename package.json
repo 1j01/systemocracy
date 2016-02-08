@@ -1,0 +1,14 @@
+{
+  "name": "cards",
+  "version": "1.0.0",
+  "description": "Cardz, bro",
+  "devDependencies": {
+    "coffee-script": "^1.10.0",
+    "webshot": "^0.17.0"
+  },
+  "scripts": {
+    "export": "nw",
+    "export-webshot": "coffee export-webshot.coffee"
+  },
+  "main": "export.html"
+}

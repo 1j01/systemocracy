@@ -160,6 +160,10 @@ parse_card_data = (data)->
 		render_card {name, description, category, attack, defence, cost, major_types, minor_types, arrows, card_index}
 	
 	$("<div class='card back'/>").appendTo($cards)
+	
+	# setTimeout ->
+	# 	window.callPhantom('takeShot')
+	# , 5000
 
 # 	$("body").mixItUp()
 # $("body").append('<button class="filter" data-filter=".category-1">Category 1</button>')
