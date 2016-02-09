@@ -433,7 +433,7 @@ up in, left in, down out
 
 4 / 1
 Condition: Played hidden.
-This card deals 2 damage to its target if it is blocked.
+This card deals 2d and 1r and 1m to its target if it is blocked.
 
 military, human
 

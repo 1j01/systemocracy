@@ -80,12 +80,21 @@ parse_card_data = (data)->
 					# Flavor Text
 					description += "<q>#{m[1]}</q>"
 				else
-					# Description (with money symbols)
+					# Description (with symbols)
 					money_symbol = (match, money)->
 						"<span class='money'><span>#{money}</span></span>"
 					
+					damage_symbol = (match, damage)->
+						"<span class='damage-counter'><span>#{damage}</span></span>"
+					
+					revolution_symbol = (match, revolutions)->
+						"<span class='revolution-counter'><span>#{revolutions}</span></span>"
+					
 					description += "<p>#{
-						line.replace /\b(X|\d*)m\b/g, money_symbol
+						line
+							.replace /\b(X|\d*)m\b/g, money_symbol
+							.replace /\b(X|\d*)d\b/g, damage_symbol
+							.replace /\b(X|\d*)r\b/g, revolution_symbol
 					}</p>"
 			
 			switch lwt

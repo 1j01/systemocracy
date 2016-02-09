@@ -123,26 +123,96 @@
 	display: inline-block;
 	width: 1.1em;
 	height: 1.1em;
+	line-height: 1em;
 	border-radius: 100% 100%;
 	border: 0.3mm solid black;
 	background: yellow;
 	box-shadow: 0.1mm 0.1mm 0.6mm 0.1mm #FFF inset, -0.3mm -0.3mm 0.6mm 0.1mm #FA0 inset;
-	text-align: center;
+}
+.money,
+.damage-counter,
+.revolution-counter {
 	vertical-align: middle;
-	line-height: 0.8em;
-	font-family: "Impact", serif;
 	overflow: hidden;
 	display: inline-flex;
 	align-items: center;
 	align-content: center;
 	justify-content: center;
+	line-height: 0.8em;
 }
-.money > span {
+.money > span,
+.damage-counter > span,
+.revolution-counter > span {
 	white-space: nowrap;
 	font-size: 1em;
-	line-height: 1em;
 	vertical-align: middle;
+	font-family: "Impact", serif;
 }
+
+.damage-counter {
+	width: 1.4em;
+	height: 1.4em;
+	line-height: 1.2em;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	background: url("damage.svg");
+	background-size: contain;
+}
+/*
+.revolution-counter {
+	width: 1.1em;
+	height: 1.1em;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+}
+.revolution-counter > span {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+}
+.revolution-counter:before,
+.revolution-counter:after,
+.revolution-counter > span:before,
+.revolution-counter > span:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1.1em;
+	height: 1.1em;
+	background: #FF2620;
+	-webkit-transform-origin: 50% 50%;
+}
+.revolution-counter:before,
+.revolution-counter:after {
+	background: #000;
+}
+.revolution-counter:before,
+.revolution-counter:before {
+	-webkit-transform: rotate(155deg);
+	-moz-transform: rotate(155deg);
+	-ms-transform: rotate(155deg);
+	-o-transform: rotate(155deg);
+}
+.revolution-counter > span:after,
+.revolution-counter > span:after {
+	-webkit-transform: rotate(20deg);
+	-moz-transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	-o-transform: rotate(20deg);
+}
+*/
+
+.revolution-counter::after {
+	content: "";
+	width: 1.2em;
+	height: 1.2em;
+	background-image: url("revolution.svg");
+	background-size: contain;
+}
+
 
 .image {
 	height: 40%;
