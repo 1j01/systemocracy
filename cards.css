@@ -102,7 +102,7 @@
 }
 .lower {
 	position: absolute;
-	bottom: 15px;
+	bottom: 10px;
 	left: 0;
 	right: 0;
 }
@@ -226,13 +226,6 @@
 	width: 100%;
 	height: 100%;
 	border: 0;
-}
-.id {
-	position: absolute;
-	left: 1px;
-	bottom: 1px;
-	color: rgba(0,0,0,0.8);
-	font-size: 10pt;
 }
 .description {
 	font-size: 7.4pt;

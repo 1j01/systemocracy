@@ -4,7 +4,7 @@ every = (ms, fn)-> setInterval(fn, ms)
 
 $cards = $("<main class='cards'/>").appendTo("body")
 
-render_card = ({name, description, category, attack, defence, cost, major_types, minor_types, arrows, card_index, source})->
+render_card = ({name, description, category, attack, defence, cost, major_types, minor_types, arrows, source})->
 	$card = $("<div class='card'/>").appendTo($cards)
 	
 	major_types_text = (major_types).join " "
@@ -25,7 +25,6 @@ render_card = ({name, description, category, attack, defence, cost, major_types,
 			<img class='img' src='images/#{name}.png'>
 		</div>
 		<div class='description'>#{description}</div>
-		<div class='id'>#{card_index + 1}</div>
 		<div class='lower'>
 			#{if attack? then "<div class='attack-defence'>#{attack}/#{defence}</div>" else ""}
 			<div class='minor-types' style='float: left'>#{minor_types_text}</div>
@@ -54,7 +53,7 @@ parse_card_data = (data)->
 		f: "force"
 	
 	cards = data.split "\f"
-	for card_text, card_index in cards when card_text.trim() isnt ""
+	for card_text in cards when card_text.trim() isnt ""
 		
 		name = ""
 		description = ""
@@ -134,7 +133,7 @@ parse_card_data = (data)->
 		
 		console?.assert? category?, "no category"
 		
-		render_card {name, description, category, attack, defence, cost, major_types, minor_types, arrows, card_index, source: card_text}
+		render_card {name, description, category, attack, defence, cost, major_types, minor_types, arrows, source: card_text}
 	
 	$("<div class='card back'/>").appendTo($cards)
 
