@@ -1,7 +1,7 @@
 
 Military-Industrial Complex - n/a - MC - 1
 system
-none
+1f, 2a
 
 Stability 10
 Your boon grants +2 / 0 and changes the target card to military corporate type
@@ -61,7 +61,7 @@ corporate
 
 Offshore Account - 4m - C - 1
 place
-none
+1f, 2a
 
 0 / 0
 Action: Move any amount of money from your leadership onto this card OR move 2m or less from this card to your leadership.
@@ -74,7 +74,7 @@ corporate, electronic
 
 Ice-Ray - 7m - F - 1
 force
-up in
+1p, 1f
 
 6 / 2 
 Human type cards attacked by this card are paralyzed.

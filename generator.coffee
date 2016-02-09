@@ -33,8 +33,8 @@ render_card = ({name, description, category, attack, defence, cost, major_types,
 		<div class='arrows'></div>
 	"""
 	
-	for [0..arrows]
-		$card.find(".arrows").append("<div class='arrow'>")
+	for arrow_category in arrows
+		$card.find(".arrows").append("<div class='arrow #{arrow_category}'>")
 	
 	$card.attr("data-source", source)
 
@@ -48,6 +48,11 @@ parse_card_data = (data)->
 		N: "Neutral"
 		F: "Fantastic"
 	
+	category_names =
+		a: "any"
+		p: "place"
+		f: "force"
+	
 	cards = data.split "\f"
 	for card_text, card_index in cards when card_text.trim() isnt ""
 		
@@ -55,7 +60,7 @@ parse_card_data = (data)->
 		description = ""
 		major_types = []
 		minor_types = []
-		arrows = 0
+		arrows = []
 		attack = undefined
 		defence = undefined
 		category = undefined
@@ -86,25 +91,28 @@ parse_card_data = (data)->
 			switch lwt
 				when 1
 					if (line.indexOf " - ") isnt -1
-						[name, cost_str, type_major_str, arrows_str] = line.split " - "
+						[name, cost_str, type_major_str] = line.split " - "
 						unless cost_str.match /n\/a/i
 							cost = parseFloat cost_str
 							cost = cost_str.replace(/m/, "") if isNaN(cost)
 						major_types = for type_major_char in type_major_str
 							major_type_names[type_major_char]
-						arrows = parseFloat arrows_str
 					else
 						# Name
 						name = line
 				when 2
 					# Category
 					category = line
-				# when 3
-				# 	# Arrows
-				# 	if line is "none"
-				# 		arrows = 0
-				# 	else
-				# 		arrows = parseInt(line)
+				when 3
+					# Arrows
+					unless line.match /none|n\/a/
+						for arrow_def in line.split(",")
+							match = arrow_def.match /(\d+)(f|p|a)/
+							if match
+								[_, n_arrows, arrow_category] = match
+								arrows.push category_names[arrow_category] for [0..parseInt(n_arrows)]
+							else
+								console.error "Arrow definitions for #{name} don't jive: #{line}"
 				when 3
 					# Attack / Defence
 					if m = line.match /^(-?\d+) \/ (-?\d+)$/

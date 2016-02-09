@@ -13,10 +13,13 @@
 	background-blend-mode: luminosity;
 	color: #000;
 	box-shadow: 0 0 500px 0 rgb(255, 255, 255) inset;
-	padding: 10px 15px;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 15px;
 }
 .card.back {
 	background-blend-mode: normal;
+	box-shadow: none;
 }
 .card.system,
 .card.leader {
@@ -47,9 +50,18 @@
 	border-style: solid;
 	border-width: 10px;
 	border-color: transparent;
-	border-top-color: #D41D5B;
+	border-top-color: currentColor;
 	border-top-width: 10px;
 	border-bottom-width: 0;
+}
+.arrow.force {
+	color: #0070FF;
+}
+.arrow.place {
+	color: #4CAF50;
+}
+.arrow.any {
+	color: #7D7D7D;
 }
 .header,
 .header * {
