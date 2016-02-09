@@ -453,8 +453,8 @@ Roving Void - 4m - O - 1
 force
 up in, left out, down out, right out
 
-Condition: Destroy forces in your power structure with a combined defense value of 6.
 10 / 10
+Condition: Destroy forces in your power structure with a combined defense value of 6.
 
 occult, single
 

@@ -113,7 +113,7 @@ parse_card_data = (data)->
 								arrows.push category_names[arrow_category] for [0..parseInt(n_arrows)]
 							else
 								console.error "Arrow definitions for #{name} don't jive: #{line}"
-				when 3
+				when 4
 					# Attack / Defence
 					if m = line.match /^(-?\d+) \/ (-?\d+)$/
 						attack = parseFloat m[1]
