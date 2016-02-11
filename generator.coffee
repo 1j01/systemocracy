@@ -32,7 +32,9 @@ render_card = ({name, description, category, attack, defence, cost, major_types,
 		<div class='arrows'></div>
 	"""
 	
-	for arrow_category in arrows
+	arrow_order = ["place", "any", "force"]
+	
+	for arrow_category in arrows.sort((a, b)-> arrow_order.indexOf(a) - arrow_order.indexOf(b))
 		$card.find(".arrows").append("<div class='arrow #{arrow_category}'>")
 	
 	$card.attr("data-source", source)
@@ -119,7 +121,7 @@ parse_card_data = (data)->
 							match = arrow_def.match /(\d+)(f|p|a)/
 							if match
 								[_, n_arrows, arrow_category] = match
-								arrows.push category_names[arrow_category] for [0..parseInt(n_arrows)]
+								arrows.push category_names[arrow_category] for [0...parseInt(n_arrows)]
 							else
 								console.error "Arrow definitions for #{name} don't jive: #{line}"
 				when 4

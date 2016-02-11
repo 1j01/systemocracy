@@ -128,7 +128,7 @@ corporate, military, human
 
 Doom Fortress - 5m - MF - 1
 place
-up in, left out, right out, down out
+1f
 
 0 / 6
 +4 / 0 to any fantastic type force directly connected to this card.
