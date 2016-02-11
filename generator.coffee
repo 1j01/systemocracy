@@ -68,13 +68,18 @@ parse_card_data = (data)->
 		category = undefined
 		cost = undefined
 		
-		lines = card_text.split "\n"
+		# card_text.match ///
+		# 	(.+) # Header 
+		# ///
+		
+		lines = card_text.trim().split("\n")
 		lwt = 0
-		for line in lines when line.trim() isnt ""
+		for line in lines
 			line = line.trim()
 			lwt += 1
 			
 			from_content_context = ->
+				return if line is ""
 				if line.match /^(([a-z]+, )*[a-z]+)$/
 					# Minor Types
 					minor_types = line.split /,\s?/
@@ -125,15 +130,18 @@ parse_card_data = (data)->
 					category = line
 				when 3
 					# Arrows
-					unless line.match /none|n\/a/
-						for arrow_def in line.split(",")
-							match = arrow_def.match /(\d+)(f|p|a)/
-							if match
-								[_, n_arrows, arrow_category] = match
-								arrows.push category_class_names[arrow_category] for [0...parseInt(n_arrows)]
-							else
-								console.error "Arrow definitions for #{name} don't jive: #{line}"
-				when 4
+					if line is ""
+						lwt += 1
+					else
+						unless line.match /none|n\/a/
+							for arrow_def in line.split(",")
+								match = arrow_def.match /(\d+)(f|p|a)/
+								if match
+									[_, n_arrows, arrow_category] = match
+									arrows.push category_class_names[arrow_category] for [0...parseInt(n_arrows)]
+								else
+									console.error "Arrow definitions for #{name} don't jive: #{line}"
+				when 5
 					# Attack / Defence
 					if m = line.match /^(-?\d+) \/ (-?\d+)$/
 						attack = parseFloat m[1]

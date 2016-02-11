@@ -14,7 +14,6 @@ military, corporate
 
 Guerrilla - n/a - M - 1
 system
-none
 
 Stability: 5
 Your boon gives 0 / +3 to any revolutionary type cards
@@ -26,7 +25,6 @@ military, income
 
 Corpocracy - n/a - C - 1
 system
-none
 
 Stability: 5
 Your boon makes any pure corporate type untargetable
@@ -38,7 +36,6 @@ corporate
 
 Shadow Diarchy - n/a - CO - 1
 system
-none
 
 Stability 3
 Your boon grants 0 / +1 to a force. When in revolution, it grants +1 / 0 instead.
@@ -51,7 +48,6 @@ revolutionary, corporate, occult
 
 Corporate Blockade - 1m - C - 3
 permanent
-none
 
 Play on a branch of an enemy corporate type. Corporate Blockade may only be affected by other corporate types.
 
@@ -139,7 +135,6 @@ military, fantastic
 
 Chemical Attack - 3m - M - 2
 event
-none
 
 Deal 4 damage to any one force with a defence greater than 4, or 2 to any other force.
 
@@ -149,7 +144,6 @@ military
 
 Sacrifice - 0m - O - 2
 event
-none
 
 Condition: Destroy one of your forces stronger than 1 / 1.
 Play any occult card weaker than 4 / 4 from your hand at no cost.
@@ -181,7 +175,6 @@ military, electronic
 
 Nuclear Power Plant - 6m - N - 2
 place
-none
 
 0 / 2
 At the beginning of your turn, place 1m on this card.
@@ -192,7 +185,6 @@ income, electronic, nuclear
 
 Nuclear Bomb - 2m - M - 2
 force
-none
 
 5 / 2
 If this card makes a successful attack, destroy the target and this card.
@@ -203,7 +195,6 @@ military, nuclear, flying
 
 ICBM - 7m - M - 1
 permanent
-none
 
 Condition: Immediately after playing this card, any player may play ICBM as an event against you at no cost.
 Pick any card. Discard that card and all cards under it. Place this card where the target was. This card may not be neutralized.
@@ -214,7 +205,6 @@ military, nuclear
 
 Coup de Gras - 3m - Occult - 2
 event
-none
 
 Destroy any single type force with damage on it.
 
@@ -309,7 +299,6 @@ income
 
 Platinum - 1m - N - 1
 permanent
-none
 
 Action: Remove 1m from your leadership. Add a counter to this card.
 If this card has 2 counters, remove them. Place 4m on your leadership.
@@ -320,7 +309,6 @@ income
 
 Conflict Diamonds - 1m - MC - 1
 permanent
-none
 
 If an income type card is destroyed or neutralized, place 2m on your leadership.
 
@@ -364,7 +352,6 @@ occult
 
 Imbue - 2m - O - 3
 event
-none
 
 Pick an occult type force. That force gains +1 / +1.
 
@@ -374,7 +361,6 @@ occult
 
 Curse - 2m - O - 2
 permanent
-none
 
 Pick a force or place. Target gains -1 / -1.
 
@@ -385,7 +371,6 @@ occult
 
 Embargo - 1m - MC - 1
 permanent
-none
 
 Condition: Play on an enemy. Any player can use this card’s action. Its action can only be used once by each player.
 Action: Add a counter to this card.
@@ -474,7 +459,6 @@ military, revolutionary
 
 Terrorist Attack - 2m - M - 3
 event
-none
 
 Condition: Played on an enemy. Terrorist attack cannot destroy a place.
 Deal 1 damage to any place and add a revolution counter to that place’s leadership.
@@ -494,7 +478,6 @@ military, naval, flying
 
 Contort Motives - 4m - O - 1
 event
-none
 
 Pick an enemy card. Make an attack with that card against anything other than its owner, OR you may neutralize it if it has no child cards.
 
@@ -541,7 +524,6 @@ electronic, military
 
 Wet Op - 1m - M - 2
 event
-none
 
 Destroy a human type force with a defence of 3 or less.
 
@@ -551,7 +533,6 @@ military
 
 Patriot Act - 0m - M - 2
 event
-none
 
 Condition: Played immediately after a revolutionary card is played on you.
 Remove 1 revolution counter from your leadership.
@@ -584,7 +565,6 @@ drug, revolutionary
 
 Drug Bust - 2m- MC - 1
 event
-none
 
 Pick any drug type card. Destroy that card.
 
@@ -594,7 +574,6 @@ military, corporate, drug
 
 Scorched Earth Policy - 1m - M - 1
 permanent
-none
 
 If an enemy attempts to neutralize a place attached to your power structure, instead destroy that place.
 
@@ -604,7 +583,6 @@ military
 
 Hostages - 0m - M - 1
 event
-none
 
 Condition: Played immediately when you destroy or neutralize an enemy human type force 
 Remove Xm from the enemy’s leadership, where X is half the starting defense of the attacked card, and place it on your leadership.
@@ -615,7 +593,6 @@ military
 
 Liquidize Asset - 0m - C - 1
 event
-none
 
 Neutralize a force, place, or permanent from your power structure and place its play cost onto your leadership.
 
@@ -625,7 +602,6 @@ corporate
 
 ESP - 1m - O - 2
 event
-none
 
 Pick a player. That player must show you their hand.
 
@@ -646,7 +622,6 @@ fantastic, naval
 
 Sleeper Agent - 3m - MO - 1
 event
-none
 
 Condition: Cannot be used against single type cards.
 Pick a force. Deal 1 damage to that card. Add a 1 / 1 MO token anywhere on your power structure.
@@ -678,7 +653,6 @@ military, fantastic, electronic
 
 Philadelphia Experiment - 0m - MO - 3
 event
-none
 
 Move one of your forces to an open space on your power structure.
 
@@ -825,7 +799,6 @@ corporate
 
 Misinformation Campaign - 4m - CO - 1
 event
-none
 
 Pick any number of forces or places in your power structure that have no child cards, damage, or tokens. You may rearrange them in any order and they become hidden.
 
@@ -894,7 +867,6 @@ military
 
 Unconventional Alliance - 4m - MC - 1
 event
-none
 
 Condition: Played at the beginning of your turn.
 You may use any cards in the neutral power structure, including attacking, defending, and actions, as if they were your own until the end of your turn.
@@ -905,7 +877,6 @@ military, corporate
 
 Astral Projection - 2m - O - 1
 event
-none
 
 Condition: Played on an occult type force.
 Target gains the flying type until the end of your next turn.
@@ -916,7 +887,6 @@ occult, flying
 
 Basic Industry - 1m - C - 5
 permanent
-none
 
 At the beginning of your turn, add a counter to this card. If there are 4 counters, remove them and place 1m on your leadership.
 
@@ -926,7 +896,6 @@ income, corporate
 
 Unwill Nuisance - Xm - O - 3
 event
-none
 
 Condition: The cost of this card is the same as its target.
 Pick a permanent. Destroy that card.
@@ -949,7 +918,6 @@ military, occult, single
 
 Secret Backup Plan - 3m - F - 2
 event
-none
 
 Condition: Played immediately when an event targets your power structure.
 event does nothing. The player of the event regains any costs from playing the card, but the event is discarded. 
@@ -960,7 +928,6 @@ fantastic
 
 Asset Seizure Operation - 4m - MC - 1
 event
-none
 
 Condition: Played at the beginning of your turn.
 Remove up to 10m from an enemy’s leadership. At the end of your turn, they regain the removed m .
