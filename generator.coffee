@@ -49,7 +49,7 @@ parse_card_data = (data)->
 		N: "Neutral"
 		F: "Fantastic"
 	
-	category_names =
+	category_class_names =
 		a: "any"
 		p: "place"
 		f: "force"
@@ -78,6 +78,11 @@ parse_card_data = (data)->
 				if line.match /^(([a-z]+, )*[a-z]+)$/
 					# Minor Types
 					minor_types = line.split /,\s?/
+					minor_types = minor_types.filter (mt)->
+						for type_major_char, major_type_name of major_type_names
+							if mt.toLowerCase() is major_type_name.toLowerCase()
+								return no
+						yes
 				else if m = line.match /^["“](.*)["”]$/
 					# Flavor Text
 					description += "<q>#{m[1]}</q>"
@@ -121,7 +126,7 @@ parse_card_data = (data)->
 							match = arrow_def.match /(\d+)(f|p|a)/
 							if match
 								[_, n_arrows, arrow_category] = match
-								arrows.push category_names[arrow_category] for [0...parseInt(n_arrows)]
+								arrows.push category_class_names[arrow_category] for [0...parseInt(n_arrows)]
 							else
 								console.error "Arrow definitions for #{name} don't jive: #{line}"
 				when 4
