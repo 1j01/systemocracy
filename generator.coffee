@@ -97,11 +97,15 @@ parse_card_data = (data)->
 					revolution_symbol = (match, revolutions)->
 						"<span class='revolution-counter'><span>#{revolutions}</span></span>"
 					
+					bold = (match, text)->
+						"<b>#{text}</b>"
+					
 					description += "<p>#{
 						line
 							.replace /\b(X|\d*)m\b/g, money_symbol
 							.replace /\b(X|\d*)d\b/g, damage_symbol
 							.replace /\b(X|\d*)r\b/g, revolution_symbol
+							.replace /\b(Condition:|Action:)/g, bold
 					}</p>"
 			
 			switch lwt
