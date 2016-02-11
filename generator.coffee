@@ -51,6 +51,7 @@ parse_card_data = (data)->
 		a: "any"
 		p: "place"
 		f: "force"
+		e: "event"
 	
 	cards = data.split "\f"
 	for card_text in cards when card_text.trim() isnt ""

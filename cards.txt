@@ -138,7 +138,7 @@ military, fantastic
 
 
 Chemical Attack - 3m - M - 2
-instant
+event
 none
 
 Deal 4 damage to any one force with a defence greater than 4, or 2 to any other force.
@@ -148,7 +148,7 @@ military
 
 
 Sacrifice - 0m - O - 2
-instant
+event
 none
 
 Condition: Destroy one of your forces stronger than 1 / 1.
@@ -205,7 +205,7 @@ ICBM - 7m - M - 1
 permanent
 none
 
-Condition: Immediately after playing this card, any player may play ICBM as an instant against you at no cost.
+Condition: Immediately after playing this card, any player may play ICBM as an event against you at no cost.
 Pick any card. Discard that card and all cards under it. Place this card where the target was. This card may not be neutralized.
 
 military, nuclear
@@ -213,7 +213,7 @@ military, nuclear
 
 
 Coup de Gras - 3m - Occult - 2
-instant
+event
 none
 
 Destroy any single type force with damage on it.
@@ -363,7 +363,7 @@ occult
 
 
 Imbue - 2m - O - 3
-instant
+event
 none
 
 Pick an occult type force. That force gains +1 / +1.
@@ -473,7 +473,7 @@ military, revolutionary
 
 
 Terrorist Attack - 2m - M - 3
-instant
+event
 none
 
 Condition: Played on an enemy. Terrorist attack cannot destroy a place.
@@ -493,7 +493,7 @@ military, naval, flying
 
 
 Contort Motives - 4m - O - 1
-instant
+event
 none
 
 Pick an enemy card. Make an attack with that card against anything other than its owner, OR you may neutralize it if it has no child cards.
@@ -540,7 +540,7 @@ electronic, military
 
 
 Wet Op - 1m - M - 2
-instant
+event
 none
 
 Destroy a human type force with a defence of 3 or less.
@@ -550,7 +550,7 @@ military
 
 
 Patriot Act - 0m - M - 2
-instant
+event
 none
 
 Condition: Played immediately after a revolutionary card is played on you.
@@ -583,7 +583,7 @@ drug, revolutionary
 
 
 Drug Bust - 2m- MC - 1
-instant
+event
 none
 
 Pick any drug type card. Destroy that card.
@@ -603,7 +603,7 @@ military
 
 
 Hostages - 0m - M - 1
-instant
+event
 none
 
 Condition: Played immediately when you destroy or neutralize an enemy human type force 
@@ -614,7 +614,7 @@ military
 
 
 Liquidize Asset - 0m - C - 1
-instant
+event
 none
 
 Neutralize a force, place, or permanent from your power structure and place its play cost onto your leadership.
@@ -624,7 +624,7 @@ corporate
 
 
 ESP - 1m - O - 2
-instant
+event
 none
 
 Pick a player. That player must show you their hand.
@@ -645,7 +645,7 @@ fantastic, naval
 
 
 Sleeper Agent - 3m - MO - 1
-instant
+event
 none
 
 Condition: Cannot be used against single type cards.
@@ -677,7 +677,7 @@ military, fantastic, electronic
 
 
 Philadelphia Experiment - 0m - MO - 3
-instant
+event
 none
 
 Move one of your forces to an open space on your power structure.
@@ -824,7 +824,7 @@ corporate
 
 
 Misinformation Campaign - 4m - CO - 1
-instant
+event
 none
 
 Pick any number of forces or places in your power structure that have no child cards, damage, or tokens. You may rearrange them in any order and they become hidden.
@@ -893,7 +893,7 @@ military
 
 
 Unconventional Alliance - 4m - MC - 1
-instant
+event
 none
 
 Condition: Played at the beginning of your turn.
@@ -904,7 +904,7 @@ military, corporate
 
 
 Astral Projection - 2m - O - 1
-instant
+event
 none
 
 Condition: Played on an occult type force.
@@ -925,7 +925,7 @@ income, corporate
 
 
 Unwill Nuisance - Xm - O - 3
-instant
+event
 none
 
 Condition: The cost of this card is the same as its target.
@@ -948,18 +948,18 @@ military, occult, single
 
 
 Secret Backup Plan - 3m - F - 2
-instant
+event
 none
 
-Condition: Played immediately when an instant targets your power structure.
-Instant does nothing. The player of the instant regains any costs from playing the card, but the instant is discarded. 
+Condition: Played immediately when an event targets your power structure.
+event does nothing. The player of the event regains any costs from playing the card, but the event is discarded. 
 
 fantastic
 
 
 
 Asset Seizure Operation - 4m - MC - 1
-instant
+event
 none
 
 Condition: Played at the beginning of your turn.
