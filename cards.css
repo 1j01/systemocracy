@@ -232,6 +232,9 @@
 	font-family: Helvetica, sans-serif;
 	margin: 2mm 0;
 }
+.card p + p {
+	margin-top: 5px;
+}
 
 .name {
 	font-size: 20px;
