@@ -89,7 +89,7 @@ parse_card_data = (data)->
 						yes
 				else if m = line.match /^["“](.*)["”]$/
 					# Flavor Text
-					description += "<q>#{m[1]}</q>"
+					description += "<p><q>#{m[1]}</q></p>"
 				else
 					# Description (with symbols)
 					money_symbol = (match, money)->
