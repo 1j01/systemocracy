@@ -98,8 +98,14 @@
 }
 .categorical-bar > div {
 	text-transform: uppercase;
-	background: rgba(255, 255, 255, 0.5); /*#D2D1D5;*/
+	background: rgba(255, 255, 255, 0.5);
 	box-shadow: 0 0 9px 5px rgba(255, 255, 255, 0.5);
+}
+.category {
+	float: left;
+}
+.major-types {
+	float: right;
 }
 .lower {
 	position: absolute;
@@ -162,51 +168,6 @@
 	background: url("damage.svg");
 	background-size: contain;
 }
-/*
-.revolution-counter {
-	width: 1.1em;
-	height: 1.1em;
-	position: relative;
-	text-align: center;
-	display: inline-block;
-}
-.revolution-counter > span {
-	position: relative;
-	z-index: 1;
-	display: inline-block;
-}
-.revolution-counter:before,
-.revolution-counter:after,
-.revolution-counter > span:before,
-.revolution-counter > span:after {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 1.1em;
-	height: 1.1em;
-	background: #FF2620;
-	-webkit-transform-origin: 50% 50%;
-}
-.revolution-counter:before,
-.revolution-counter:after {
-	background: #000;
-}
-.revolution-counter:before,
-.revolution-counter:before {
-	-webkit-transform: rotate(155deg);
-	-moz-transform: rotate(155deg);
-	-ms-transform: rotate(155deg);
-	-o-transform: rotate(155deg);
-}
-.revolution-counter > span:after,
-.revolution-counter > span:after {
-	-webkit-transform: rotate(20deg);
-	-moz-transform: rotate(20deg);
-	-ms-transform: rotate(20deg);
-	-o-transform: rotate(20deg);
-}
-*/
 
 .revolution-counter::after {
 	content: "";

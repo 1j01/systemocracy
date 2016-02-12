@@ -18,8 +18,8 @@ render_$card = ({name, description, category, attack, defence, cost, major_types
 			<span class='name'>#{name}</span>
 		</div>
 		<div class='categorical-bar'>
-			<div class='category' style='float: left'>#{category}</div>
-			<div class='major-types' style='float: right'>#{major_types_text}</div>
+			<div class='category'>#{category}</div>
+			<div class='major-types'>#{major_types_text}</div>
 		</div>
 		<div class='image'>
 			<img class='img' src='images/#{name}.png'>
@@ -66,10 +66,6 @@ parse_card_data = (data)->
 		defence = undefined
 		category = undefined
 		cost = undefined
-		
-		# card_text.match ///
-		# 	(.+) # Header 
-		# ///
 		
 		lines = card_text.trim().split("\n")
 		lwt = 0
