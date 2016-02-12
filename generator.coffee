@@ -4,8 +4,8 @@ every = (ms, fn)-> setInterval(fn, ms)
 
 $cards = $("<main class='cards'/>").appendTo("body")
 
-render_card = ({name, description, category, attack, defence, cost, major_types, minor_types, arrows, source})->
-	$card = $("<div class='card'/>").appendTo($cards)
+render_$card = ({name, description, category, attack, defence, cost, major_types, minor_types, arrows, source})->
+	$card = $("<div class='card'/>")
 	
 	major_types_text = (major_types).join " "
 	minor_types_text = (minor_types).join ", "
@@ -38,6 +38,7 @@ render_card = ({name, description, category, attack, defence, cost, major_types,
 		$card.find(".arrows").append("<div class='arrow #{arrow_category}'>")
 	
 	$card.attr("data-source", source)
+	$card
 
 
 parse_card_data = (data)->
@@ -55,9 +56,7 @@ parse_card_data = (data)->
 		f: "force"
 		e: "event"
 	
-	cards = data.split "\f"
-	for card_text in cards when card_text.trim() isnt ""
-		
+	parse_card = (card_text)->
 		name = ""
 		description = ""
 		major_types = []
@@ -153,9 +152,37 @@ parse_card_data = (data)->
 		
 		console?.assert? category?, "no category"
 		
-		render_card {name, description, category, attack, defence, cost, major_types, minor_types, arrows, source: card_text}
+		{name, description, category, attack, defence, cost, major_types, minor_types, arrows, source: card_text}
 	
-	$("<div class='card back'/>").appendTo($cards)
+	
+	card_texts = data.split "\f"
+	cards = 
+		for card_text in card_texts when card_text.trim() isnt ""
+			parse_card card_text
+	
+	# for card in cards
+	# 	render_$card(card).appendTo($cards)
+	
+	cards_by_export = {}
+	for card in cards
+		if card.category is "system"
+			header = "Systems"
+		else
+			[header] = card.major_types
+		cards_by_export[header] ?= []
+		cards_by_export[header].push card
+	
+	export_only = location.hash.replace /#/, ""
+	
+	for header, sorted_cards of cards_by_export when (not export_only) or (export_only.toLowerCase() is header.toLowerCase())
+		$("<h2>").text(header).appendTo($cards)
+		for card in sorted_cards
+			render_$card(card).appendTo($cards)
+		if export_only
+			# $("<div class='card back'/>").appendTo($cards) for [0..sorted_cards.length%10]
+			$("<div class='card back'/>").appendTo($cards) for [sorted_cards.length...10*7]
+		else
+			$("<div class='card back'/>").appendTo($cards)
 
 $.get "cards.txt", parse_card_data
 

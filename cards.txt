@@ -1,849 +1,215 @@
-
-Military-Industrial Complex - n/a - MC - 1
+Military-Industrial Complex - n/a - MC
 system
-1f, 2a
+none
 
 Stability 10
-Your boon grants +2 / 0 and changes the target card to military corporate type
-At the end of every turn during which you attack, place 1m on your leadership
-At the end of every turn during which you do not attack remove 3m from your leadership OR add a revolution counter
+Your boon grants +2 / 0 and changes the target card to military type as long as it remains.
+At the end of every turn during which you attack, place 1m on your leadership. At the end of every turn during which you do not attack remove 3m OR add a r .
 
 military, corporate
 
 
 
-Guerrilla - n/a - M - 1
+
+Guerrilla - n/a - M
 system
+none
 
 Stability: 5
 Your boon gives 0 / +3 to any revolutionary type cards
 When you enter a revolution, place 5m on your leadership
 
-military, income
+revolutionary, military
 
 
 
-Corpocracy - n/a - C - 1
+Corpocracy - n/a - C
 system
+none
 
 Stability: 5
-Your boon makes any pure corporate type untargetable
-You may instantly quell a revolution by removing 5m from your leadership immediately after it begins
+Action: Remove 3m and 1r from this card.
+Your boon makes any corporate type untargetable.
+You have 1 additional money moving action.
 
 corporate
 
 
 
-Shadow Diarchy - n/a - CO - 1
+Shadow Diarchy - n/a - CO
 system
+none
 
 Stability 3
-Your boon grants 0 / +1 to a force. When in revolution, it grants +1 / 0 instead.
+Action: Add 1r, or if in revolution remove 1r.
+Your boon grants 0 / +1 to a force. When in revolution, it grants +2 / 0 instead.
 You may ignore the condition “Played on an enemy”.
-When in revolution, you may attack, and all your attacks gain +1 / 0.
+When in revolution, you may attack, and all your attacks gain +1 / 0. If you are attacked while in revolution, you are only defeated if you are still in revolution at the end of your next turn.
 
 revolutionary, corporate, occult
 
 
 
-Corporate Blockade - 1m - C - 3
-permanent
-
-Play on a branch of an enemy corporate type. Corporate Blockade may only be affected by other corporate types.
-
-corporate
-
-
-
-Offshore Account - 4m - C - 1
+Airship - 5m - N
 place
-1f, 2a
-
-0 / 0
-Action: Move any amount of money from your leadership onto this card OR move 2m or less from this card to your leadership.
-
-This card cannot be attacked, and if it is removed all money on it is transferred to your leadership.
-
-corporate, electronic
-
-
-
-Ice-Ray - 7m - F - 1
-force
-1p, 1f
-
-6 / 2 
-Human type cards attacked by this card are paralyzed.
-
-fantastic, electronic
-
-
-
-Fortress - 7m - M - 1
-place
-up in, left in, right out, down out
-
-0 / 12
-
-military
-
-
-
-Mercs - 1m - MC - 3
-force
-left in
-
-3 / 3
-Condition: Pay 1m from this card, the card directly above it, or your leadership every time it attacks.
-
-military, corporate, human
-
-
-
-Hired Gun - 0m - MC - 3
-force
-up in
-
-2 / 1
-Condition: Pay 1m from this card, the card directly above it, or your leadership every time it attacks.
-
-military, corporate, single, human
-
-
-
-PMC - 5m - MC - 2
-force
-up in, left out, right out, down out
-
-7 / 6
-Condition: Pay 2m from this card, the card directly above it, or your leadership every time it attacks.
-
-corporate, military, human
-
-
-
-Doom Fortress - 5m - MF - 1
-place
-1f
-
-0 / 6
-+4 / 0 to any fantastic type force directly connected to this card.
-
-military, fantastic
-
-
-
-Chemical Attack - 3m - M - 2
-event
-
-Deal 4 damage to any one force with a defence greater than 4, or 2 to any other force.
-
-military
-
-
-
-Sacrifice - 0m - O - 2
-event
-
-Condition: Destroy one of your forces stronger than 1 / 1.
-Play any occult card weaker than 4 / 4 from your hand at no cost.
-
-occult
-
-
-
-Militia - 0m - M - 4
-force
-right in
-
-1 / 3
-Condition: Can not be played if there is a Militia already in your power structure.
-
-military, human
-
-
-
-Nuclear Capability - 7m - M - 1
-permanent
-left in
-
-You may play nuclear type cards.
-
-military, electronic
-
-
-
-Nuclear Power Plant - 6m - N - 2
-place
-
-0 / 2
-At the beginning of your turn, place 1m on this card.
-
-income, electronic, nuclear
-
-
-
-Nuclear Bomb - 2m - M - 2
-force
-
-5 / 2
-If this card makes a successful attack, destroy the target and this card.
-
-military, nuclear, flying
-
-
-
-ICBM - 7m - M - 1
-permanent
-
-Condition: Immediately after playing this card, any player may play ICBM as an event against you at no cost.
-Pick any card. Discard that card and all cards under it. Place this card where the target was. This card may not be neutralized.
-
-military, nuclear
-
-
-
-Coup de Gras - 3m - Occult - 2
-event
-
-Destroy any single type force with damage on it.
-
-occult
-
-
-
-High Profile Assassin - 2m - N - 1
-force
-up in
-
-4 / 3
-Condition: Played hidden.
-Action: If this card is hidden, remove 6m from it to destroy any single type force. This card gains the stats 0 / 0 until the end of your turn and is revealed.
-
-single, human
-
-
-
-Oil Fields - 0m - MC - 3
-place
-up in, left in
-
-0 / 2
-Condition: Played neutralized.
-Action: Remove all counters from this card. Place 1m on this card for every 2 counters.
-At the beginning of your turn, add 1 counter to this card.
-
-income, military, corporate
-
-
-
-Oil Platform - 3m - C - 1
-place
-up in, right in
-
-0 / 1
-Action: Remove all counters from this card. Place 1m on this card for every 2 counters.
-At the beginning of your turn, add 1 counter to this card.
-
-income, corporate, naval
-
-
-
-Gold Mine - 4m  - N - 2
-place
-up in, down out
-
-0 / 1
-Action: Place 1m on the card below this card.
-
-income
-
-
-
-Rich Waters - 0m - N - 2
-place
-up in, left in, right in
-
-0 / 0
-Condition: Played neutralized.
-Action: Add a counter to this card. Place 1m on this card.
-If this card has four counters on it, destroy this card.
-
-income, naval
-
-
-
-Enriched Uranium Storage Facility - 5m - M - 1
-place
-left in, right out, down out
-
-0 / 4
-Action: Neutralize this card and place 11m on your leadership.
-You may play nuclear type cards.
-
-nuclear, military, income
-
-
-
-Jungle - 0m - N - 1
-place
-left in, right in
-
-0 / 4
-Condition: Played neutralized.
-Action: Deal 1 damage to this card. Place 1m on a card attached to this card.
-
-income
-
-
-
-Platinum - 1m - N - 1
-permanent
-
-Action: Remove 1m from your leadership. Add a counter to this card.
-If this card has 2 counters, remove them. Place 4m on your leadership.
-
-income
-
-
-
-Conflict Diamonds - 1m - MC - 1
-permanent
-
-If an income type card is destroyed or neutralized, place 2m on your leadership.
-
-income, military, corporate
-
-
-
-Minefield - 1m - M - 2
-place
-up in, left in, right in
-
-0 / 4
-Condition: Played hidden, on a place.
-When the card this card is attached to is attacked, reveal this card. If this card or the card it is attached to is attacked by a non-flying type card, deal 3 damage to the attacker and neutralize this card.
-
-military
-
-
-
-Horror - 2m - O - 2
-force
-up in, down out
-
-3 / 2
-
-occult, single
-
-
-
-Puppeted Swarm - 2m - O - 2
-force
-up in
-
-1 / 1
-Condition: Played on an occult type.
-When this card attacks a single type, it gains +1 / +1.
-
-occult
-
-
-
-Imbue - 2m - O - 3
-event
-
-Pick an occult type force. That force gains +1 / +1.
-
-occult
-
-
-
-Curse - 2m - O - 2
-permanent
-
-Pick a force or place. Target gains -1 / -1.
-
-occult
-
-
-
-
-Embargo - 1m - MC - 1
-permanent
-
-Condition: Play on an enemy. Any player can use this card’s action. Its action can only be used once by each player.
-Action: Add a counter to this card.
-If this card has one less counter than there are players, the player it is attached to must remove 1m from their leadership the first time m is added to their leadership on that turn.
-
-corporate, military
-
-
-
-Escape Pod - 2m - F - 1
-permanent
-up in, left in, right in
-
-Condition: Played hidden on a single type force.
-If the force this card is attached to would be destroyed, destroy this card and return that force to your hand. If this card is attacked, return it to your hand.
-
-fantastic
-
-
-
-Zombies - 2m - FO - 3
-force
-left in, right in
-
-1 / 3
-Every time a force is destroyed by Zombies, Zombies gains +1 / +2.
-
-occult, fantastic
-
-
-
-Brute - 4m - F - 1
-force
-right in
-
-2 / 6
-
-fantastic, human, single
-
-
-
-Black Operatives - 2m - M - 1
-force
-up in, left in, down out
-
-4 / 1
-Condition: Played hidden.
-This card deals 2d and 1r and 1m to its target if it is blocked.
-
-military, human
-
-
-
-Giant Mech - 6m - MF - 1
-force
-down in
-
-6 / 8
-
-military, fantastic, single
-
-
-
-Roving Void - 4m - O - 1
-force
-up in, left out, down out, right out
-
-10 / 10
-Condition: Destroy forces in your power structure with a combined defense value of 6.
-
-occult, single
-
-
-
-Rebels - 1m - M - 3
-force
-up in, right in, left in, down out
-
-2 / 3
-Condition: Played on an enemy branch. May not attack.
-At the beginning of your turn, add a counter to this card. If there are three counters on this card, remove them and add a revolution counter onto the leadership of the power structure it is attached to.
-
-military, revolutionary
-
-
-
-Terrorist Attack - 2m - M - 3
-event
-
-Condition: Played on an enemy. Terrorist attack cannot destroy a place.
-Deal 1 damage to any place and add a revolution counter to that place’s leadership.
-
-revolutionary, military
-
-
-Full Complement - 5m - M - 1
-force
-up in, left out, down out, right out
-
-14 / 10
-Condition: If this card is neutralized, add 3 revolution counters to your leadership. At the beginning of your turn, remove 1m from this card OR neutralize it.
-
-military, naval, flying
-
-
-Contort Motives - 4m - O - 1
-event
-
-Pick an enemy card. Make an attack with that card against anything other than its owner, OR you may neutralize it if it has no child cards.
-
-occult
-
-
-
-Hackers - 2m - C - 1
-force
-right in, left out
-
-1 / 0
-Condition: This card may only attack electronic type cards.
-Action: Remove 1m from this card. Paralyze any electronic type card.
-This card cannot be blocked.
-
-electronic, human, corporate
-
-
-
-Hacktivists - 1m - N - 2
-force
-left in, right in
-
-1 / 1
-Condition: Played on an enemy branch.
-
-At the beginning of your turn, add a counter to this card for every electronic type in the power structure including itself. If it has three counters, remove them and add a revolution counter to the leadership.
-
-revolutionary, electronic, human
-
-
-
-Command Center - 4m - MC - 1
-place
-up in, left out, down out, right out
-
-0 / 7
-Action: Remove 2m from this card. Pick a card, that card may use its action twice in one turn.
-
-electronic, military
-
-
-
-Wet Op - 1m - M - 2
-event
-
-Destroy a human type force with a defence of 3 or less.
-
-military
-
-
-
-Patriot Act - 0m - M - 2
-event
-
-Condition: Played immediately after a revolutionary card is played on you.
-Remove 1 revolution counter from your leadership.
-
-military
-
-
-
-Unmanned Aerial Drone - 5m - M - 1
-force
-left in
-
-4 / 2
-
-military, electronic, flying
-
-
-
-Drug Cartel - 3m - N - 1
-force
-right in, left out, down out
-
-2 / 6
-Action: Add a neutralized drug type to a free space on this card. Add a counter to this card.
-If this card has two counters, remove them and add a revolution counter to your leadership.
-
-drug, revolutionary
-
-
-
-Drug Bust - 2m- MC - 1
-event
-
-Pick any drug type card. Destroy that card.
-
-military, corporate, drug
-
-
-
-Scorched Earth Policy - 1m - M - 1
-permanent
-
-If an enemy attempts to neutralize a place attached to your power structure, instead destroy that place.
-
-military
-
-
-
-Hostages - 0m - M - 1
-event
-
-Condition: Played immediately when you destroy or neutralize an enemy human type force 
-Remove Xm from the enemy’s leadership, where X is half the starting defense of the attacked card, and place it on your leadership.
-
-military
-
-
-
-Liquidize Asset - 0m - C - 1
-event
-
-Neutralize a force, place, or permanent from your power structure and place its play cost onto your leadership.
-
-corporate
-
-
-
-ESP - 1m - O - 2
-event
-
-Pick a player. That player must show you their hand.
-
-occult
-
-
-
-Secret Underwater Base - 2m - F - 1
-place
-up in, left out, right out
-
-0 / 2
-May be played hidden.
-
-fantastic, naval
-
-
-
-Sleeper Agent - 3m - MO - 1
-event
-
-Condition: Cannot be used against single type cards.
-Pick a force. Deal 1 damage to that card. Add a 1 / 1 MO token anywhere on your power structure.
-
-military, occult
-
-
-
-The Ark of the Covenant - 5m - MO - 1
-permanent
-right in
-
-Condition: Played on a force. 
-The card this card is attached to gains 0 / +4 and cannot be blocked.
-
-military, occult
-
-
-
-Spider Tank - 2m - MF - 1
-force
-left in, right in, down out
-
-4 / 3
-
-military, fantastic, electronic
-
-
-
-Philadelphia Experiment - 0m - MO - 3
-event
-
-Move one of your forces to an open space on your power structure.
-
-military, occult
-
-
-
-Pyromancer - 3m - O - 2
-force
-left in, up in, right out
-
-3 / 1
-May be played hidden. If Pyromancer successfully attacks a place, deal 1 damage to that place.
-
-occult, single
-
-
-
-Think Tank - 0m - C - 1
-force
-up in, right in, left out, down out
-
-0 / 2
-Action: Remove 2m from your leadership. Draw a card.
-
-corporate
-
-
-
-Grave Digger - 2m - O - 1
-force
-left in, right out, down out
-
-1 / 2
-Action: Place a human single type card from your discard pile under this card. That card gains -1 / -1.
-
-occult, single, human
-
-
-
-Bump in the Night - 1m - O - 2
-force
-up in, down out, right out, left out
-
-0 / 0
-At the beginning of your turn, this card gains +1 / 0.
-
-occult, single
-
-
-
-Stone Circle - 1m - O - 1
-place
-up in, down out, left out, right out
-
-0 / 0
-This card may not be targeted by attacks or instants if it has any cards under it.
-
-occult
-
-
-
-
-Money Movers - 1m - C - 2
-force
-right in, left out
-
-0 / 1
-Action: Move up to 2m from one place on your power structure to another.
-
-corporate
-
-
-
-Desert - 0m - N - 3
-place
-right in, left out, up in, down out
-
-0 / 3
-Any force attached to Desert gains -1 / -1. Any attack against forces attached to Desert gain -2 / 0.
-
-income
-
-
-
-Mountains - 0m - N - 2
-place
-up in, left in, down out
-
-Condition: Played neutral.
-Action: Neutralize this place. Place 1m on your leadership.
-Any force or place attached to Mountains gains 0 / +1.
-
-income
-
-
-
-Banshee - 4m - O - 1
-force
-left in
-
-3 / 1
-Condition: This card’s attacks do not deal damage.
-If this card successfully attacks, destroy its target at the end of its owner’s next turn if it is a single type; if it is a non-single type, deal 1 damage instead.
-
-occult, single, flying
-
-
-
-Airship - 5m - F - 1
-place
-right in, left out, down out
+3f
 
 3 / 4
 Condition: Non-flying forces attached to Airship may not attack.
 Any flying forces attached to Airship gain -1 / +3.
 
-fantastic, flying
-
+flying
 
 
-Multipass - 1m - C - 1
-permanent
-right in
+Desert - 0m - N
+place
+3a
 
-Condition: Played on a pure Corporate type.
-Attacks made by the card Multipass is attached to may not be blocked by any Corporate type. If the Multipass is successfully attacked by a Corporate or Electronic type, discard it.
-
-corporate
-
-
-
-Synergy - Xm - C - 1
-permanent
-up in, down out, left out, right out
-
-Condition: Destroy two corporate type cards in your power structure. The cost of Synergy is equal to the play costs of the target cards added together. 
-Synergy gains offense and defense equal to the offense and defense of the two destroyed cards added together, and any actions or conditions of the cards. 
-
-corporate
+0 / 3
+Action: Any place or force attached to desert gains -1 / -1 and may be played hidden.
 
 
 
 
-Misinformation Campaign - 4m - CO - 1
+Patriot Act - 0m - N
 event
+none
 
-Pick any number of forces or places in your power structure that have no child cards, damage, or tokens. You may rearrange them in any order and they become hidden.
-
-corporate, occult
+“For your own safety.”
+Condition: Played immediately after a revolutionary type is played on you.
+Remove 1r from your leadership.
 
 
 
-Honeypot - 0m - C - 1
+Drug Bust - 2m - N 
+event
+none
+
+Pick any drug type card. Destroy that card.
+
+drug
+
+
+
+Hostages - 0m - N
+event
+none
+
+Condition: Played immediately when you destroy or make vulnerable an enemy human type force.
+Remove Xm from the enemy’s leadership, where X is half the starting defense of the attacked card, and place it on your leadership.
+
+
+
+Secret Backup Plan - 3m - N
+event
+none
+
+Condition: Played immediately when an event targets your power structure.
+event does nothing. The player of the event regains any costs from playing the card, but the event is discarded. 
+
+
+
+Asset Seizure Operation - 4m - C
+event
+none
+
+Condition: Played at the beginning of your turn.
+Remove up to 10m from an enemy’s leadership. At the end of your turn, they regain the removed m .
+
+corporate
+
+
+
+Escape Pod - 2m - N
 permanent
-up in, left in, right in
+none
 
-Condition: Played hidden
-If either Honeypot or the card it is attached to is attacked by an electronic type, the defending player may make one attack against it before defending. If the attacker is destroyed, it does not deal damage. If Honeypot is revealed, discard it.
-
-corporate, electronic
+Condition: Played hidden on a place.
+If a child force of the card this card is attached to would be destroyed, destroy this card and return that force to your hand.
 
 
 
-Coca Plantation - 4m - N - 2
+Nuclear Power Plant - 6m - N
 place
-left in, down out
-
-0 / 4
-Action: Remove 1m from your leadership. Remove 1m from an enemy leadership. Add a token to this card.
-If this card has 2 tokens, remove them and place 3m on this card.
-
-drug, income
-
-
-
-Legitimate Dispensary - 4m - N - 2
-place
-up in, down out
+1p, 1a
 
 0 / 2
-Action: Remove a token from this card.
-At the beginning of your turn, place 1m and a token on this card. If this card has 3 tokens, remove them and neutralize this card.
+At the beginning of your turn, place 1m on this card.
+
+income, electronic
+
+
+
+Rich Waters - 0m - N
+place
+3a
+
+0 / 0
+Action: Add 1 counter to this card. Place 1m on this card.
+If this card has 4 counters on it, destroy this card.
+
+income, naval
+
+
+
+Jungle - 1m - N
+place
+2a
+
+0 / 6
+Action: Deal 1d to this card. Place 1m on a card attached to this card.
+Cards attached to this card gain +1 / 0 when defending.
+
+income
+
+
+
+Platinum - 1m - N
+permanent
+none
+
+Action: Remove 1m from your leadership. Add 1 counter to this card.
+If this card has 2 counters, remove them. Place 4m on your leadership.
+
+income
+
+
+Mountains - 0m - N
+place
+2f, 1a
+
+Any force or place attached to Mountains gains 0 / +1.
+
+
+
+Coca Plantation - 4m - N
+place
+1f
+
+0 / 4
+Action: Remove 1m from your leadership.  Add a token to this card.
+If this card has 2 tokens, remove them and place 3m on this card. Remove 1m from an enemy leadership.
 
 drug, income
 
 
 
-Drug Lab - 5m - N - 1
+Legitimate Dispensary - 4m - N
 place
-up in, down out, left out, right out
+1f
+
+0 / 2
+“Purely for medicinal purposes.”
+Action: Remove a token from this card.
+At the beginning of your turn, place 1m and a token on this card. If this card has 3 tokens, remove them and make this card vulnerable.
+
+drug, income
+
+
+
+Drug Lab - 5m - N
+place
+1f, 1p
 
 0 / 4
 Action: Remove 2 tokens from this card.
@@ -853,49 +219,532 @@ drug, income
 
 
 
-Anti-Aircraft Guns - 5m - M - 2
-force
-up in, left in, right in
+Basic Industry - 1m - N
+permanent
+none
 
-0 / 5
-Condition: Played on a place.
-May be played hidden. If a flying type attacks any of the child cards of the place this card is attached to, deal 3 damage to the attacker.
+At the beginning of your turn, add 1 counter to this card. If there are 4 counters, remove them and place 1m on your leadership.
+
+income
+
+
+
+
+Terrorist Attack - 2m - N
+event
+none
+
+Condition: Played on an enemy. Terrorist attack cannot destroy a place.
+Deal 1d to any place and add 1r to that place’s leadership.
+
+revolutionary
+
+
+
+Drug Cartel - 3m - N
+force
+1f, 2a
+
+2 / 6
+Action: Add any vulnerable drug types to free spaces on this card. Add 1 counter to this card.
+If this card has 2 counters, remove them and add 1r to your leadership.
+
+drug, revolutionary
+
+
+
+Fortress - 4m - M
+place
+1a, 2f
+
+0 / 10
 
 military
 
 
 
-Unconventional Alliance - 4m - MC - 1
-event
+Command Center - 4m - M
+place
+3a
 
-Condition: Played at the beginning of your turn.
-You may use any cards in the neutral power structure, including attacking, defending, and actions, as if they were your own until the end of your turn.
+0 / 7
+Action: Remove 2m from this card. Pick a card, that card may use its action twice in one turn.
 
-military, corporate
-
-
-
-Astral Projection - 2m - O - 1
-event
-
-Condition: Played on an occult type force.
-Target gains the flying type until the end of your next turn.
-
-occult, flying
+electronic, military
 
 
 
-Basic Industry - 1m - C - 5
+Secret Underwater Base - 2m - M
+place
+2f
+
+0 / 8
+Condition: Played hidden.
+At the beginning of your turn, add d to this card equal to the number of d already on it.
+
+military, naval
+
+
+
+Homefront - 0m - M
+place
+3a
+
+0 / 4
+“Any town is just one invasion away from being an awful army.”
+When this card would receive d , you may add 1r to your leadership and deal 1d to the attacking card instead.
+
+military
+
+
+
+Artillery Position - 3m - M
+place
+3a
+
+3 / 5
+This card may not be blocked.
+
+military
+
+
+
+Militia - 0m - M
+force
+none
+
+2 / 4
+Condition: Can not be played if there is a Militia already in your power structure. If militia is destroyed place 1r on your leadership.
+
+military, human
+
+
+Bomber - 2m - M
+force
+none
+
+5 / 2
+If this card makes a successful attack, destroy the target and this card.
+
+military, flying
+
+
+
+Black Operatives - 2m - M
+force
+1f
+
+4 / 1
+Condition: Played hidden.
+This card deals 2d to its target if it is blocked.
+
+military, human
+
+
+
+Full Complement - 5m - M
+force
+3p, 3f
+
+14 / 10
+“Why settle for less than everything?”
+Condition: Upkeep 1m. If this card is destroyed, add 3r to your leadership.
+
+military, naval, flying
+
+
+
+Unmanned Aerial Drone - 5m - M
+force
+none
+
+4 / 2
+
+military, electronic, flying
+
+
+
+Anti-Aircraft Guns - 5m - M
+force
+1p, 2f
+
+0 / 5
+May be played hidden. If a flying type attacks any of the child cards of the place this card is attached to, deal 3d to the attacker.
+
+military
+
+
+
+Chemical Attack - 3m - M
+event
+none
+
+Deal 4d to any one force with a defence greater than 4, or 2d to any other force. Add 1r to your leadership.
+
+military
+
+
+Wet Op - 1m - M
+event
+none
+
+Destroy a human type force with a defence of 2 or less.
+
+military
+
+
+
+Domestic Exercise - 1m - M
+event
+none
+
+Add 1r to your leadership. Destroy a target permanent in you power structure.
+
+military
+
+
+
+Scorched Earth Policy - 0m - M
 permanent
+none
 
-At the beginning of your turn, add a counter to this card. If there are 4 counters, remove them and place 1m on your leadership.
+If one of your cards would become vulnerable, instead destroy it.
 
-income, corporate
+military
 
 
 
-Unwill Nuisance - Xm - O - 3
+Minefield - 1m - M
+permanent
+none
+
+0 / 4
+Condition: Played hidden, on a place.
+When the card this card is attached to is attacked, reveal this card. If the card this card it is attached to is attacked by a non-flying type card, deal 3d to the attacker and destroy this card.
+
+military
+
+
+
+Supply Chain - 1m - M
+permanent
+none
+
+You gain an additional money move action. If this card is destroyed, add 1r to your leadership.
+
+military
+
+
+
+Oil Fields - 0m - M
+place
+1p, 3f
+
+0 / 2
+Condition: Played vulnerable.
+Action: Remove all counters from this card. Place 3m on this card for every 3 counters.
+At the beginning of your turn, add 1 counter to this card.
+
+income, military
+
+
+
+Draft - 0m - M
+permanent
+none
+
+Action: Add 1r and 3m on your leadership.
+
+income, military
+
+
+
+Rebels - 1m - M
+force
+1f
+
+2 / 3
+“The enemy of my enemy...”
+Condition: Played on an enemy branch. If there is already a Rebels in the enemy’s power structure, the play cost is 0m.
+Action: Add 1r to the power structure this card is attached to and 1r to your own.
+
+military, revolutionary
+
+
+
+State Sponsored Terrorism - 3m - M
+permanent
+none
+
+Action: Remove 1m from your leadership. Add 1r to your leadership, and add 1 counter to this card.
+If this card has 2 counters, remove them and add 3r to an enemy’s leadership.
+
+military, revolutionary
+
+
+
+Police Militarization - 4m - M
 event
+none
+
+For every 2 military types in your power structure, remove 1r.
+
+military
+
+
+
+Martial Law - 0m - M
+permanent
+none
+
+Action: Destroy this card.
+You may not place or move m onto your leadership, or use card actions that require m . Place three counters on this card. Any time you would receive r , instead remove a counter from this card. 
+
+military
+
+
+
+Stone Circle - 1m - O
+place
+3a
+
+0 / 1
+Condition: This card may not be played directly under your leadership.
+This card may not be targeted by attacks or events if it has any occult cards under it.
+
+occult
+
+
+
+Lodge - 3m - O
+place
+2p, 2f
+
+0 / 5
+Condition: Played hidden.
+Once per turn, you may use the action of one of the cards connected to Lodge without expending one of your actions.
+
+occult
+
+
+
+Grove - 2m - O
+place
+1p, 3f
+
+0 / 3
+Condition: Played hidden.
+You may play occult types onto this card for 1m less than their play cost.
+
+occult
+
+
+
+Morgue - 3m - O
+place
+3f
+
+0 / 2
+“As many corpses as anyone could hope for.”
+Action: Place a 1 / 1 occult type token on this card. The token may not be moved.
+
+occult
+
+
+
+Blood Portal - 1m - O
+place
+3f
+
+0 / 6
+Condition: This card may only use its action if it is weaker than 2 / 5.
+Action: Destroy all children of this card. This card gains +3 / +1 for each destroyed occult type, and +1 / +2 for any non-occult types.
+
+occult
+
+
+
+Labyrinth - 2m - O
+place
+2p 1a
+
+4 / 4
+This card may not attack. Whenever you play a place on this card, this card gains +1 / +1.
+
+occult
+
+
+
+Roving Void - 2m - O
+force
+none
+
+10 / 3
+Condition: Destroy forces in your power structure with a combined defense value of 6.
+
+occult, single
+
+
+
+Vessel - 2m - O
+force
+1f
+
+2 / 5
+“This body is only a vessel for a greater power.”
+
+occult, single, human
+
+
+
+Puppeted Swarm - 2m - O
+force
+none
+
+1 / 4
+Condition: Played on an occult type.
+If this card is attached to a flying or naval type, it gains that type. When this card is attacking a single type, it gains +1 / 0.
+
+occult
+
+
+
+Pyromancer - 2m - O
+force
+1f
+
+3 / 7
+Condition: Deal 2d to one of your places.
+May be played hidden. If Pyromancer successfully attacks a place, deal 1d to that place.
+
+occult, single, human
+
+
+
+Grave Digger - 2m - O
+force
+2f
+
+1 / 2
+Action: Place a human single type card from your discard pile under this card. That card gains -1 / -1 and loses any abilities.
+
+occult, single, human
+
+
+
+Bump in the Night - 1m - O
+force
+1f
+
+0 / 1
+“What was that noise?”
+At the beginning of your turn, this card gains +1 / 0.
+
+occult, single
+
+
+
+Banshee - 4m - O
+force
+none
+
+3 / 5
+Condition: Played on an occult type place.
+This card’s attacks do not deal d. If this card successfully attacks, destroy its target at the end of its owner’s next turn if it is a single type; if it is a non-single type, deal 1d instead.
+
+occult, single, flying
+
+
+
+Sacrifice - 0m - O
+event
+none
+
+“Anything worth having comes with a price.”
+Condition: Destroy one of your forces.
+Play any occult card 2 / 3 or weaker from your hand at no cost.
+
+occult
+
+
+
+Offering - 0m - O
+event
+none
+
+Condition: Destroy an occult type in your power structure.
+Draw a number of cards equal to the play cost of the destroyed card.
+
+occult
+
+
+
+Coup de Gras - 3m - O
+event
+none
+
+Destroy any single type force with d on it.
+
+occult
+
+
+
+Imbue - 2m - O
+event
+none
+
+Pick an occult type force. That force gains +1 / +1.
+
+occult
+
+
+
+Contort Motives - 4m - O
+event
+none
+
+Condition: Make one of your cards vulnerable.
+Pick an enemy card. Make an attack with that card against any cards not owned by its owner, OR you may make it vulnerable if it is a single type and has no child cards.
+
+occult
+
+
+
+ESP - 1m - O 
+event
+none
+
+“Circle. No? Cross then. Not that either? Okay, just let me see them.”
+Pick a player. That player must show you their hand.
+
+occult
+
+
+
+Philadelphia Experiment - 1m - O 
+event
+none
+
+Pick a force. That card gains flying until the end of your turn.
+
+occult
+
+
+
+Astral Projection - 1m - O 
+event
+none
+
+Condition: Played on an occult single type force.
+Target gains the flying type and is unblockable until the end of your turn.
+
+occult
+
+
+
+Unwill Nuisance - Xm - O 
+event
+none
 
 Condition: The cost of this card is the same as its target.
 Pick a permanent. Destroy that card.
@@ -904,35 +753,374 @@ occult
 
 
 
-Secret Stealer - 5m - MO - 1
+Curse - 2m - O 
+permanent
+none
+
+Play on a force or place. Target gains -1 / -1.
+
+occult
+
+
+
+
+The Ark of the Covenant - 2m - O 
+permanent
+none
+
+Condition: Played on a force. 
+The card this card is attached to gains 0 / +4 and cannot be blocked. If the card this card is attached to is destroyed or made vulnerable, you must make 2 of your forces vulnerable.
+
+occult
+
+
+
+Bad Omen - 2m - O
+permanent
+none
+
+Condition: Played on a force.
+Any time the card this card is attached to attacks, it receives 1d. Distribute 1d amongst your forces OR destroy this card.
+
+occult
+
+
+
+Protection Magicks - 0m - O
+permanent
+none
+
+Condition: If played on a force, deal 1d to that card and place 2 counters on this card. If played on a place, deal 2d to that card and place 3 counters on this card.
+Action: Remove 1 counter from this card. The card it’s attached to may not be attacked until the beginning of your next turn.
+If there are no counters on this card, destroy this card.
+
+occult
+
+
+
+Reincarnation Cycle - 2m - O
+permanent
+none
+
+Action: Remove a counter from this card. Play a force at a cost reduction of 2m.
+When one of your occult type forces is destroyed, place a counter on this card. 
+
+income, occult
+
+
+
+Deal with the Devil - 0m - O
+permanent
+none
+
+Place 3 counters on this card.
+On the beginning of your turn, remove 1 counter from this card and add 2m to your leadership.
+If there are no counters on this card, destroy one of your forces OR gain 2r.
+
+income, occult
+
+
+
+Sleeper Agent - 3m - O 
+event
+none
+
+Condition: Cannot be used against single types.
+Pick a force. Deal 1d to that card. Add a 1 / 1 occult token anywhere on your power structure. Add 1r to that card’s leadership.
+
+occult, revolutionary
+
+
+
+Sleeper Cell - 0m - O
 force
-up in, left in, right in
+3f
+
+0 / 5
+Condition: Played on an enemy branch. Distribute 5d among your human type cards. 
+Action: Deal 1d to this card. Add 1r the the leadership of the power structure this card is attached to.
+
+occult, revolutionary, human
+
+
+
+Mind Games - 4m - O
+event
+
+Condition: Played immediately when r would be added to your leadership. The player whose card caused the r gains an equal amount of r. 
+
+occult, revolutionary
+
+
+
+
+Offshore Account - 4m - C
+place
+none
+
+0 / 1
+Condition: Not played on a slot.
+Action: Move any amount of m from your leadership onto this card, AND/OR move 2m or less from this card to anywhere in your power structure.
+
+This card cannot be attacked, and if it is removed all m on it is transferred to your leadership.
+
+corporate, electronic
+
+
+
+Stock Exchange - 4m - C
+place
+2p, 2f
+
+0 / 4
+At the beginning of your turn, you may move any amount of m from one of your cards onto this card.
+
+corporate, electronic
+
+
+
+Think Tank - 1m - C
+force
+2f
 
 0 / 3
-Action: Add a token to this card.
-May be played on an enemy branch. If there are 3 tokens on this card, choose a permanant in the power structure this card is attached to. Neutralize that card.
+Action: Remove 2m from this card. Draw a card.
 
-military, occult, single
+corporate
 
 
 
-Secret Backup Plan - 3m - F - 2
+Secret Stealer - 3m - C
+force
+none
+
+0 / 4
+Condition: Played on an enemy.
+Action: Move 1m to this card from your leadership.
+m can not be moved off of this card. If there are 3m on this card, choose a permanant in the power structure this card is attached to. Destroy that card.
+
+corporate, single, human
+
+
+
+Mercs - 1m - C
+force
+none
+
+3 / 6
+Condition: Remove 1m from this card, the card directly above it, or your leadership every time it attacks.
+
+corporate, human
+
+
+
+Hired Gun - 0m - C
+force
+none
+
+2 / 4
+Condition: Remove 1m from this card or the card directly above it every time it attacks.
+
+corporate, single, human
+
+
+
+PMC - 5m - C
+force
+2p, 3f
+
+5 / 8
+Condition: Remove 2m from this card or the card directly above it every time it attacks.
+
+corporate, human
+
+
+
+High Profile Assassin - 2m - C
+force
+none
+
+2 / 2
+Condition: Played hidden.
+Action: If this card is hidden, remove 6m from the card above this card to destroy any single type force. This card gains the stats 0 / 1 until the end of your turn.
+This card may not be defended.
+
+corporate, single, human
+
+
+
+Hackers - 2m - C
+force
+1f
+
+1 / 3
+Condition: This card may only attack electronic type cards.
+Action: Remove 1m from this card. Paralyze any electronic type card.
+This card cannot be blocked.
+
+electronic, human, corporate
+
+
+
+
+Money Movers - 1m - C
+force
+1f
+
+0 / 1
+Action: Move up to 3m from one place on your power structure to another.
+
+corporate, human
+
+
+
+Liquidize Asset - 0m - C
 event
+none
 
-Condition: Played immediately when an event targets your power structure.
-event does nothing. The player of the event regains any costs from playing the card, but the event is discarded. 
+Make a force, place, or permanent from your power structure vulnerable and place its play cost onto your leadership.
 
-fantastic
+corporate
 
 
 
-Asset Seizure Operation - 4m - MC - 1
+
+Misinformation Campaign - 4m - C
 event
+none
 
-Condition: Played at the beginning of your turn.
-Remove up to 10m from an enemy’s leadership. At the end of your turn, they regain the removed m .
+Pick any number of forces or places in your power structure that have no child cards, d , or tokens. You may rearrange them in any order and they become hidden.
 
-military, corporate
+corporate
 
 
+
+Overhaul and Overreach - 3m - C
+event
+none
+
+“A lot of things are going to change around here.”
+Destroy a target permanent in your power structure.
+
+corporate
+
+
+
+Hostile Takeover - Xm - C
+event
+none
+
+“Anything can be bought if you have enough money.”
+Condition: Cost is half the current defense of the target or its play cost, whichever is higher.
+Make a target place vulnerable.
+
+corporate
+
+
+
+Multipass - 1m - C
+permanent
+none
+
+“Multipass!”
+Condition: Played on a Corporate type.
+Attacks made by the card this card is attached to may not be blocked by any corporate or electronic type. If the card this card is attached to is successfully attacked by a corporate or electronic type, discard it.
+
+corporate
+
+
+
+Merger - Xm - C
+permanent
+none
+
+Condition: Destroy two corporate type cards in your power structure. The cost of Synergy is equal to the play costs of the target cards added together. 
+Synergy gains offense and defense equal to the offense and defense of the two destroyed cards added together, and any actions or conditions of the cards. 
+
+corporate
+
+
+
+Corporate Blockade - 0m - C
+permanent
+none
+
+Condition: Upkeep 1m. Played on an enemy.
+m may not be moved onto or off of the card this card is attached to, and cards may not be placed in its slots.
+
+corporate
+
+
+
+
+
+
+Honeypot - 0m - C
+permanent
+none
+
+Condition: Played hidden.
+If either Honeypot or the card it is attached to is attacked, the defending player may make one attack against it before defending. If the attacker is destroyed, it does not deal d . If Honeypot is revealed, destroy it.
+
+corporate, electronic
+
+
+
+Oil Platform - 3m - C
+place
+2f
+
+0 / 2
+Action: Remove all counters from this card. Place 3m on this card for every 3 counters.
+At the beginning of your turn, add 1 counter to this card.
+
+income, corporate, naval
+
+
+
+Investment Firm - 2m - C
+place
+1a
+
+0 / 2
+Action: Place 1m on the card below this card.
+
+income, corporate
+
+
+
+Conflict Diamonds - 1m - C
+permanent
+none
+
+If an income type card is destroyed or made vulnerable, place 2m on your leadership.
+
+income, corporate
+
+
+
+Hacktivists - 1m - C
+force
+1f
+
+1 / 2
+Condition: Played on an enemy branch.
+At the beginning of your turn, add 1 counter to this card for every electronic type in the power structure not including itself. If it has 3 counters, remove them and add 1r to the leadership.
+
+revolutionary, electronic, human
+
+
+
+Bribe - 2m - C
+event
+none
+
+“Money talks.”
+Condition: Played on a child force of an enemy leadership.
+Place 2m on the target. Add 1r to the target’s leadership.
+
+corporate, revolutionary
+
+
+
 
