@@ -1,8 +1,9 @@
 ﻿
 .card {
 	position: relative;
-	width: 5cm;
-	height: 7.5cm;
+	width: 225px;
+	height: 325px;
+	box-sizing: border-box;
 	font-size: 11pt;
 	font-family: 'Bitstream Charter', 'URW Palladio L', Palatino, 'Palatino Linotype', 'Hoefler Text', Georgia, 'Book Antiqua', Times, 'Times New Roman', serif;
 	text-align: left;
@@ -102,20 +103,22 @@
 }
 .lower {
 	position: absolute;
-	bottom: 10px;
+	bottom: 0;
 	left: 0;
 	right: 0;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 15px;
 }
 .minor-types {
 	font-size: 0.7em;
 	line-height: 1em;
 	height: 1em;
+	display: inline-block;
 	vertical-align: middle;
-	padding: 10px;
 }
 .attack-defence {
 	float: right;
-	padding: 5px;
 	font-size: 14pt;
 }
 
@@ -228,12 +231,12 @@
 	border: 0;
 }
 .description {
-	font-size: 7.4pt;
+	font-size: 6.4pt;
 	font-family: Helvetica, sans-serif;
 	margin: 2mm 0;
 }
 .card p + p {
-	margin-top: 5px;
+	margin-top: 4px;
 }
 
 .name {

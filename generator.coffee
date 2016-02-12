@@ -27,7 +27,7 @@ render_$card = ({name, description, category, attack, defence, cost, major_types
 		<div class='description'>#{description}</div>
 		<div class='lower'>
 			#{if attack? then "<div class='attack-defence'>#{attack}/#{defence}</div>" else ""}
-			<div class='minor-types' style='float: left'>#{minor_types_text}</div>
+			<div class='minor-types'>#{minor_types_text}</div>
 		</div>
 		<div class='arrows'></div>
 	"""
