@@ -160,9 +160,6 @@ parse_card_data = (data)->
 		for card_text in card_texts when card_text.trim() isnt ""
 			parse_card card_text
 	
-	# for card in cards
-	# 	render_$card(card).appendTo($cards)
-	
 	cards_by_export = {}
 	for card in cards
 		if card.category is "system"
@@ -179,7 +176,6 @@ parse_card_data = (data)->
 		for card in sorted_cards
 			render_$card(card).appendTo($cards)
 		if export_only
-			# $("<div class='card back'/>").appendTo($cards) for [0..sorted_cards.length%10]
 			$("<div class='card back'/>").appendTo($cards) for [sorted_cards.length...10*7]
 		else
 			$("<div class='card back'/>").appendTo($cards)
