@@ -3,10 +3,13 @@ fs = require "fs"
 
 try fs.mkdirSync "export"
 
+zoom = 2
+
 css = """
 	body {
-		zoom: 2;
+		zoom: #{zoom};
 		text-align: left;
+		overflow: hidden;
 	}
 	h2 {
 		display: none;
@@ -17,8 +20,8 @@ css = """
 """
 
 options =
-	width: 4800
-	height: 6000
+	width: 225 * 10 * zoom
+	height: 325 * 7 * zoom + 39 # magic number 39, maybe related to the magic 38 for Linux below?
 	format: "png"
 	evalDelay: 14000
 	code: """
@@ -37,7 +40,7 @@ capture = (url, {width, height, format, evalDelay, code, delay, encoding}, callb
 
 	datatype = if encoding is "base64" then "raw" else "buffer"
 
-	show = yes
+	show = no
 	gui.Window.get().show() if show
 
 	win = gui.Window.open url, {width, height, show, frame: show}
