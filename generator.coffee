@@ -156,9 +156,9 @@ parse_card_data = (data)->
 		{name, description, category, attack, defence, cost, major_types, minor_types, arrows, source: card_text}
 	
 	
-	card_texts = data.split "\f"
+	card_texts = data.split /\f|________________/
 	cards = 
-		for card_text in card_texts when card_text.trim() isnt ""
+		for card_text in card_texts when card_text.trim().match /\n/im
 			parse_card card_text
 	
 	cards_by_export = {}
