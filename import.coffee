@@ -5,6 +5,7 @@ readline = require("readline")
 async = require("async")
 google = require("googleapis")
 GoogleAuth = require("google-auth-library")
+parse_card_data = require("./parse.coffee")
 
 # If modifying these scopes, delete your previously saved credentials
 SCOPES = ["https://www.googleapis.com/auth/drive"]
@@ -45,9 +46,10 @@ fs.readFile "client_id.json", (err, content)->
 		async.map document_ids, fetch, (err, results)->
 			throw err if err
 			card_data = results.join("\n\n\n\n\n\n\n\n\n\n\n\n")
-			fs.writeFile "cards.txt", card_data, "utf8", (err)->
+			cards = parse_card_data(card_data)
+			fs.writeFile "cards.json", JSON.stringify(cards, null, "\t"), "utf8", (err)->
 				throw err if err
-				console.log "wrote cards.txt"
+				console.log "wrote cards.json"
 
 ###
 # Create an OAuth2 client with the given credentials, and then execute the
