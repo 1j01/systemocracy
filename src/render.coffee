@@ -45,7 +45,7 @@ render_$card = ({name, description, category, attack, defence, cost, major_types
 	$card
 
 
-$.get "data/cards.json", (cards)->
+$.getJSON "data/cards.json", (cards)->
 	
 	cards_by_export = {}
 	for card in cards
@@ -66,5 +66,3 @@ $.get "data/cards.json", (cards)->
 			$("<div class='card back'/>").appendTo($cards) for [sorted_cards.length...10*7]
 		else
 			$("<div class='card back'/>").appendTo($cards)
-
-

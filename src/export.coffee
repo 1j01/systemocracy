@@ -1,5 +1,6 @@
 gui = require "nw.gui"
 fs = require "fs"
+async = require "async"
 
 try fs.mkdirSync "images/export"
 
@@ -35,16 +36,16 @@ options =
 	encoding: "binary"
 
 capture = (url, {width, height, format, evalDelay, code, delay, encoding}, callback)->
-
+	
 	height += 38 if process.platform is "linux"
-
+	
 	datatype = if encoding is "base64" then "raw" else "buffer"
-
+	
 	show = no
 	gui.Window.get().show() if show
-
+	
 	win = gui.Window.open url, {width, height, show, frame: show}
-
+	
 	win.once "document-end", ->
 		win.setMaximumSize width * 2, height * 2
 		win.width = width
@@ -59,13 +60,25 @@ capture = (url, {width, height, format, evalDelay, code, delay, encoding}, callb
 			, evalDelay
 		, delay
 
-for header in ["Systems", "Neutral", "Corporate", "Military", "Occult"]
-	do (header)->
+export_set = (header, callback)->
+	console.log "Export #{header}"
+	setTimeout ->
 		capture "index.html##{header}", options, (buffer)->
 			console.log "Got some image data for #{header}"
-			
 			file_name = "images/export/#{header}.png"
 			fs.writeFile file_name, buffer, (err)->
-				throw err if err
+				return callback err if err
 				console.log "Wrote #{file_name}"
-				gui.Window.get().close true
+				callback null
+	, 5000
+
+set_headers = ["Systems", "Neutral", "Corporate", "Military", "Occult"]
+parallel = process.env.PARALLEL_EXPORT in ["on", "ON"]
+
+(if parallel then async.each else async.eachSeries) set_headers, export_set,
+	(err)->
+		if err
+			document.body.style.background = "red"
+			throw err
+		console.log "done"
+		gui.Window.get().close true
