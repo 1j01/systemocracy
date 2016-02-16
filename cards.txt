@@ -2,7 +2,7 @@ Military-Industrial Complex - n/a - MC
 system
 none
 
-Stability 10
+Stability: 10
 Your boon grants +2 / 0 and changes the target card to military type as long as it remains.
 At the end of every turn during which you attack, place 1m on your leadership. At the end of every turn during which you do not attack remove 3m OR add a r .
 
@@ -40,7 +40,7 @@ Shadow Diarchy - n/a - CO
 system
 none
 
-Stability 3
+Stability: 3
 Action: Add 1r, or if in revolution remove 1r.
 Your boon grants 0 / +1 to a force. When in revolution, it grants +2 / 0 instead.
 You may ignore the condition “Played on an enemy”.

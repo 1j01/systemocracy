@@ -109,7 +109,7 @@ parse_card_data = (data)->
 							.replace /\b(X|\d*)m\b/g, money_symbol
 							.replace /\b(X|\d*)d\b/g, damage_symbol
 							.replace /\b(X|\d*)r\b/g, revolution_symbol
-							.replace /\b(Condition:|Action:)/g, bold
+							.replace /\b(Condition:|Action:|Stability:)/g, bold
 					}</p>"
 			
 			switch lwt
