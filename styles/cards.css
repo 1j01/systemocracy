@@ -9,7 +9,7 @@
 	border-radius: 5px;
 	border: 5px solid #444;
 	background-color: rgba(255,255,255,0.5);
-	background-image: url("images/texture/pentagons.png");
+	background-image: url("../images/texture/pentagons.png");
 	background-blend-mode: luminosity;
 	color: #000;
 	box-shadow: 0 0 500px 0 rgb(255, 255, 255) inset;
