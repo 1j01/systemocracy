@@ -1,4 +1,3 @@
-﻿
 .card {
 	position: relative;
 	width: 225px;
@@ -10,7 +9,7 @@
 	border-radius: 5px;
 	border: 5px solid #444;
 	background-color: rgba(255,255,255,0.5);
-	background-image: url("pentagonz.png");
+	background-image: url("images/texture/pentagons.png");
 	background-blend-mode: luminosity;
 	color: #000;
 	box-shadow: 0 0 500px 0 rgb(255, 255, 255) inset;
@@ -165,7 +164,7 @@
 	position: relative;
 	text-align: center;
 	display: inline-block;
-	background: url("damage.svg");
+	background: url("images/counters/damage.svg");
 	background-size: contain;
 }
 
@@ -173,7 +172,7 @@
 	content: "";
 	width: 1.2em;
 	height: 1.2em;
-	background-image: url("revolution.svg");
+	background-image: url("images/counters/revolution.svg");
 	background-size: contain;
 }
 

@@ -13,8 +13,8 @@ render_$card = ({name, description, category, attack, defence, cost, major_types
 	minor_types.sort (a, b)->
 		minor_types_order.indexOf(a) - minor_types_order.indexOf(b)
 	
-	major_types_text = (major_types).join " "
-	minor_types_text = (minor_types).join ", "
+	major_types_text = major_types.join(" ")
+	minor_types_text = minor_types.join(", ")
 	
 	$card.addClass(category)
 	
@@ -28,7 +28,7 @@ render_$card = ({name, description, category, attack, defence, cost, major_types
 			<div class='major-types'>#{major_types_text}</div>
 		</div>
 		<div class='image'>
-			<img class='img' src='images/#{name}.png'>
+			<img class='img' src='images/cards/#{name}.png'>
 		</div>
 		<div class='description'>#{description}</div>
 		<div class='lower'>
