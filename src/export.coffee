@@ -1,7 +1,7 @@
 gui = require "nw.gui"
 fs = require "fs"
 
-try fs.mkdirSync "export"
+try fs.mkdirSync "images/export"
 
 zoom = 2
 
@@ -64,7 +64,7 @@ for header in ["Systems", "Neutral", "Corporate", "Military", "Occult"]
 		capture "index.html##{header}", options, (buffer)->
 			console.log "Got some image data for #{header}"
 			
-			file_name = "export/#{header}.png"
+			file_name = "images/export/#{header}.png"
 			fs.writeFile file_name, buffer, (err)->
 				throw err if err
 				console.log "Wrote #{file_name}"

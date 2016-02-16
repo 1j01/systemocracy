@@ -45,7 +45,7 @@ render_$card = ({name, description, category, attack, defence, cost, major_types
 	$card
 
 
-$.get "cards.json", (cards)->
+$.get "data/cards.json", (cards)->
 	
 	cards_by_export = {}
 	for card in cards

@@ -22,7 +22,7 @@ document_ids = [
 ]
 
 # Load client secrets from a local file.
-fs.readFile "client_id.json", (err, content)->
+fs.readFile "data/client_id.json", (err, content)->
 	if err
 		console.error "Error loading client secret file: " + err
 		return
@@ -32,7 +32,7 @@ fs.readFile "client_id.json", (err, content)->
 		service = google.drive("v3")
 		
 		fetch = (fileId, callback)->
-			console.log "fetch", fileId
+			console.log "Fetch", fileId
 			mimeType = "text/plain"
 			service.files.export {auth, fileId, mimeType}, (err, document_text)->
 				if err
@@ -47,9 +47,9 @@ fs.readFile "client_id.json", (err, content)->
 			throw err if err
 			card_data = results.join("\n\n\n\n\n\n\n\n\n\n\n\n")
 			cards = parse_card_data(card_data)
-			fs.writeFile "cards.json", JSON.stringify(cards, null, "\t"), "utf8", (err)->
+			fs.writeFile "data/cards.json", JSON.stringify(cards, null, "\t"), "utf8", (err)->
 				throw err if err
-				console.log "wrote cards.json"
+				console.log "Wrote data/cards.json"
 
 ###
 # Create an OAuth2 client with the given credentials, and then execute the
