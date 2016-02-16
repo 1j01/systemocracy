@@ -7,6 +7,12 @@ $cards = $("<main class='cards'/>").appendTo("body")
 render_$card = ({name, description, category, attack, defence, cost, major_types, minor_types, arrows, source})->
 	$card = $("<div class='card'/>")
 	
+	arrow_order = ["place", "any", "force"]
+	minor_types_order = ["income", "revolutionary", "flying", "naval", "electronic", "human", "single"]
+	
+	minor_types.sort (a, b)->
+		minor_types_order.indexOf(a) - minor_types_order.indexOf(b)
+	
 	major_types_text = (major_types).join " "
 	minor_types_text = (minor_types).join ", "
 	
@@ -31,8 +37,6 @@ render_$card = ({name, description, category, attack, defence, cost, major_types
 		</div>
 		<div class='arrows'></div>
 	"""
-	
-	arrow_order = ["place", "any", "force"]
 	
 	for arrow_category in arrows.sort((a, b)-> arrow_order.indexOf(a) - arrow_order.indexOf(b))
 		$card.find(".arrows").append("<div class='arrow #{arrow_category}'>")
