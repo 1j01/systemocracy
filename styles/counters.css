@@ -1,0 +1,49 @@
+
+.money {
+	display: inline-block;
+	width: 1.1em;
+	height: 1.1em;
+	line-height: 1em;
+	border-radius: 100% 100%;
+	border: 0.3mm solid black;
+	background: yellow;
+	box-shadow: 0.1mm 0.1mm 0.6mm 0.1mm #FFF inset, -0.3mm -0.3mm 0.6mm 0.1mm #FA0 inset;
+}
+.money,
+.damage-counter,
+.revolution-counter {
+	vertical-align: middle;
+	overflow: hidden;
+	display: inline-flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	line-height: 0.8em;
+}
+.money > span,
+.damage-counter > span,
+.revolution-counter > span {
+	white-space: nowrap;
+	font-size: 1em;
+	vertical-align: middle;
+	font-family: "Impact", serif;
+}
+
+.damage-counter {
+	width: 1.4em;
+	height: 1.4em;
+	line-height: 1.2em;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	background: url("images/counters/damage.svg");
+	background-size: contain;
+}
+
+.revolution-counter::after {
+	content: "";
+	width: 1.2em;
+	height: 1.2em;
+	background-image: url("images/counters/revolution.svg");
+	background-size: contain;
+}
