@@ -60,11 +60,11 @@ module.exports = (all_card_data)->
 					
 					description += "<p>#{
 						line
+							.replace /\b(Condition:|(?:Economy )?Action:|Stability:)/g, bold
+							.replace /\b(Unblockable|Untargetable|Immediate|Gain|Spend|Revolution|Force|Place|Event|Permanent|System|(?:Economy )?Action)\b/gi, bold
 							.replace /\b(X|\d*)m\b/g, money_symbol
 							.replace /\b(X|\d*)d\b/g, damage_symbol
 							.replace /\b(X|\d*)r\b/g, revolution_symbol
-							.replace /\b(Condition:|Action:|Stability:)/g, bold
-							.replace /\b(Unblockable|Untargetable|Immediate|Gain|Spend)\b/gi, bold
 					}</p>"
 			
 			switch lwt

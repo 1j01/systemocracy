@@ -13,7 +13,7 @@
 	},
 	{
 		"name": "Guerrilla",
-		"description": "<p><b>Stability:</b> 5</p><p>Boon grants 0 / +3 to revolutionary types.</p><p>When you enter a revolution, <b>gain</b> <span class='money'><span>5</span></span>. You may not be attacked until the end of your next turn.</p><p>Your places have +1 / 0 when defending.</p>",
+		"description": "<p><b>Stability:</b> 5</p><p>Boon grants 0 / +3 to revolutionary types.</p><p>When you enter a <b>revolution</b>, <b>gain</b> <span class='money'><span>5</span></span>. You may not be attacked until the end of your next turn.</p><p>Your places have +1 / 0 when defending.</p>",
 		"category": "system",
 		"major_types": [
 			"Military"
@@ -26,7 +26,7 @@
 	},
 	{
 		"name": "Corpocracy",
-		"description": "<p><b>Stability:</b> 5</p><p><b>Action:</b> <b>Spend</b> <span class='money'><span>3</span></span> and remove <span class='revolution-counter'><span>1</span></span>.</p><p>Boon grants <b>untargetable</b> to corporate types.</p><p>You have 1 additional economy action.</p>",
+		"description": "<p><b>Stability:</b> 5</p><p><b><b>Action</b>:</b> <b>Spend</b> <span class='money'><span>3</span></span> and remove <span class='revolution-counter'><span>1</span></span>.</p><p>Boon grants <b>untargetable</b> to corporate types.</p><p>You have 1 additional <b>economy action</b>.</p>",
 		"category": "system",
 		"major_types": [
 			"Corporate"
@@ -37,7 +37,7 @@
 	},
 	{
 		"name": "Shadow Diarchy",
-		"description": "<p><b>Stability:</b> 4</p><p><b>Action:</b> IF in revolution, remove <span class='revolution-counter'><span>1</span></span>.</p><p>Boon grants 0 / +1 to a force, when in revolution it grants +2 / 0 instead.</p><p>Ignore the condition “Played on an enemy”.</p><p>When in revolution, attacks have +1 / 0. You are only defeated if you are still in revolution at the end of your next turn.</p>",
+		"description": "<p><b>Stability:</b> 4</p><p><b><b>Action</b>:</b> IF in <b>revolution</b>, remove <span class='revolution-counter'><span>1</span></span>.</p><p>Boon grants 0 / +1 to a <b>force</b>, when in <b>revolution</b> it grants +2 / 0 instead.</p><p>Ignore the condition “Played on an enemy”.</p><p>When in <b>revolution</b>, attacks have +1 / 0. You are only defeated if you are still in <b>revolution</b> at the end of your next turn.</p>",
 		"category": "system",
 		"major_types": [
 			"Corporate",
@@ -79,7 +79,7 @@
 	},
 	{
 		"name": "Lodge",
-		"description": "<p>0 / 5</p><p><b>Condition:</b> Played hidden.</p><p>Once per turn, you may use the action of one of the cards connected to Lodge without expending one of your actions.</p>",
+		"description": "<p>0 / 5</p><p><b>Condition:</b> Played hidden.</p><p>Once per turn, you may use the <b>action</b> of one of the cards connected to Lodge without expending one of your actions.</p>",
 		"category": "place",
 		"cost": 3,
 		"major_types": [
@@ -113,7 +113,7 @@
 	},
 	{
 		"name": "Morgue",
-		"description": "<p>0 / 6</p><p><q>As many corpses as anyone could hope for.</q></p><p><b>Action:</b> Place a 1 / 1 occult type token on this card. The token may not be moved.</p>",
+		"description": "<p>0 / 6</p><p><q>As many corpses as anyone could hope for.</q></p><p><b><b>Action</b>:</b> <b>Place</b> a 1 / 1 occult type token on this card. The token may not be moved.</p>",
 		"category": "place",
 		"cost": 3,
 		"major_types": [
@@ -129,7 +129,7 @@
 	},
 	{
 		"name": "Blood Portal",
-		"description": "<p>0 / 6</p><p><b>Condition:</b> This card may only use its action if it is weaker than 2 / 5.</p><p><b>Action:</b> Destroy all children of this card. This card gains +3 / +1 for each destroyed occult type, and +1 / +2 for any non-occult types.</p>",
+		"description": "<p>0 / 6</p><p><b>Condition:</b> This card may only use its <b>action</b> if it is weaker than 2 / 5.</p><p><b><b>Action</b>:</b> Destroy all children of this card. This card gains +3 / +1 for each destroyed occult type, and +1 / +2 for any non-occult types.</p>",
 		"category": "place",
 		"cost": 1,
 		"major_types": [
@@ -145,7 +145,7 @@
 	},
 	{
 		"name": "Labyrinth",
-		"description": "<p>4 / 4</p><p>This card may not attack. Whenever you play a place on this card, this card gains +1 / +1.</p>",
+		"description": "<p>4 / 4</p><p>This card may not attack. Whenever you play a <b>place</b> on this card, this card gains +1 / +1.</p>",
 		"category": "place",
 		"cost": 2,
 		"major_types": [
@@ -203,7 +203,7 @@
 	},
 	{
 		"name": "Pyromancer",
-		"description": "<p>3 / 7</p><p><b>Condition:</b> Deal <span class='damage-counter'><span>2</span></span> to one of your places.</p><p>May be played hidden. IF Pyromancer successfully attacks a place, deal <span class='damage-counter'><span>1</span></span> to that place.</p>",
+		"description": "<p>3 / 7</p><p><b>Condition:</b> Deal <span class='damage-counter'><span>2</span></span> to one of your places.</p><p>May be played hidden. IF Pyromancer successfully attacks a <b>place</b>, deal <span class='damage-counter'><span>1</span></span> to that <b>place</b>.</p>",
 		"category": "force",
 		"cost": 2,
 		"major_types": [
@@ -220,7 +220,7 @@
 	},
 	{
 		"name": "Grave Digger",
-		"description": "<p>1 / 2</p><p><b>Action:</b> Place a human single type card from your discard pile under this card. That card has -1 / -1 and loses any abilities.</p>",
+		"description": "<p>1 / 2</p><p><b><b>Action</b>:</b> <b>Place</b> a human single type card from your discard pile under this card. That card has -1 / -1 and loses any abilities.</p>",
 		"category": "force",
 		"cost": 2,
 		"major_types": [
@@ -254,7 +254,7 @@
 	},
 	{
 		"name": "Banshee",
-		"description": "<p>3 / 5</p><p><b>Condition:</b> Played on an occult type place.</p><p>This card’s attacks do not deal <span class='damage-counter'><span></span></span>. If this card makes a successful attack, destroy its target at the end of its owner’s next turn if it is a single type; if it is a non-single type, deal <span class='damage-counter'><span>1</span></span> instead.</p>",
+		"description": "<p>3 / 5</p><p><b>Condition:</b> Played on an occult type <b>place</b>.</p><p>This card’s attacks do not deal <span class='damage-counter'><span></span></span>. If this card makes a successful attack, destroy its target at the end of its owner’s next turn if it is a single type; if it is a non-single type, deal <span class='damage-counter'><span>1</span></span> instead.</p>",
 		"category": "force",
 		"cost": 4,
 		"major_types": [
@@ -293,7 +293,7 @@
 	},
 	{
 		"name": "Coup de Gras",
-		"description": "<p>Destroy any single type force with <span class='damage-counter'><span></span></span> on it.</p>",
+		"description": "<p>Destroy any single type <b>force</b> with <span class='damage-counter'><span></span></span> on it.</p>",
 		"category": "event",
 		"cost": 3,
 		"major_types": [
@@ -305,7 +305,7 @@
 	},
 	{
 		"name": "Imbue",
-		"description": "<p>Pick an occult type force. That force has +1 / +1.</p>",
+		"description": "<p>Pick an occult type <b>force</b>. That <b>force</b> has +1 / +1.</p>",
 		"category": "event",
 		"cost": 2,
 		"major_types": [
@@ -341,7 +341,7 @@
 	},
 	{
 		"name": "Philadelphia Experiment",
-		"description": "<p>Pick a force. That card gains flying until the end of your turn.</p>",
+		"description": "<p>Pick a <b>force</b>. That card gains flying until the end of your turn.</p>",
 		"category": "event",
 		"cost": 1,
 		"major_types": [
@@ -353,7 +353,7 @@
 	},
 	{
 		"name": "Astral Projection",
-		"description": "<p><b>Condition:</b> Played on an occult single type force.</p><p>Target gains the flying type and is <b>unblockable</b> until the end of your turn.</p>",
+		"description": "<p><b>Condition:</b> Played on an occult single type <b>force</b>.</p><p>Target gains the flying type and is <b>unblockable</b> until the end of your turn.</p>",
 		"category": "event",
 		"cost": 1,
 		"major_types": [
@@ -365,7 +365,7 @@
 	},
 	{
 		"name": "Unwill Nuisance",
-		"description": "<p><b>Condition:</b> X is the play cost of the target.</p><p>Pick a permanent. Destroy that card.</p>",
+		"description": "<p><b>Condition:</b> X is the play cost of the target.</p><p>Pick a <b>permanent</b>. Destroy that card.</p>",
 		"category": "event",
 		"cost": "X",
 		"major_types": [
@@ -377,7 +377,7 @@
 	},
 	{
 		"name": "Curse",
-		"description": "<p>Play on a force or place. Target has -1 / -1.</p>",
+		"description": "<p>Play on a <b>force</b> or <b>place</b>. Target has -1 / -1.</p>",
 		"category": "permanent",
 		"cost": 1,
 		"major_types": [
@@ -389,7 +389,7 @@
 	},
 	{
 		"name": "The Ark of the Covenant",
-		"description": "<p><b>Condition:</b> Played on a force.</p><p>The card this card is attached to has 0 / +4 and <b>unblockable</b>. Target is destroyed, destroy 2 of your forces.</p>",
+		"description": "<p><b>Condition:</b> Played on a <b>force</b>.</p><p>The card this card is attached to has 0 / +4 and <b>unblockable</b>. Target is destroyed, destroy 2 of your forces.</p>",
 		"category": "permanent",
 		"cost": 2,
 		"major_types": [
@@ -401,7 +401,7 @@
 	},
 	{
 		"name": "Bad Omen",
-		"description": "<p><b>Condition:</b> Played on a force.</p><p>Any time target to attacks, it takes <span class='damage-counter'><span>1</span></span>. Distribute <span class='damage-counter'><span>1</span></span> amongst your forces OR destroy this card.</p>",
+		"description": "<p><b>Condition:</b> Played on a <b>force</b>.</p><p>Any time target to attacks, it takes <span class='damage-counter'><span>1</span></span>. Distribute <span class='damage-counter'><span>1</span></span> amongst your forces OR destroy this card.</p>",
 		"category": "permanent",
 		"cost": 2,
 		"major_types": [
@@ -413,7 +413,7 @@
 	},
 	{
 		"name": "Protection Magicks",
-		"description": "<p><b>Condition:</b> IF played on a force, deal <span class='damage-counter'><span>1</span></span> to the target and place 2 counters on this card. IF played on a place, deal <span class='damage-counter'><span>2</span></span> to the target and place 3 counters on this card.</p><p><b>Action:</b> Remove 1 counter from this card. The target may not be attacked until the beginning of your next turn.</p><p>If there are no counters on this card, destroy this card.</p>",
+		"description": "<p><b>Condition:</b> IF played on a <b>force</b>, deal <span class='damage-counter'><span>1</span></span> to the target and <b>place</b> 2 counters on this card. IF played on a <b>place</b>, deal <span class='damage-counter'><span>2</span></span> to the target and <b>place</b> 3 counters on this card.</p><p><b><b>Action</b>:</b> Remove 1 counter from this card. The target may not be attacked until the beginning of your next turn.</p><p>If there are no counters on this card, destroy this card.</p>",
 		"category": "permanent",
 		"cost": 0,
 		"major_types": [
@@ -425,7 +425,7 @@
 	},
 	{
 		"name": "Reincarnation Cycle",
-		"description": "<p><b>Action:</b> Remove a counter from this card. Play a force at a cost reduction of <span class='money'><span>2</span></span>.</p><p>When one of your occult type forces is destroyed, place a counter on this card.</p>",
+		"description": "<p><b><b>Action</b>:</b> Remove a counter from this card. Play a <b>force</b> at a cost reduction of <span class='money'><span>2</span></span>.</p><p>When one of your occult type forces is destroyed, <b>place</b> a counter on this card.</p>",
 		"category": "permanent",
 		"cost": 2,
 		"major_types": [
@@ -439,7 +439,7 @@
 	},
 	{
 		"name": "Deal with the Devil",
-		"description": "<p>Place 3 counters on this card.</p><p>At the beginning of your turn, remove 1 counter from this card and <b>gain</b> <span class='money'><span>2</span></span>.</p><p>If there are no counters on this card, destroy one of your forces OR <b>gain</b> <span class='revolution-counter'><span>2</span></span>.</p>",
+		"description": "<p><b>Place</b> 3 counters on this card.</p><p>At the beginning of your turn, remove 1 counter from this card and <b>gain</b> <span class='money'><span>2</span></span>.</p><p>If there are no counters on this card, destroy one of your forces OR <b>gain</b> <span class='revolution-counter'><span>2</span></span>.</p>",
 		"category": "permanent",
 		"cost": 0,
 		"major_types": [
@@ -467,7 +467,7 @@
 	},
 	{
 		"name": "Sleeper Cell",
-		"description": "<p>0 / 4</p><p><b>Condition:</b> Played on an enemy branch. Distribute <span class='damage-counter'><span>4</span></span> amongst your human types.</p><p><b>Action:</b> Deal <span class='damage-counter'><span>1</span></span> to this card. Add <span class='revolution-counter'><span>1</span></span> to this card’s leadership.</p>",
+		"description": "<p>0 / 4</p><p><b>Condition:</b> Played on an enemy branch. Distribute <span class='damage-counter'><span>4</span></span> amongst your human types.</p><p><b><b>Action</b>:</b> Deal <span class='damage-counter'><span>1</span></span> to this card. Add <span class='revolution-counter'><span>1</span></span> to this card’s leadership.</p>",
 		"category": "force",
 		"cost": 0,
 		"major_types": [
@@ -500,7 +500,7 @@
 	},
 	{
 		"name": "Offshore Account",
-		"description": "<p>0 / 2</p><p><b>Condition:</b> Not played in a slot.</p><p>You have 1 additional economy action.</p>",
+		"description": "<p>0 / 2</p><p><b>Condition:</b> Not played in a slot.</p><p>You have 1 additional <b>economy action</b>.</p>",
 		"category": "place",
 		"cost": 3,
 		"major_types": [
@@ -533,7 +533,7 @@
 	},
 	{
 		"name": "Think Tank",
-		"description": "<p>0 / 3</p><p><b>Action:</b> Remove <span class='money'><span>1</span></span> from this card. Draw a card.</p>",
+		"description": "<p>0 / 3</p><p><b><b>Action</b>:</b> Remove <span class='money'><span>1</span></span> from this card. Draw a card.</p>",
 		"category": "force",
 		"cost": 1,
 		"major_types": [
@@ -549,7 +549,7 @@
 	},
 	{
 		"name": "Secret Stealer",
-		"description": "<p>0 / 4</p><p><b>Condition:</b> Played on an enemy.</p><p>Economy <b>Action:</b> Move <span class='money'><span>1</span></span> to this card from your leadership.</p><p><span class='money'><span></span></span> can not be moved off of this card. IF there are <span class='money'><span>3</span></span> on this card remove them and destroy a permanent in this card’s power structure.</p>",
+		"description": "<p>0 / 4</p><p><b>Condition:</b> Played on an enemy.</p><p><b><b>Economy Action</b>:</b> Move <span class='money'><span>1</span></span> to this card from your leadership.</p><p><span class='money'><span></span></span> can not be moved off of this card. IF there are <span class='money'><span>3</span></span> on this card remove them and destroy a <b>permanent</b> in this card’s power structure.</p>",
 		"category": "force",
 		"cost": 2,
 		"major_types": [
@@ -611,7 +611,7 @@
 	},
 	{
 		"name": "High Profile Assassin",
-		"description": "<p>2 / 2</p><p><b>Condition:</b> Played hidden.</p><p><b>Action:</b> IF this card is hidden, remove <span class='money'><span>4</span></span> from its parent. Destroy a single type. This card has the stats 0 / 1 until the end of your next turn.</p><p>This card may not be defended.</p>",
+		"description": "<p>2 / 2</p><p><b>Condition:</b> Played hidden.</p><p><b><b>Action</b>:</b> IF this card is hidden, remove <span class='money'><span>4</span></span> from its parent. Destroy a single type. This card has the stats 0 / 1 until the end of your next turn.</p><p>This card may not be defended.</p>",
 		"category": "force",
 		"cost": 1,
 		"major_types": [
@@ -626,7 +626,7 @@
 	},
 	{
 		"name": "Hackers",
-		"description": "<p>1 / 3</p><p><b>Condition:</b> This card may only attack electronic types.</p><p><b>Action:</b> Remove <span class='money'><span>1</span></span> from this card. Deal <span class='damage-counter'><span>3</span></span> to an electronic type.</p><p>This card cannot be blocked.</p>",
+		"description": "<p>1 / 3</p><p><b>Condition:</b> This card may only attack electronic types.</p><p><b><b>Action</b>:</b> Remove <span class='money'><span>1</span></span> from this card. Deal <span class='damage-counter'><span>3</span></span> to an electronic type.</p><p>This card cannot be blocked.</p>",
 		"category": "force",
 		"cost": 1,
 		"major_types": [
@@ -643,7 +643,7 @@
 	},
 	{
 		"name": "Money Movers",
-		"description": "<p>0 / 3</p><p>Economy <b>Action:</b> Move up to <span class='money'><span>3</span></span> from one place on your power structure to another.</p>",
+		"description": "<p>0 / 3</p><p><b><b>Economy Action</b>:</b> Move up to <span class='money'><span>3</span></span> from one <b>place</b> on your power structure to another.</p>",
 		"category": "force",
 		"cost": 1,
 		"major_types": [
@@ -683,7 +683,7 @@
 	},
 	{
 		"name": "Overhaul and Overreach",
-		"description": "<p><q>A lot of things are going to change around here.</q></p><p>Destroy a permanent in your power structure.</p>",
+		"description": "<p><q>A lot of things are going to change around here.</q></p><p>Destroy a <b>permanent</b> in your power structure.</p>",
 		"category": "event",
 		"cost": 3,
 		"major_types": [
@@ -695,7 +695,7 @@
 	},
 	{
 		"name": "Hostile Takeover",
-		"description": "<p><q>If you have enough money, you can buy no matter how much they don’t want to sell.</q></p><p><b>Condition:</b> X is half the base defense of the target or its play cost, whichever is higher.</p><p>Destroy a corporate type or a place.</p>",
+		"description": "<p><q>If you have enough money, you can buy no matter how much they don’t want to sell.</q></p><p><b>Condition:</b> X is half the base defense of the target or its play cost, whichever is higher.</p><p>Destroy a corporate type or a <b>place</b>.</p>",
 		"category": "event",
 		"cost": "X",
 		"major_types": [
@@ -767,7 +767,7 @@
 	},
 	{
 		"name": "Oil Platform",
-		"description": "<p>0 / 2</p><p><b>Action:</b> Remove all counters from this card. Place <span class='money'><span>3</span></span> on this card for every 3 counters removed.</p><p>At the beginning of your turn, add 1 counter to this card.</p>",
+		"description": "<p>0 / 2</p><p><b><b>Action</b>:</b> Remove all counters from this card. <b>Place</b> <span class='money'><span>3</span></span> on this card for every 3 counters removed.</p><p>At the beginning of your turn, add 1 counter to this card.</p>",
 		"category": "place",
 		"cost": 3,
 		"major_types": [
@@ -785,7 +785,7 @@
 	},
 	{
 		"name": "Investment Firm",
-		"description": "<p>0 / 5</p><p>Economy <b>Action:</b> Remove <span class='money'><span>1</span></span> from this card. Place <span class='money'><span>2</span></span> on the card below this card.</p>",
+		"description": "<p>0 / 5</p><p><b><b>Economy Action</b>:</b> Remove <span class='money'><span>1</span></span> from this card. <b>Place</b> <span class='money'><span>2</span></span> on the card below this card.</p>",
 		"category": "place",
 		"cost": 2,
 		"major_types": [
@@ -833,7 +833,7 @@
 	},
 	{
 		"name": "Bribe",
-		"description": "<p><q>Money talks.</q></p><p><b>Condition:</b> Played on a child force of an enemy leadership.</p><p>Place <span class='money'><span>1</span></span> on the target. Add <span class='revolution-counter'><span>1</span></span> to the target’s leadership.</p>",
+		"description": "<p><q>Money talks.</q></p><p><b>Condition:</b> Played on a child <b>force</b> of an enemy leadership.</p><p><b>Place</b> <span class='money'><span>1</span></span> on the target. Add <span class='revolution-counter'><span>1</span></span> to the target’s leadership.</p>",
 		"category": "event",
 		"cost": 1,
 		"major_types": [
@@ -863,7 +863,7 @@
 	},
 	{
 		"name": "Command Center",
-		"description": "<p>0 / 7</p><p><b>Action:</b> Remove <span class='money'><span>2</span></span> from this card. Use the action of another card.</p>",
+		"description": "<p>0 / 7</p><p><b><b>Action</b>:</b> Remove <span class='money'><span>2</span></span> from this card. Use the <b>action</b> of another card.</p>",
 		"category": "place",
 		"cost": 2,
 		"major_types": [
@@ -1036,7 +1036,7 @@
 	},
 	{
 		"name": "Chemical Attack",
-		"description": "<p>Deal <span class='damage-counter'><span>4</span></span> to a force with a base defence greater than 4, or <span class='damage-counter'><span>2</span></span> to any other force. <b>Gain</b> <span class='revolution-counter'><span>1</span></span>.</p>",
+		"description": "<p>Deal <span class='damage-counter'><span>4</span></span> to a <b>force</b> with a base defence greater than 4, or <span class='damage-counter'><span>2</span></span> to any other <b>force</b>. <b>Gain</b> <span class='revolution-counter'><span>1</span></span>.</p>",
 		"category": "event",
 		"cost": 2,
 		"major_types": [
@@ -1060,7 +1060,7 @@
 	},
 	{
 		"name": "Domestic Exercise",
-		"description": "<p><b>Gain</b> <span class='revolution-counter'><span>1</span></span>. Destroy permanent in your power structure.</p>",
+		"description": "<p><b>Gain</b> <span class='revolution-counter'><span>1</span></span>. Destroy <b>permanent</b> in your power structure.</p>",
 		"category": "event",
 		"cost": 1,
 		"major_types": [
@@ -1072,7 +1072,7 @@
 	},
 	{
 		"name": "ICBM",
-		"description": "<p><b>Condition:</b> Immediately after playing this card, any player may play ICBM as an event against you at no cost.</p><p>Pick any card. Discard that card and all cards under it. Place this card where the target was. This card may not be neutralized.</p>",
+		"description": "<p><b>Condition:</b> Immediately after playing this card, any player may play ICBM as an <b>event</b> against you at no cost.</p><p>Pick any card. Discard that card and all cards under it. <b>Place</b> this card where the target was. This card may not be neutralized.</p>",
 		"category": "permanent",
 		"cost": 7,
 		"major_types": [
@@ -1096,7 +1096,7 @@
 	},
 	{
 		"name": "Minefield",
-		"description": "<p><b>Condition:</b> Played hidden, on a place.</p><p>IF this card’s parent is attacked by a non-flying type, deal <span class='damage-counter'><span>3</span></span> to the attacker and destroy this card.</p>",
+		"description": "<p><b>Condition:</b> Played hidden, on a <b>place</b>.</p><p>IF this card’s parent is attacked by a non-flying type, deal <span class='damage-counter'><span>3</span></span> to the attacker and destroy this card.</p>",
 		"category": "permanent",
 		"cost": 1,
 		"major_types": [
@@ -1108,7 +1108,7 @@
 	},
 	{
 		"name": "Supply Chain",
-		"description": "<p>You have an addition economy action. IF this card is destroyed, <b>gain</b> <span class='revolution-counter'><span>1</span></span>.</p>",
+		"description": "<p>You have an addition <b>economy action</b>. IF this card is destroyed, <b>gain</b> <span class='revolution-counter'><span>1</span></span>.</p>",
 		"category": "permanent",
 		"cost": 1,
 		"major_types": [
@@ -1120,7 +1120,7 @@
 	},
 	{
 		"name": "Oil Fields",
-		"description": "<p>0 / 4</p><p><b>Condition:</b> Requires 2 play actions.</p><p>Economy <b>Action:</b> Remove all counters from this card. Place <span class='money'><span>3</span></span> on this card for every 3 counters removed.</p><p>At the beginning of your turn, add 1 counter to this card.</p>",
+		"description": "<p>0 / 4</p><p><b>Condition:</b> Requires 2 play actions.</p><p><b><b>Economy Action</b>:</b> Remove all counters from this card. <b>Place</b> <span class='money'><span>3</span></span> on this card for every 3 counters removed.</p><p>At the beginning of your turn, add 1 counter to this card.</p>",
 		"category": "place",
 		"cost": 0,
 		"major_types": [
@@ -1139,7 +1139,7 @@
 	},
 	{
 		"name": "Draft",
-		"description": "<p>Economy <b>Action:</b> <b>Gain</b> <span class='revolution-counter'><span>1</span></span> and <span class='money'><span>3</span></span>.</p>",
+		"description": "<p><b><b>Economy Action</b>:</b> <b>Gain</b> <span class='revolution-counter'><span>1</span></span> and <span class='money'><span>3</span></span>.</p>",
 		"category": "permanent",
 		"cost": 1,
 		"major_types": [
@@ -1153,7 +1153,7 @@
 	},
 	{
 		"name": "Enriched Uranium Storage Facility",
-		"description": "<p>0 / 4</p><p><b>Action:</b> Neutralize this card and place <span class='money'><span>11</span></span> on your leadership.</p>",
+		"description": "<p>0 / 4</p><p><b><b>Action</b>:</b> Neutralize this card and <b>place</b> <span class='money'><span>11</span></span> on your leadership.</p>",
 		"category": "place",
 		"cost": 5,
 		"major_types": [
@@ -1167,7 +1167,7 @@
 	},
 	{
 		"name": "Rebels",
-		"description": "<p>2 / 3</p><p><q>The enemy of my enemy...</q></p><p><b>Condition:</b> Played on an enemy branch. If there is already a Rebels in the power structure, the play cost is <span class='money'><span>0</span></span>.</p><p><b>Action:</b> <b>Gain</b> <span class='revolution-counter'><span>1</span></span>. Add <span class='revolution-counter'><span>1</span></span> to the power structure this card is attached to.</p>",
+		"description": "<p>2 / 3</p><p><q>The enemy of my enemy...</q></p><p><b>Condition:</b> Played on an enemy branch. If there is already a Rebels in the power structure, the play cost is <span class='money'><span>0</span></span>.</p><p><b><b>Action</b>:</b> <b>Gain</b> <span class='revolution-counter'><span>1</span></span>. Add <span class='revolution-counter'><span>1</span></span> to the power structure this card is attached to.</p>",
 		"category": "force",
 		"cost": 1,
 		"major_types": [
@@ -1183,7 +1183,7 @@
 	},
 	{
 		"name": "State Sponsored Terrorism",
-		"description": "<p><b>Action:</b> <b>Spend</b> <span class='money'><span>1</span></span> and <b>gain</b> <span class='revolution-counter'><span>1</span></span>. Add 1 counter to this card.</p><p>IF this card has 2 counters, remove them and add <span class='revolution-counter'><span>3</span></span> to an enemy.</p>",
+		"description": "<p><b><b>Action</b>:</b> <b>Spend</b> <span class='money'><span>1</span></span> and <b>gain</b> <span class='revolution-counter'><span>1</span></span>. Add 1 counter to this card.</p><p>IF this card has 2 counters, remove them and add <span class='revolution-counter'><span>3</span></span> to an enemy.</p>",
 		"category": "permanent",
 		"cost": 3,
 		"major_types": [
@@ -1209,7 +1209,7 @@
 	},
 	{
 		"name": "Martial Law",
-		"description": "<p><b>Action:</b> Destroy this card.</p><p>You may not place or move <span class='money'><span></span></span> onto your leadership, or use card actions that require <span class='money'><span></span></span> . Place 3 counters on this card. When you would <b>gain</b> <span class='revolution-counter'><span></span></span>, instead remove 1 counter from this card.</p>",
+		"description": "<p><b><b>Action</b>:</b> Destroy this card.</p><p>You may not <b>place</b> or move <span class='money'><span></span></span> onto your leadership, or use card actions that require <span class='money'><span></span></span> . <b>Place</b> 3 counters on this card. When you would <b>gain</b> <span class='revolution-counter'><span></span></span>, instead remove 1 counter from this card.</p>",
 		"category": "permanent",
 		"cost": 0,
 		"major_types": [
@@ -1239,7 +1239,7 @@
 	},
 	{
 		"name": "Desert",
-		"description": "<p>0 / 3</p><p><b>Action:</b> Cards attached to desert have -1 / -1 and may be played hidden.</p>",
+		"description": "<p>0 / 3</p><p><b><b>Action</b>:</b> Cards attached to desert have -1 / -1 and may be played hidden.</p>",
 		"category": "place",
 		"cost": 0,
 		"major_types": [
@@ -1317,7 +1317,7 @@
 	},
 	{
 		"name": "Escape Pod",
-		"description": "<p><b>Condition:</b> Played hidden on a place.</p><p>IF a child force of the target would be destroyed, destroy this card and return that force to your hand.</p>",
+		"description": "<p><b>Condition:</b> Played hidden on a <b>place</b>.</p><p>IF a child <b>force</b> of the target would be destroyed, destroy this card and return that <b>force</b> to your hand.</p>",
 		"category": "permanent",
 		"cost": 2,
 		"major_types": [
@@ -1329,7 +1329,7 @@
 	},
 	{
 		"name": "Nuclear Power Plant",
-		"description": "<p>0 / 4</p><p>At the beginning of your turn, place <span class='money'><span>1</span></span> on this card.</p>",
+		"description": "<p>0 / 4</p><p>At the beginning of your turn, <b>place</b> <span class='money'><span>1</span></span> on this card.</p>",
 		"category": "place",
 		"cost": 3,
 		"major_types": [
@@ -1347,7 +1347,7 @@
 	},
 	{
 		"name": "Rich Waters",
-		"description": "<p>0 / 2</p><p><b>Action:</b> Add 1 counter to this card. Place <span class='money'><span>1</span></span> on this card.</p><p>If this card has 4 counters on it, destroy this card.</p>",
+		"description": "<p>0 / 2</p><p><b><b>Action</b>:</b> Add 1 counter to this card. <b>Place</b> <span class='money'><span>1</span></span> on this card.</p><p>If this card has 4 counters on it, destroy this card.</p>",
 		"category": "place",
 		"cost": 0,
 		"major_types": [
@@ -1366,7 +1366,7 @@
 	},
 	{
 		"name": "Jungle",
-		"description": "<p>0 / 6</p><p>Economy <b>Action:</b> Deal <span class='damage-counter'><span>1</span></span> to this card. Place <span class='money'><span>1</span></span> on a card attached to this card.</p><p>Children of this card have +1 / 0 when defending.</p>",
+		"description": "<p>0 / 6</p><p><b><b>Economy Action</b>:</b> Deal <span class='damage-counter'><span>1</span></span> to this card. <b>Place</b> <span class='money'><span>1</span></span> on a card attached to this card.</p><p>Children of this card have +1 / 0 when defending.</p>",
 		"category": "place",
 		"cost": 1,
 		"major_types": [
@@ -1383,7 +1383,7 @@
 	},
 	{
 		"name": "Platinum",
-		"description": "<p>Economy <b>Action:</b> <b>Spend</b> <span class='money'><span>1</span></span>. Add 1 counter to this card.</p><p>IF this card has 2 counters, remove them. <b>Gain</b> <span class='money'><span>4</span></span>.</p>",
+		"description": "<p><b><b>Economy Action</b>:</b> <b>Spend</b> <span class='money'><span>1</span></span>. Add 1 counter to this card.</p><p>IF this card has 2 counters, remove them. <b>Gain</b> <span class='money'><span>4</span></span>.</p>",
 		"category": "permanent",
 		"cost": 1,
 		"major_types": [
@@ -1413,7 +1413,7 @@
 	},
 	{
 		"name": "Coca Plantation",
-		"description": "<p>0 / 4</p><p>Economy <b>Action:</b> <b>Spend</b> <span class='money'><span>1</span></span>.  Add 1 counter to this card.</p><p>If this card has 2 counters, remove them and place <span class='money'><span>3</span></span> on this card. Remove <span class='money'><span>1</span></span> from an enemy leadership.</p>",
+		"description": "<p>0 / 4</p><p><b><b>Economy Action</b>:</b> <b>Spend</b> <span class='money'><span>1</span></span>.  Add 1 counter to this card.</p><p>If this card has 2 counters, remove them and <b>place</b> <span class='money'><span>3</span></span> on this card. Remove <span class='money'><span>1</span></span> from an enemy leadership.</p>",
 		"category": "place",
 		"cost": 4,
 		"major_types": [
@@ -1431,7 +1431,7 @@
 	},
 	{
 		"name": "Legitimate Dispensary",
-		"description": "<p>0 / 2</p><p><q>Purely for medicinal purposes.</q></p><p>Economy <b>Action:</b> Remove 1 counter from this card.</p><p>At the beginning of your turn, place <span class='money'><span>1</span></span> and 1 counter on this card. IF this card has 3 counters, destroy this card.</p>",
+		"description": "<p>0 / 2</p><p><q>Purely for medicinal purposes.</q></p><p><b><b>Economy Action</b>:</b> Remove 1 counter from this card.</p><p>At the beginning of your turn, <b>place</b> <span class='money'><span>1</span></span> and 1 counter on this card. IF this card has 3 counters, destroy this card.</p>",
 		"category": "place",
 		"cost": 2,
 		"major_types": [
@@ -1448,7 +1448,7 @@
 	},
 	{
 		"name": "Drug Lab",
-		"description": "<p>0 / 4</p><p>Economy <b>Action:</b> Remove 2 counters from this card.</p><p>At the beginning of your turn, place <span class='money'><span>1</span></span> and 1 counter on this card. IF this card has 3 counters, destroy this card.</p>",
+		"description": "<p>0 / 4</p><p><b><b>Economy Action</b>:</b> Remove 2 counters from this card.</p><p>At the beginning of your turn, <b>place</b> <span class='money'><span>1</span></span> and 1 counter on this card. IF this card has 3 counters, destroy this card.</p>",
 		"category": "place",
 		"cost": 5,
 		"major_types": [
@@ -1480,7 +1480,7 @@
 	},
 	{
 		"name": "Terrorist Attack",
-		"description": "<p><b>Condition:</b> Played on an enemy. Cannot destroy a place.</p><p>Deal <span class='damage-counter'><span>1</span></span> to a place and add <span class='revolution-counter'><span>1</span></span> to that place’s leadership.</p>",
+		"description": "<p><b>Condition:</b> Played on an enemy. Cannot destroy a <b>place</b>.</p><p>Deal <span class='damage-counter'><span>1</span></span> to a <b>place</b> and add <span class='revolution-counter'><span>1</span></span> to that <b>place</b>’s leadership.</p>",
 		"category": "instant",
 		"cost": 2,
 		"major_types": [
@@ -1494,7 +1494,7 @@
 	},
 	{
 		"name": "Drug Cartel",
-		"description": "<p>2 / 6</p><p><b>Action:</b> Place <span class='money'><span>1</span></span> on this card for every drug type in your power structure, not including itself. Add 1 counter to this card.</p><p>IF this card has 2 counters, remove them and <b>gain</b> <span class='revolution-counter'><span>1</span></span>.</p>",
+		"description": "<p>2 / 6</p><p><b><b>Action</b>:</b> <b>Place</b> <span class='money'><span>1</span></span> on this card for every drug type in your power structure, not including itself. Add 1 counter to this card.</p><p>IF this card has 2 counters, remove them and <b>gain</b> <span class='revolution-counter'><span>1</span></span>.</p>",
 		"category": "force",
 		"cost": 2,
 		"major_types": [
