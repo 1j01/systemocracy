@@ -58,11 +58,12 @@ $.getJSON "data/cards.json", (cards)->
 	
 	export_only = location.hash.replace /#/, ""
 	
-	for header, sorted_cards of cards_by_export when (not export_only) or (export_only.toLowerCase() is header.toLowerCase())
+	for header, sorted_cards of cards_by_export when (not export_only) or export_only is header
 		$("<h2>").text(header).appendTo($cards)
 		for card in sorted_cards
 			render_$card(card).appendTo($cards)
 		if export_only
 			$("<div class='card back'/>").appendTo($cards) for [sorted_cards.length...10*7]
-		else
-			$("<div class='card back'/>").appendTo($cards)
+	if (not export_only) or export_only is "Back"
+		$("<h2>").text("Back").appendTo($cards)
+		$("<div class='card back'/>").appendTo($cards)

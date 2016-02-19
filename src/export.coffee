@@ -20,9 +20,12 @@ css = """
 	}
 """
 
+card_width = 225
+card_height = 325
+
 options =
-	width: 225 * 10 * zoom
-	height: 325 * 7 * zoom + 39 # magic number 39, maybe related to the magic 38 for Linux below?
+	# width: 225 * 10 * zoom
+	# height: 325 * 7 * zoom + 39 # magic number 39, maybe related to the magic 38 for Linux below?
 	format: "png"
 	evalDelay: 14000
 	code: """
@@ -34,6 +37,12 @@ options =
 	"""
 	delay: 500
 	encoding: "binary"
+
+merge = (a, b)->
+	c = {}
+	c[k] = v for k, v of a
+	c[k] = v for k, v of b
+	c
 
 capture = (url, {width, height, format, evalDelay, code, delay, encoding}, callback)->
 	
@@ -63,7 +72,15 @@ capture = (url, {width, height, format, evalDelay, code, delay, encoding}, callb
 export_set = (header, callback)->
 	console.log "Export #{header}"
 	setTimeout ->
-		capture "index.html##{header}", options, (buffer)->
+		
+		n_h = if header is "Back" then 1 else 10
+		n_v = if header is "Back" then 1 else 7
+		
+		capture_options = merge options,
+			width: card_width * n_h * zoom
+			height: card_height * n_v * zoom + 39 # magic number 39, maybe related to the magic 38 for Linux above?
+		
+		capture "index.html##{header}", capture_options, (buffer)->
 			console.log "Got some image data for #{header}"
 			file_name = "images/export/#{header}.png"
 			fs.writeFile file_name, buffer, (err)->
@@ -72,7 +89,7 @@ export_set = (header, callback)->
 				callback null
 	, 5000
 
-set_headers = ["Systems", "Neutral", "Corporate", "Military", "Occult"]
+set_headers = ["Back", "Systems", "Neutral", "Corporate", "Military", "Occult"]
 parallel = process.env.PARALLEL_EXPORT in ["on", "ON"]
 
 (if parallel then async.each else async.eachSeries) set_headers, export_set,
