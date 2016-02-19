@@ -47,7 +47,17 @@ fs.readFile "data/client_id.json", (err, content)->
 			throw err if err
 			card_data = results.join("\n\n\n\n\n\n\n\n\n\n\n\n")
 			cards = parse_card_data(card_data)
-			fs.writeFile "data/cards.json", JSON.stringify(cards, null, "\t"), "utf8", (err)->
+			
+			cards_by_set_name = {}
+			for card in cards
+				if card.category is "system"
+					set_name = "Systems"
+				else
+					[set_name] = card.major_types
+				cards_by_set_name[set_name] ?= []
+				cards_by_set_name[set_name].push card
+			
+			fs.writeFile "data/cards.json", JSON.stringify(cards_by_set_name, null, "\t"), "utf8", (err)->
 				throw err if err
 				console.log "Wrote data/cards.json"
 

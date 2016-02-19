@@ -4,7 +4,8 @@
   "description": "A card game",
   "scripts": {
     "export": "nw",
-    "import": "coffee src/import.coffee"
+    "import": "coffee src/import.coffee",
+    "export-to-tabletop-simulator": "coffee src/export-to-tabletop-simulator.coffee"
   },
   "main": "export.html",
   "devDependencies": {
