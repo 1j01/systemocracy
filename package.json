@@ -4,8 +4,7 @@
   "description": "A card game",
   "scripts": {
     "export": "nw",
-    "import": "coffee src/import.coffee",
-    "import-into-tabletop-simulator": "coffee src/import-into-tabletop-simulator.coffee"
+    "import": "coffee src/import.coffee"
   },
   "main": "export.html",
   "devDependencies": {
@@ -14,8 +13,5 @@
     "google-auth-library": "^0.9.7",
     "googleapis": "^2.1.7",
     "nw": "^0.12.3"
-  },
-  "dependencies": {
-    "robotjs": "^0.3.7"
   }
 }
