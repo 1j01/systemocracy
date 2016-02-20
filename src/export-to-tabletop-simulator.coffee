@@ -1,5 +1,5 @@
 
-position_counter = -0.7677575
+position_counter = 0
 
 make_deck = (deck_name, cards_in_set)->
 	
@@ -42,15 +42,14 @@ make_deck = (deck_name, cards_in_set)->
 		LuaScript: ""
 		GUID: "ea94f7"
 	
-	# cards = (make_card() for [0..52])
 	cards = (make_card(card) for card in cards_in_set)
 	
 	Name: "DeckCustom"
 	Transform:
-		posX: position_counter += 500
+		posX: position_counter += 2.3
 		posY: 1.25730264
 		posZ: -0.000734800939
-		rotX: position_counter #-4.125913e-07
+		rotX: -4.125913e-07
 		rotY: 179.960922
 		rotZ: 180.0
 		scaleX: 1.0
@@ -76,7 +75,7 @@ make_deck = (deck_name, cards_in_set)->
 
 fs = require "fs"
 
-make_save_game = ->
+make_save = ->
 	card_set_names = ["Systems", "Neutral", "Corporate", "Military", "Occult"]
 
 	cards = JSON.parse fs.readFileSync "data/cards.json", "utf8"
@@ -90,12 +89,14 @@ make_save_game = ->
 	Rules: ""
 	PlayerTurn: ""
 	LuaScript: ""
-	# ObjectStates: (make_deck name for name in card_set_names)
 	ObjectStates: (make_deck set_name, cards_in_set for set_name, cards_in_set of cards)
 	TabStates: {}
 
-save_game = make_save_game()
+save = make_save()
+save_json = JSON.stringify(save, null, 2)
+save_name = "Card Game"
 
 try fs.mkdirSync "data"
 try fs.mkdirSync "data/export"
-fs.writeFileSync "data/export/Card Game.json", JSON.stringify(save_game, null, 2), "utf8"
+fs.writeFileSync "data/export/#{save_name}.json", save_json, "utf8"
+try fs.writeFileSync "#{process.env.USERPROFILE}/Documents/My Games/Tabletop Simulator/Saves/Chest/#{save_name}.json", save_json, "utf8"
