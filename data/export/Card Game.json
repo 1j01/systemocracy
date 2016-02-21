@@ -1746,8 +1746,7 @@
         123,
         124,
         125,
-        126,
-        127
+        126
       ],
       "CustomDeck": {
         "1": {
@@ -2812,45 +2811,6 @@
           },
           "LuaScript": "",
           "GUID": "ea94f7"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.7677575,
-            "posY": 1.56185019,
-            "posZ": -0.600654542,
-            "rotX": 0.006403894,
-            "rotY": 179.974472,
-            "rotZ": 179.99202,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713243067,
-            "g": 0.713243067,
-            "b": 0.713243067
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "CardID": 127,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/1j01/cards/gh-pages/images/export/Corporate.png",
-              "BackURL": "https://raw.githubusercontent.com/1j01/cards/gh-pages/images/export/Back.png",
-              "NumWidth": 10,
-              "NumHeight": 7,
-              "BackIsHidden": false
-            }
-          },
-          "LuaScript": "",
-          "GUID": "ea94f7"
         }
       ],
       "GUID": "48d1a6"
@@ -2904,10 +2864,7 @@
         119,
         120,
         121,
-        122,
-        123,
-        124,
-        125
+        122
       ],
       "CustomDeck": {
         "1": {
@@ -3816,123 +3773,6 @@
           },
           "LuaScript": "",
           "GUID": "ea94f7"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.7677575,
-            "posY": 1.56185019,
-            "posZ": -0.600654542,
-            "rotX": 0.006403894,
-            "rotY": 179.974472,
-            "rotZ": 179.99202,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713243067,
-            "g": 0.713243067,
-            "b": 0.713243067
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "CardID": 123,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/1j01/cards/gh-pages/images/export/Military.png",
-              "BackURL": "https://raw.githubusercontent.com/1j01/cards/gh-pages/images/export/Back.png",
-              "NumWidth": 10,
-              "NumHeight": 7,
-              "BackIsHidden": false
-            }
-          },
-          "LuaScript": "",
-          "GUID": "ea94f7"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.7677575,
-            "posY": 1.56185019,
-            "posZ": -0.600654542,
-            "rotX": 0.006403894,
-            "rotY": 179.974472,
-            "rotZ": 179.99202,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713243067,
-            "g": 0.713243067,
-            "b": 0.713243067
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "CardID": 124,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/1j01/cards/gh-pages/images/export/Military.png",
-              "BackURL": "https://raw.githubusercontent.com/1j01/cards/gh-pages/images/export/Back.png",
-              "NumWidth": 10,
-              "NumHeight": 7,
-              "BackIsHidden": false
-            }
-          },
-          "LuaScript": "",
-          "GUID": "ea94f7"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.7677575,
-            "posY": 1.56185019,
-            "posZ": -0.600654542,
-            "rotX": 0.006403894,
-            "rotY": 179.974472,
-            "rotZ": 179.99202,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713243067,
-            "g": 0.713243067,
-            "b": 0.713243067
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "CardID": 125,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/1j01/cards/gh-pages/images/export/Military.png",
-              "BackURL": "https://raw.githubusercontent.com/1j01/cards/gh-pages/images/export/Back.png",
-              "NumWidth": 10,
-              "NumHeight": 7,
-              "BackIsHidden": false
-            }
-          },
-          "LuaScript": "",
-          "GUID": "ea94f7"
         }
       ],
       "GUID": "48d1a6"
@@ -3981,8 +3821,7 @@
         114,
         115,
         116,
-        117,
-        118
+        117
       ],
       "CustomDeck": {
         "1": {
@@ -4684,45 +4523,6 @@
           "Autoraise": true,
           "Sticky": true,
           "CardID": 117,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "1": {
-              "FaceURL": "https://raw.githubusercontent.com/1j01/cards/gh-pages/images/export/Neutral.png",
-              "BackURL": "https://raw.githubusercontent.com/1j01/cards/gh-pages/images/export/Back.png",
-              "NumWidth": 10,
-              "NumHeight": 7,
-              "BackIsHidden": false
-            }
-          },
-          "LuaScript": "",
-          "GUID": "ea94f7"
-        },
-        {
-          "Name": "Card",
-          "Transform": {
-            "posX": -0.7677575,
-            "posY": 1.56185019,
-            "posZ": -0.600654542,
-            "rotX": 0.006403894,
-            "rotY": 179.974472,
-            "rotZ": 179.99202,
-            "scaleX": 1,
-            "scaleY": 1,
-            "scaleZ": 1
-          },
-          "Nickname": "",
-          "Description": "",
-          "ColorDiffuse": {
-            "r": 0.713243067,
-            "g": 0.713243067,
-            "b": 0.713243067
-          },
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "CardID": 118,
           "SidewaysCard": false,
           "CustomDeck": {
             "1": {

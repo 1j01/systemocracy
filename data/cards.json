@@ -113,7 +113,7 @@
 	"Occult": [
 		{
 			"name": "Stone Circle",
-			"description": "<p>Condition: This card may not be a child of your leadership.</p><p>IF this card has any occult type children, it gains untargetable.</p>",
+			"description": "<p>Condition: This card may not be a child of your leadership.</p><p>IF this card has any occult type children, it has untargetable.</p>",
 			"category": "place",
 			"attack": 0,
 			"defense": 1,
@@ -127,7 +127,7 @@
 				"any",
 				"any"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nStone Circle - 1m - O\r\nplace\r\n3a\r\n\r\n\r\n0 / 1\r\nCondition: This card may not be a child of your leadership.\r\nIF this card has any occult type children, it gains untargetable.\r\n\r\n\r\noccult\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nStone Circle - 1m - O\r\nplace\r\n3a\r\n\r\n\r\n0 / 1\r\nCondition: This card may not be a child of your leadership.\r\nIF this card has any occult type children, it has untargetable.\r\n\r\n\r\noccult\r\n\r\n\r\n"
 		},
 		{
 			"name": "Lodge",
@@ -186,7 +186,7 @@
 		},
 		{
 			"name": "Blood Portal",
-			"description": "<p>Condition: This card may only use its action if it is weaker than 3 / 5.</p><p>Action: Destroy all children of this card. This card gains +4 / +2 for each destroyed occult type, and +2 / +2 for any non-occult types.</p>",
+			"description": "<p>Condition: This card may only use its action if it is weaker than 3 / 5.</p><p>Action: Destroy all children of this card. This card has +4 / +2 for each destroyed occult type, and +2 / +2 for any non-occult types.</p>",
 			"category": "place",
 			"attack": 0,
 			"defense": 6,
@@ -200,11 +200,11 @@
 				"force",
 				"force"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nBlood Portal - 1m - O\r\nplace\r\n3f\r\n\r\n\r\n0 / 6\r\nCondition: This card may only use its action if it is weaker than 3 / 5.\r\nAction: Destroy all children of this card. This card gains +4 / +2 for each destroyed occult type, and +2 / +2 for any non-occult types.\r\n\r\n\r\noccult\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nBlood Portal - 1m - O\r\nplace\r\n3f\r\n\r\n\r\n0 / 6\r\nCondition: This card may only use its action if it is weaker than 3 / 5.\r\nAction: Destroy all children of this card. This card has +4 / +2 for each destroyed occult type, and +2 / +2 for any non-occult types.\r\n\r\n\r\noccult\r\n\r\n\r\n"
 		},
 		{
 			"name": "Labyrinth",
-			"description": "<p>This card may not attack. Whenever you play a place on this card, this card gains +1 / +1.</p>",
+			"description": "<p>This card may not attack. Whenever you play a place on this card, this card has +1 / +1.</p>",
 			"category": "place",
 			"attack": 4,
 			"defense": 4,
@@ -217,7 +217,7 @@
 				"place",
 				"place"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nLabyrinth - 2m - O\r\nplace\r\n2p 1a\r\n\r\n\r\n4 / 4\r\nThis card may not attack. Whenever you play a place on this card, this card gains +1 / +1.\r\n\r\n\r\noccult\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nLabyrinth - 2m - O\r\nplace\r\n2p 1a\r\n\r\n\r\n4 / 4\r\nThis card may not attack. Whenever you play a place on this card, this card has +1 / +1.\r\n\r\n\r\noccult\r\n\r\n\r\n"
 		},
 		{
 			"name": "Roving Void",
@@ -256,7 +256,7 @@
 		},
 		{
 			"name": "Puppeted Swarm",
-			"description": "<p>Condition: Played on an occult type.</p><p>IF this card the child of a flying or naval type, it gains that type. When attacking a single type, this card has +1 / 0.</p>",
+			"description": "<p>Condition: Played on an occult type.</p><p>IF this card the child of a flying or naval type, it has that type. When attacking a single type, this card has +1 / 0.</p>",
 			"category": "force",
 			"attack": 1,
 			"defense": 4,
@@ -266,7 +266,7 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nPuppeted Swarm - 2m - O\r\nforce\r\nnone\r\n\r\n\r\n1 / 4\r\nCondition: Played on an occult type.\r\nIF this card the child of a flying or naval type, it gains that type. When attacking a single type, this card has +1 / 0.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nPuppeted Swarm - 2m - O\r\nforce\r\nnone\r\n\r\n\r\n1 / 4\r\nCondition: Played on an occult type.\r\nIF this card the child of a flying or naval type, it has that type. When attacking a single type, this card has +1 / 0.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Pyromancer",
@@ -309,7 +309,7 @@
 		},
 		{
 			"name": "Bump in the Night",
-			"description": "<p><q>What was that noise?</q></p><p>At the beginning of your turn, this card gains +2 / 0. At the end of your turn, this card gains 0 / +1.</p>",
+			"description": "<p><q>What was that noise?</q></p><p>At the beginning of your turn, this card has +2 / 0. At the end of your turn, this card has 0 / +1.</p>",
 			"category": "force",
 			"attack": 0,
 			"defense": 1,
@@ -323,7 +323,7 @@
 			"arrows": [
 				"force"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nBump in the Night - 1m - O\r\nforce\r\n1f\r\n\r\n\r\n0 / 1\r\n“What was that noise?”\r\nAt the beginning of your turn, this card gains +2 / 0. At the end of your turn, this card gains 0 / +1.\r\n\r\n\r\nsingle\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nBump in the Night - 1m - O\r\nforce\r\n1f\r\n\r\n\r\n0 / 1\r\n“What was that noise?”\r\nAt the beginning of your turn, this card has +2 / 0. At the end of your turn, this card has 0 / +1.\r\n\r\n\r\nsingle\r\n\r\n\r\n"
 		},
 		{
 			"name": "Banshee",
@@ -403,7 +403,7 @@
 			"source": "\r\n\r\n\r\n\r\n\r\nContort Motives - 4m - O\r\nevent\r\nnone\r\n\r\n\r\nCondition: Destroy one of your cards.\r\nPick an enemy card. Make an attack with that card against any cards not owned by its owner, OR you may destroy it if it is a single type and has no child cards.\r\n\r\n\r\n"
 		},
 		{
-			"name": "ESP",
+			"name": "Extrasensory Perception",
 			"description": "<p><q>Circle. No? Cross then. Not that either? Okay, just let me see them.</q></p><p>Pick a player. That player must show you their hand.</p>",
 			"category": "event",
 			"cost": 1,
@@ -412,11 +412,11 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nESP - 1m - O \r\nevent\r\nnone\r\n\r\n\r\n“Circle. No? Cross then. Not that either? Okay, just let me see them.”\r\nPick a player. That player must show you their hand.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nExtrasensory Perception - 1m - O \r\nevent\r\nnone\r\n\r\n\r\n“Circle. No? Cross then. Not that either? Okay, just let me see them.”\r\nPick a player. That player must show you their hand.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Philadelphia Experiment",
-			"description": "<p>Pick a force. That card gains flying until the end of your turn.</p>",
+			"description": "<p>Pick a force. That card has flying until the end of your turn.</p>",
 			"category": "event",
 			"cost": 1,
 			"major_types": [
@@ -424,11 +424,11 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nPhiladelphia Experiment - 1m - O \r\nevent\r\nnone\r\n\r\n\r\nPick a force. That card gains flying until the end of your turn.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nPhiladelphia Experiment - 1m - O \r\nevent\r\nnone\r\n\r\n\r\nPick a force. That card has flying until the end of your turn.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Astral Projection",
-			"description": "<p>Condition: Played on an occult single type force.</p><p>Target gains the flying type and is unblockable until the end of your turn.</p>",
+			"description": "<p>Condition: Played on an occult single type force.</p><p>Target has the flying type and is unblockable until the end of your turn.</p>",
 			"category": "event",
 			"cost": 1,
 			"major_types": [
@@ -436,7 +436,7 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nAstral Projection - 1m - O \r\nevent\r\nnone\r\n\r\n\r\nCondition: Played on an occult single type force.\r\nTarget gains the flying type and is unblockable until the end of your turn.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nAstral Projection - 1m - O \r\nevent\r\nnone\r\n\r\n\r\nCondition: Played on an occult single type force.\r\nTarget has the flying type and is unblockable until the end of your turn.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Unwill Nuisance",
@@ -683,7 +683,7 @@
 			"source": "\r\n\r\n\r\n\r\n\r\nHired Gun - 0m - C\r\nforce\r\nnone\r\n\r\n\r\n2 / 4\r\nCondition: Remove 1m from this card OR its parent every time it attacks.\r\n\r\n\r\nsingle, human\r\n\r\n\r\n"
 		},
 		{
-			"name": "PMC",
+			"name": "Private Military Corporation",
 			"description": "<p>Condition: Remove 2m from this card OR the card directly above it every time it attacks.</p>",
 			"category": "force",
 			"attack": 5,
@@ -700,7 +700,7 @@
 				"force",
 				"force"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nPMC - 5m - C\r\nforce\r\n1a, 2f\r\n\r\n\r\n5 / 8\r\nCondition: Remove 2m from this card OR the card directly above it every time it attacks.\r\n\r\n\r\nhuman\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nPrivate Military Corporation - 5m - C\r\nforce\r\n1a, 2f\r\n\r\n\r\n5 / 8\r\nCondition: Remove 2m from this card OR the card directly above it every time it attacks.\r\n\r\n\r\nhuman\r\n\r\n\r\n"
 		},
 		{
 			"name": "High Profile Assassin",
@@ -1501,27 +1501,6 @@
 				"any"
 			],
 			"source": "\r\n\r\n\r\n\r\n\r\nNuclear Power Plant - 3m - N\r\nplace\r\n1p, 1a\r\n\r\n\r\n0 / 4\r\nAt the beginning of your turn, place 1m on this card.\r\n\r\n\r\nincome, electronic\r\n\r\n\r\n"
-		},
-		{
-			"name": "Rich Waters",
-			"description": "<p>Action: Add 1 counter to this card. Place 1m on this card.</p><p>If this card has 4 counters on it, destroy this card.</p>",
-			"category": "place",
-			"attack": 0,
-			"defense": 2,
-			"cost": 0,
-			"major_types": [
-				"Neutral"
-			],
-			"minor_types": [
-				"income",
-				"naval"
-			],
-			"arrows": [
-				"any",
-				"any",
-				"any"
-			],
-			"source": "\r\n\r\n\r\n\r\n\r\nRich Waters - 0m - N\r\nplace\r\n3a\r\n\r\n\r\n0 / 2\r\nAction: Add 1 counter to this card. Place 1m on this card.\r\nIf this card has 4 counters on it, destroy this card.\r\n\r\n\r\nincome, naval\r\n\r\n\r\n"
 		},
 		{
 			"name": "Jungle",
