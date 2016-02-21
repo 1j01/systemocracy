@@ -21,7 +21,7 @@ module.exports = (all_card_data)->
 		minor_types = []
 		arrows = []
 		attack = undefined
-		defence = undefined
+		defense = undefined
 		category = undefined
 		cost = undefined
 		
@@ -34,9 +34,9 @@ module.exports = (all_card_data)->
 			from_content_context = ->
 				return if line is ""
 				if m = line.match /^(\d+) \/ (\d+)$/
-					# Attack / Defence
+					# Attack / Defense
 					attack = parseFloat m[1]
-					defence = parseFloat m[2]
+					defense = parseFloat m[2]
 				else if line.match /^(([a-z]+, )*[a-z]+)$/
 					# Minor Types
 					minor_types = line.split /,\s?/
@@ -85,7 +85,7 @@ module.exports = (all_card_data)->
 		
 		console?.assert? category?, "no category"
 		
-		{name, description, category, attack, defence, cost, major_types, minor_types, arrows, source: card_data}
+		{name, description, category, attack, defense, cost, major_types, minor_types, arrows, source: card_data}
 	
 	
 	card_datas = all_card_data.split /\f|________________/

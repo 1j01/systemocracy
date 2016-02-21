@@ -116,7 +116,7 @@
 			"description": "<p>Condition: This card may not be a child of your leadership.</p><p>IF this card has any occult type children, it gains untargetable.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 1,
+			"defense": 1,
 			"cost": 1,
 			"major_types": [
 				"Occult"
@@ -134,7 +134,7 @@
 			"description": "<p>Condition: Played hidden.</p><p>Once per turn, you may use the action of one of the cards connected to Lodge without expending an action.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 5,
+			"defense": 5,
 			"cost": 3,
 			"major_types": [
 				"Occult"
@@ -153,7 +153,7 @@
 			"description": "<p>Condition: Played hidden.</p><p>You may play occult types onto this card for 1m less than their play cost.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 3,
+			"defense": 3,
 			"cost": 2,
 			"major_types": [
 				"Occult"
@@ -171,7 +171,7 @@
 			"description": "<p><q>As many corpses as anyone could hope for.</q></p><p>Action: Place a 1 / 1 occult type token on this card. The token may not be moved.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 6,
+			"defense": 6,
 			"cost": 3,
 			"major_types": [
 				"Occult"
@@ -189,7 +189,7 @@
 			"description": "<p>Condition: This card may only use its action if it is weaker than 3 / 5.</p><p>Action: Destroy all children of this card. This card gains +4 / +2 for each destroyed occult type, and +2 / +2 for any non-occult types.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 6,
+			"defense": 6,
 			"cost": 1,
 			"major_types": [
 				"Occult"
@@ -207,7 +207,7 @@
 			"description": "<p>This card may not attack. Whenever you play a place on this card, this card gains +1 / +1.</p>",
 			"category": "place",
 			"attack": 4,
-			"defence": 4,
+			"defense": 4,
 			"cost": 2,
 			"major_types": [
 				"Occult"
@@ -224,7 +224,7 @@
 			"description": "<p>Condition: Destroy forces in your power structure with a combined defense value of 6.</p>",
 			"category": "force",
 			"attack": 10,
-			"defence": 3,
+			"defense": 3,
 			"cost": 2,
 			"major_types": [
 				"Occult"
@@ -240,7 +240,7 @@
 			"description": "<p><q>This body is only a vessel for a greater power.</q></p>",
 			"category": "force",
 			"attack": 2,
-			"defence": 6,
+			"defense": 6,
 			"cost": 1,
 			"major_types": [
 				"Occult"
@@ -259,7 +259,7 @@
 			"description": "<p>Condition: Played on an occult type.</p><p>IF this card the child of a flying or naval type, it gains that type. When attacking a single type, this card has +1 / 0.</p>",
 			"category": "force",
 			"attack": 1,
-			"defence": 4,
+			"defense": 4,
 			"cost": 2,
 			"major_types": [
 				"Occult"
@@ -273,7 +273,7 @@
 			"description": "<p>Condition: Deal 2d to one of your places.</p><p>May be played hidden. IF Pyromancer successfully attacks a place, deal 1d to that place.</p>",
 			"category": "force",
 			"attack": 3,
-			"defence": 7,
+			"defense": 7,
 			"cost": 2,
 			"major_types": [
 				"Occult"
@@ -292,7 +292,7 @@
 			"description": "<p>Action: Place a human single type card from your discard pile under this card. That card has -1 / -1 and loses any abilities.</p>",
 			"category": "force",
 			"attack": 1,
-			"defence": 2,
+			"defense": 2,
 			"cost": 2,
 			"major_types": [
 				"Occult"
@@ -312,7 +312,7 @@
 			"description": "<p><q>What was that noise?</q></p><p>At the beginning of your turn, this card gains +2 / 0. At the end of your turn, this card gains 0 / +1.</p>",
 			"category": "force",
 			"attack": 0,
-			"defence": 1,
+			"defense": 1,
 			"cost": 1,
 			"major_types": [
 				"Occult"
@@ -330,7 +330,7 @@
 			"description": "<p>Condition: Played on an occult type place.</p><p>This card’s attacks do not deal d. If this card makes a successful attack, destroy its target at the end of its owner’s next turn if it is a single type; if it is a non-single type, deal 1d instead.</p>",
 			"category": "force",
 			"attack": 3,
-			"defence": 5,
+			"defense": 5,
 			"cost": 4,
 			"major_types": [
 				"Occult"
@@ -545,7 +545,7 @@
 			"description": "<p>Condition: Played on an enemy branch. Distribute 4d amongst your human types.</p><p>Action: Deal 1d to this card. Add 1r to this card’s leadership.</p>",
 			"category": "force",
 			"attack": 0,
-			"defence": 4,
+			"defense": 4,
 			"cost": 0,
 			"major_types": [
 				"Occult"
@@ -582,7 +582,7 @@
 			"description": "<p><q>Money? What money? There’s no money.</q></p><p>Condition: Not played in a slot.</p><p>You have 1 additional economy action.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 2,
+			"defense": 2,
 			"cost": 3,
 			"major_types": [
 				"Corporate"
@@ -598,7 +598,7 @@
 			"description": "<p>At the beginning of your turn, you may move any amount of m from one of your cards onto this card.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 5,
+			"defense": 5,
 			"cost": 4,
 			"major_types": [
 				"Corporate"
@@ -619,7 +619,7 @@
 			"description": "<p><q>Top. Minds.</q></p><p>Action: Remove 1m from this card. Draw 2 cards.</p>",
 			"category": "force",
 			"attack": 0,
-			"defence": 3,
+			"defense": 3,
 			"cost": 1,
 			"major_types": [
 				"Corporate"
@@ -637,7 +637,7 @@
 			"description": "<p>Condition: Played on an enemy.</p><p>Economy Action: Move 1m to this card from your leadership.</p><p>m can not be moved off of this card. IF there are 3m on this card remove them and destroy a permanent in this card’s power structure.</p>",
 			"category": "force",
 			"attack": 0,
-			"defence": 4,
+			"defense": 4,
 			"cost": 2,
 			"major_types": [
 				"Corporate"
@@ -654,7 +654,7 @@
 			"description": "<p>Condition: Remove 1m from this card every time it makes an attack.</p>",
 			"category": "force",
 			"attack": 3,
-			"defence": 6,
+			"defense": 6,
 			"cost": 1,
 			"major_types": [
 				"Corporate"
@@ -670,7 +670,7 @@
 			"description": "<p>Condition: Remove 1m from this card OR its parent every time it attacks.</p>",
 			"category": "force",
 			"attack": 2,
-			"defence": 4,
+			"defense": 4,
 			"cost": 0,
 			"major_types": [
 				"Corporate"
@@ -687,7 +687,7 @@
 			"description": "<p>Condition: Remove 2m from this card OR the card directly above it every time it attacks.</p>",
 			"category": "force",
 			"attack": 5,
-			"defence": 8,
+			"defense": 8,
 			"cost": 5,
 			"major_types": [
 				"Corporate"
@@ -707,7 +707,7 @@
 			"description": "<p>Condition: Played hidden.</p><p>Action: IF this card is hidden, remove 4m from its parent. Destroy a single type. This card has the stats 0 / 1 until the end of your next turn.</p><p>This card may not be defended.</p>",
 			"category": "force",
 			"attack": 2,
-			"defence": 2,
+			"defense": 2,
 			"cost": 1,
 			"major_types": [
 				"Corporate"
@@ -724,7 +724,7 @@
 			"description": "<p>Condition: This card may only attack electronic types.</p><p>Action: Remove 1m from this card. Deal 3d to an electronic type.</p><p>This card cannot be blocked.</p>",
 			"category": "force",
 			"attack": 1,
-			"defence": 3,
+			"defense": 3,
 			"cost": 1,
 			"major_types": [
 				"Corporate"
@@ -743,7 +743,7 @@
 			"description": "<p>Economy Action: Move up to 3m from one place on your power structure to another.</p>",
 			"category": "force",
 			"attack": 0,
-			"defence": 3,
+			"defense": 3,
 			"cost": 1,
 			"major_types": [
 				"Corporate"
@@ -761,7 +761,7 @@
 			"description": "<p>This card does not take d unless attacked.</p>",
 			"category": "force",
 			"attack": 1,
-			"defence": 4,
+			"defense": 4,
 			"cost": 4,
 			"major_types": [
 				"Corporate"
@@ -889,7 +889,7 @@
 			"description": "<p>Action: Remove all counters from this card. Place 3m on this card for every 3 counters removed.</p><p>At the beginning of your turn, add 1 counter to this card.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 2,
+			"defense": 2,
 			"cost": 3,
 			"major_types": [
 				"Corporate"
@@ -909,7 +909,7 @@
 			"description": "<p>Economy Action: Remove 1m from this card. Place 2m on the card below this card.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 5,
+			"defense": 5,
 			"cost": 2,
 			"major_types": [
 				"Corporate"
@@ -955,7 +955,7 @@
 			"description": "<p><q>Cruise missiles? Assault rifles? Mines? We’ve got it all. With purchases of $300,000,000 or more we’ll throw in a free tank.</q></p><p>The first time a card takes d on a turn, add 1 counter to this card. If this card has 4 counters, remove them and place 3m on this card.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 5,
+			"defense": 5,
 			"cost": 2,
 			"major_types": [
 				"Corporate"
@@ -975,7 +975,7 @@
 			"description": "<p>Condition: Played on an enemy branch.</p><p>At the beginning of your turn, add 1 counter to this card for every electronic type its power structure not including itself. IF it has 3 counters, remove them and add 1r to the leadership.</p>",
 			"category": "force",
 			"attack": 1,
-			"defence": 2,
+			"defense": 2,
 			"cost": 1,
 			"major_types": [
 				"Corporate"
@@ -1011,7 +1011,7 @@
 			"description": "",
 			"category": "place",
 			"attack": 0,
-			"defence": 10,
+			"defense": 10,
 			"cost": 3,
 			"major_types": [
 				"Military"
@@ -1029,7 +1029,7 @@
 			"description": "<p>Action: Remove 2m from this card. Use the action of another card.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 7,
+			"defense": 7,
 			"cost": 2,
 			"major_types": [
 				"Military"
@@ -1049,7 +1049,7 @@
 			"description": "<p>Condition: Played hidden.</p><p>At the beginning of your turn, add d to this card equal to the number of d already on it.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 8,
+			"defense": 8,
 			"cost": 2,
 			"major_types": [
 				"Military"
@@ -1068,7 +1068,7 @@
 			"description": "<p><q>Any town is just one invasion away from being an awful army.</q></p><p>When this card would receive d, you may gain 1r and deal 1d to the attacking card instead.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 4,
+			"defense": 4,
 			"cost": 0,
 			"major_types": [
 				"Military"
@@ -1086,7 +1086,7 @@
 			"description": "<p>Unblockable.</p>",
 			"category": "place",
 			"attack": 3,
-			"defence": 5,
+			"defense": 5,
 			"cost": 3,
 			"major_types": [
 				"Military"
@@ -1104,7 +1104,7 @@
 			"description": "<p>Condition: There are no Militia in your power structure.</p><p>IF militia is destroyed gain 1r.</p>",
 			"category": "force",
 			"attack": 2,
-			"defence": 4,
+			"defense": 4,
 			"cost": 0,
 			"major_types": [
 				"Military"
@@ -1120,7 +1120,7 @@
 			"description": "<p>IF this card makes a successful attack, destroy its target and this card.</p>",
 			"category": "force",
 			"attack": 5,
-			"defence": 2,
+			"defense": 2,
 			"cost": 2,
 			"major_types": [
 				"Military"
@@ -1136,7 +1136,7 @@
 			"description": "<p>Condition: Played hidden.</p><p>IF this card is blocked, deal 2d to its target.</p>",
 			"category": "force",
 			"attack": 4,
-			"defence": 1,
+			"defense": 1,
 			"cost": 2,
 			"major_types": [
 				"Military"
@@ -1154,7 +1154,7 @@
 			"description": "<p><q>Why settle for less than everything?</q></p><p>Condition: Upkeep 2m.</p><p>IF this card is destroyed, gain 3r.</p>",
 			"category": "force",
 			"attack": 14,
-			"defence": 10,
+			"defense": 10,
 			"cost": 4,
 			"major_types": [
 				"Military"
@@ -1175,7 +1175,7 @@
 			"description": "",
 			"category": "force",
 			"attack": 4,
-			"defence": 2,
+			"defense": 2,
 			"cost": 4,
 			"major_types": [
 				"Military"
@@ -1192,7 +1192,7 @@
 			"description": "<p>IF a flying type attacks a child of this card or its parent, deal 3d to the attacker.</p>",
 			"category": "force",
 			"attack": 0,
-			"defence": 5,
+			"defense": 5,
 			"cost": 4,
 			"major_types": [
 				"Military"
@@ -1282,7 +1282,7 @@
 			"description": "<p>Condition: Requires 2 play actions.</p><p>Economy Action: Remove all counters from this card. Place 3m on this card for every 3 counters removed.</p><p>At the beginning of your turn, add 1 counter to this card.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 4,
+			"defense": 4,
 			"cost": 0,
 			"major_types": [
 				"Military"
@@ -1317,7 +1317,7 @@
 			"description": "<p><q>The enemy of my enemy...</q></p><p>Condition: Played on an enemy branch. If there is already a Rebels in the power structure, the play cost is 0m.</p><p>Action: Gain 1r. Add 1r to the power structure this card is attached to.</p>",
 			"category": "force",
 			"attack": 2,
-			"defence": 3,
+			"defense": 3,
 			"cost": 1,
 			"major_types": [
 				"Military"
@@ -1375,7 +1375,7 @@
 			"description": "<p>Condition: Non-flying forces attached to Airship may not attack.</p><p>Fying forces attached to Airship have -1 / +3.</p>",
 			"category": "place",
 			"attack": 3,
-			"defence": 4,
+			"defense": 4,
 			"cost": 5,
 			"major_types": [
 				"Neutral"
@@ -1395,7 +1395,7 @@
 			"description": "<p>Action: Cards attached to desert have -1 / -1 and may be played hidden.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 3,
+			"defense": 3,
 			"cost": 0,
 			"major_types": [
 				"Neutral"
@@ -1487,7 +1487,7 @@
 			"description": "<p>At the beginning of your turn, place 1m on this card.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 4,
+			"defense": 4,
 			"cost": 3,
 			"major_types": [
 				"Neutral"
@@ -1507,7 +1507,7 @@
 			"description": "<p>Action: Add 1 counter to this card. Place 1m on this card.</p><p>If this card has 4 counters on it, destroy this card.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 2,
+			"defense": 2,
 			"cost": 0,
 			"major_types": [
 				"Neutral"
@@ -1528,7 +1528,7 @@
 			"description": "<p>Economy Action: Deal 1d to this card. Place 1m on a card attached to this card.</p><p>Children of this card have +1 / 0 when defending.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 6,
+			"defense": 6,
 			"cost": 1,
 			"major_types": [
 				"Neutral"
@@ -1561,7 +1561,7 @@
 			"description": "<p>Children of this card have 0 / +1.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 3,
+			"defense": 3,
 			"cost": 0,
 			"major_types": [
 				"Neutral"
@@ -1579,7 +1579,7 @@
 			"description": "<p>Economy Action: Spend 1m.  Add 1 counter to this card.</p><p>If this card has 2 counters, remove them and place 3m on this card. Remove 1m from an enemy leadership.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 4,
+			"defense": 4,
 			"cost": 4,
 			"major_types": [
 				"Neutral"
@@ -1599,7 +1599,7 @@
 			"description": "<p><q>Purely for medicinal purposes.</q></p><p>Economy Action: Remove 1 counter from this card.</p><p>At the beginning of your turn, place 1m and 1 counter on this card. IF this card has 3 counters, destroy this card.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 2,
+			"defense": 2,
 			"cost": 2,
 			"major_types": [
 				"Neutral"
@@ -1618,7 +1618,7 @@
 			"description": "<p>Economy Action: Remove 2 counters from this card.</p><p>At the beginning of your turn, place 1m and 1 counter on this card. IF this card has 3 counters, destroy this card.</p>",
 			"category": "place",
 			"attack": 0,
-			"defence": 4,
+			"defense": 4,
 			"cost": 5,
 			"major_types": [
 				"Neutral"
@@ -1666,7 +1666,7 @@
 			"description": "<p>Action: Place 1m on this card for every drug type in your power structure, not including itself. Add 1 counter to this card.</p><p>IF this card has 2 counters, remove them and gain 1r.</p>",
 			"category": "force",
 			"attack": 2,
-			"defence": 6,
+			"defense": 6,
 			"cost": 2,
 			"major_types": [
 				"Neutral"

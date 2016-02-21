@@ -4,7 +4,7 @@ every = (ms, fn)-> setInterval(fn, ms)
 
 $cards = $("<main class='cards'/>").appendTo("body")
 
-render_$card = ({name, description, category, attack, defence, cost, major_types, minor_types, arrows, source})->
+render_$card = ({name, description, category, attack, defense, cost, major_types, minor_types, arrows, source})->
 	$card = $("<div class='card'/>")
 	
 	arrow_order = ["place", "any", "force"]
@@ -47,8 +47,11 @@ render_$card = ({name, description, category, attack, defence, cost, major_types
 				.replace /\b(Condition:|(?:Economy )?Action:|Stability:)/g, bold
 				.replace ///
 				\b(
-					Unblockable|Untargetable|Hidden|Upkeep|Child(ren)?|(?:Economy\ )?Actions?|
-					# This phrase:
+					# Attributes
+					Unblockable|Untargetable|Hidden|
+					# Misc
+					Upkeep|Child(ren)?|(?:Economy\ )?Actions?|
+					# These phrases
 					At\ the\ (beginning|end)\ of\ your\ (next\ )?turn|
 					# Verbs
 					Immediate(ly)?|Gain(s|ed)?|Remove(s|d)?|Spend(s|ed)?|Destroy(s|ed)?|Target(s|ed)?|
@@ -60,14 +63,14 @@ render_$card = ({name, description, category, attack, defence, cost, major_types
 					If|Else|Or|Not|Unless|Non-
 				)\b
 				///gi, bold
-				# Attack/defence
+				# Attack/defense
 				.replace /\b(X|\d*)m\b/g, money_symbol
 				.replace /\b(X|\d*)d\b/g, damage_symbol
 				.replace /\b(X|\d*)r\b/g, revolution_symbol
 				.replace /(\ [+-]?\d+(?:\ \/\ [+-]?\d+)?)/g, bold
 		}</div>
 		<div class='lower'>
-			#{if attack? then "<div class='attack-defence'>#{attack}/#{defence}</div>" else ""}
+			#{if attack? then "<div class='attack-defense'>#{attack}/#{defense}</div>" else ""}
 			<div class='minor-types'>#{minor_types_text}</div>
 		</div>
 		<div class='arrows'></div>
