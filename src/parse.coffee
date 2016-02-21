@@ -33,7 +33,11 @@ module.exports = (all_card_data)->
 			
 			from_content_context = ->
 				return if line is ""
-				if line.match /^(([a-z]+, )*[a-z]+)$/
+				if m = line.match /^(\d+) \/ (\d+)$/
+					# Attack / Defence
+					attack = parseFloat m[1]
+					defence = parseFloat m[2]
+				else if line.match /^(([a-z]+, )*[a-z]+)$/
 					# Minor Types
 					minor_types = line.split /,\s?/
 					minor_types = minor_types.filter (mt)->
@@ -45,27 +49,8 @@ module.exports = (all_card_data)->
 					# Flavor Text
 					description += "<p><q>#{m[1]}</q></p>"
 				else
-					# Description (with symbols)
-					money_symbol = (match, money)->
-						"<span class='money'><span>#{money}</span></span>"
-					
-					damage_symbol = (match, damage)->
-						"<span class='damage-counter'><span>#{damage}</span></span>"
-					
-					revolution_symbol = (match, revolutions)->
-						"<span class='revolution-counter'><span>#{revolutions}</span></span>"
-					
-					bold = (match, text)->
-						"<b>#{text}</b>"
-					
-					description += "<p>#{
-						line
-							.replace /\b(Condition:|(?:Economy )?Action:|Stability:)/g, bold
-							.replace /\b(Unblockable|Untargetable|Immediate|Gain|Spend|Revolution|Force|Place|Event|Permanent|System|(?:Economy )?Action)\b/gi, bold
-							.replace /\b(X|\d*)m\b/g, money_symbol
-							.replace /\b(X|\d*)d\b/g, damage_symbol
-							.replace /\b(X|\d*)r\b/g, revolution_symbol
-					}</p>"
+					# Description
+					description += "<p>#{line}</p>"
 			
 			switch lwt
 				when 1
@@ -95,13 +80,6 @@ module.exports = (all_card_data)->
 									arrows.push category_class_names[arrow_category] for [0...parseInt(n_arrows)]
 								else
 									console.error "Arrow definitions for #{name} don't jive: #{line}"
-				when 5
-					# Attack / Defence
-					if m = line.match /^(-?\d+) \/ (-?\d+)$/
-						attack = parseFloat m[1]
-						defence = parseFloat m[2]
-					else
-						from_content_context()
 				else
 					from_content_context()
 		

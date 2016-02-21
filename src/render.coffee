@@ -18,6 +18,18 @@ render_$card = ({name, description, category, attack, defence, cost, major_types
 	
 	$card.addClass(category)
 	
+	money_symbol = (match, money)->
+		"<span class='money'><span>#{money}</span></span>"
+	
+	damage_symbol = (match, damage)->
+		"<span class='damage-counter'><span>#{damage}</span></span>"
+	
+	revolution_symbol = (match, revolutions)->
+		"<span class='revolution-counter'><span>#{revolutions}</span></span>"
+	
+	bold = (match, text)->
+		"<b>#{text}</b>"
+	
 	$card.html """
 		<div class='header'>
 			#{if cost? then "<span class='money'><span>#{cost}</span></span>" else ""}
@@ -30,7 +42,30 @@ render_$card = ({name, description, category, attack, defence, cost, major_types
 		<div class='image'>
 			<img class='img' src='images/cards/#{name}.png'>
 		</div>
-		<div class='description'>#{description}</div>
+		<div class='description'>#{
+			description
+				.replace /\b(Condition:|(?:Economy )?Action:|Stability:)/g, bold
+				.replace ///
+				\b(
+					Unblockable|Untargetable|Hidden|Upkeep|Child(ren)?|(?:Economy\ )?Actions?|
+					# This phrase:
+					At\ the\ (beginning|end)\ of\ your\ (next\ )?turn|
+					# Verbs
+					Immediate(ly)?|Gain(s|ed)?|Remove(s|d)?|Spend(s|ed)?|Destroy(s|ed)?|Target(s|ed)?|
+					# Catagories
+					Revolution|Forces?|Places?|Events?|Permanents?|Systems?|
+					# Types
+					Types?|Occult|Military|Corporate|Electronic|Single|Human|Flying|Naval|Income|Revolutionary|
+					# Logic
+					If|Else|Or|Not|Unless|Non-
+				)\b
+				///gi, bold
+				# Attack/defence
+				.replace /\b(X|\d*)m\b/g, money_symbol
+				.replace /\b(X|\d*)d\b/g, damage_symbol
+				.replace /\b(X|\d*)r\b/g, revolution_symbol
+				.replace /(\ [+-]?\d+(?:\ \/\ [+-]?\d+)?)/g, bold
+		}</div>
 		<div class='lower'>
 			#{if attack? then "<div class='attack-defence'>#{attack}/#{defence}</div>" else ""}
 			<div class='minor-types'>#{minor_types_text}</div>
