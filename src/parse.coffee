@@ -66,15 +66,15 @@ module.exports = (all_card_data)->
 						name = line
 				when 2
 					# Category
-					category = line
+					category = line.toLowerCase()
 				when 3
 					# Arrows
 					if line is ""
 						lwt += 1
 					else
-						unless line.match /none|n\/a/
+						unless line.match /none|n\/a/i
 							for arrow_def in line.split(",")
-								match = arrow_def.match /(\d+)(f|p|a)/
+								match = arrow_def.match /(\d+)(f|p|a)/i
 								if match
 									[_, n_arrows, arrow_category] = match
 									arrows.push category_class_names[arrow_category] for [0...parseInt(n_arrows)]

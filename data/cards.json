@@ -2,7 +2,7 @@
 	"Systems": [
 		{
 			"name": "Military-Industrial Complex",
-			"description": "<p>Stability: 10</p><p>Boon grants +2 / 0 and changes to military type.</p><p>At the end of your turn IF you made an attack, gain 1m ELSE remove 3m OR gain 1r.</p>",
+			"description": "<p>Stability: 10</p><p>Boon grants +2 / 0 and changes to military-type.</p><p>At the end of your turn IF you made an attack, gain 1m ELSE remove 3m OR gain 1r.</p>",
 			"category": "system",
 			"major_types": [
 				"Military",
@@ -10,11 +10,11 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "﻿Military-Industrial Complex - n/a - MC\r\nsystem\r\nnone\r\n\r\n\r\nStability: 10\r\nBoon grants +2 / 0 and changes to military type.\r\nAt the end of your turn IF you made an attack, gain 1m ELSE remove 3m OR gain 1r.\r\n\r\n\r\n"
+			"source": "﻿Military-Industrial Complex - n/a - MC\r\nsystem\r\nnone\r\n\r\n\r\nStability: 10\r\nBoon grants +2 / 0 and changes to military-type.\r\nAt the end of your turn IF you made an attack, gain 1m ELSE remove 3m OR gain 1r.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Guerrilla",
-			"description": "<p>Stability: 5</p><p>Boon grants 0 / +3 to revolutionary types.</p><p>When you enter a revolution, gain 5m. You may not be attacked until the end of your next turn.</p><p>Your places have +1 / 0 when defending.</p>",
+			"description": "<p>Stability: 5</p><p>Boon grants 0 / +3 to revolutionary-types.</p><p>When you enter a revolution, gain 5m. You may not be attacked until the end of your next turn.</p><p>Your places have +1 / 0 when defending.</p>",
 			"category": "system",
 			"major_types": [
 				"Military"
@@ -23,18 +23,18 @@
 				"revolutionary"
 			],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\n\r\n\r\nGuerrilla - n/a - M\r\nsystem\r\nnone\r\n\r\n\r\nStability: 5\r\nBoon grants 0 / +3 to revolutionary types.\r\nWhen you enter a revolution, gain 5m. You may not be attacked until the end of your next turn.\r\nYour places have +1 / 0 when defending.\r\n\r\n\r\nrevolutionary\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\n\r\n\r\nGuerrilla - n/a - M\r\nsystem\r\nnone\r\n\r\n\r\nStability: 5\r\nBoon grants 0 / +3 to revolutionary-types.\r\nWhen you enter a revolution, gain 5m. You may not be attacked until the end of your next turn.\r\nYour places have +1 / 0 when defending.\r\n\r\n\r\nrevolutionary\r\n\r\n\r\n"
 		},
 		{
 			"name": "Corpocracy",
-			"description": "<p>Stability: 5</p><p>Action: Spend 3m and remove 1r.</p><p>Boon grants untargetable to corporate types.</p><p>You have 1 additional economy action.</p>",
+			"description": "<p>Stability: 5</p><p>Action: Spend 3m and remove 1r.</p><p>Boon grants untargetable to corporate-types.</p><p>You have 1 additional economy action.</p>",
 			"category": "system",
 			"major_types": [
 				"Corporate"
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nCorpocracy - n/a - C\r\nsystem\r\nnone\r\n\r\n\r\nStability: 5\r\nAction: Spend 3m and remove 1r.\r\nBoon grants untargetable to corporate types.\r\nYou have 1 additional economy action.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nCorpocracy - n/a - C\r\nsystem\r\nnone\r\n\r\n\r\nStability: 5\r\nAction: Spend 3m and remove 1r.\r\nBoon grants untargetable to corporate-types.\r\nYou have 1 additional economy action.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Shadow Diarchy",
@@ -52,7 +52,7 @@
 		},
 		{
 			"name": "New World Order",
-			"description": "<p>Stability: 7</p><p>A force with your boon may make an attack immediately after you attack with another card. When a card with your boon is captured or destroyed, add 1r to your leadership.</p><p>The first time you play a military type force or place on your turn, you may play a non-event occult type.</p>",
+			"description": "<p>Stability: 7</p><p>A force with your boon may make an attack immediately after you attack with another card. When a card with your boon is captured or destroyed, add 1r to your leadership.</p><p>The first time you play a military force or place on your turn, you may play a non-event occult-type.</p>",
 			"category": "system",
 			"major_types": [
 				"Military",
@@ -60,7 +60,7 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nNew World Order - n/a - MO\r\nsystem\r\nnone\r\n\r\n\r\nStability: 7\r\nA force with your boon may make an attack immediately after you attack with another card. When a card with your boon is captured or destroyed, add 1r to your leadership.\r\nThe first time you play a military type force or place on your turn, you may play a non-event occult type.\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nNew World Order - n/a - MO\r\nsystem\r\nnone\r\n\r\n\r\nStability: 7\r\nA force with your boon may make an attack immediately after you attack with another card. When a card with your boon is captured or destroyed, add 1r to your leadership.\r\nThe first time you play a military force or place on your turn, you may play a non-event occult-type.\r\n"
 		},
 		{
 			"name": "Democracy",
@@ -113,7 +113,7 @@
 	"Occult": [
 		{
 			"name": "Stone Circle",
-			"description": "<p>Condition: This card may not be a child of your leadership.</p><p>IF this card has any occult type children, it has untargetable.</p>",
+			"description": "<p>Condition: This card may not be a child of your leadership.</p><p>If this card has any occult children, it has untargetable.</p>",
 			"category": "place",
 			"attack": 0,
 			"defense": 1,
@@ -127,7 +127,7 @@
 				"any",
 				"any"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nStone Circle - 1m - O\r\nplace\r\n3a\r\n\r\n\r\n0 / 1\r\nCondition: This card may not be a child of your leadership.\r\nIF this card has any occult type children, it has untargetable.\r\n\r\n\r\noccult\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nStone Circle - 1m - O\r\nplace\r\n3a\r\n\r\n\r\n0 / 1\r\nCondition: This card may not be a child of your leadership.\r\nIf this card has any occult children, it has untargetable.\r\n\r\n\r\noccult\r\n\r\n\r\n"
 		},
 		{
 			"name": "Lodge",
@@ -142,15 +142,14 @@
 			"minor_types": [],
 			"arrows": [
 				"place",
-				"place",
 				"force",
-				"force"
+				"any"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nLodge - 3m - O\r\nplace\r\n2p, 2f\r\n\r\n\r\n0 / 5\r\nCondition: Played hidden.\r\nOnce per turn, you may use the action of one of the cards connected to Lodge without expending an action.\r\n\r\n\r\noccult\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nLodge - 3m - O\r\nplace\r\n1p, 1f, 1a\r\n\r\n\r\n0 / 5\r\nCondition: Played hidden.\r\nOnce per turn, you may use the action of one of the cards connected to Lodge without expending an action.\r\n\r\n\r\noccult\r\n\r\n\r\n"
 		},
 		{
 			"name": "Grove",
-			"description": "<p>Condition: Played hidden.</p><p>You may play occult types onto this card for 1m less than their play cost.</p>",
+			"description": "<p>Condition: Played hidden.</p><p>You may play occult-types onto this card for 1m less than their play cost.</p>",
 			"category": "place",
 			"attack": 0,
 			"defense": 3,
@@ -161,14 +160,14 @@
 			"minor_types": [],
 			"arrows": [
 				"any",
-				"force",
+				"any",
 				"force"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nGrove - 2m - O\r\nplace\r\n1a, 2f\r\n\r\n\r\n0 / 3\r\nCondition: Played hidden.\r\nYou may play occult types onto this card for 1m less than their play cost.\r\n\r\n\r\noccult\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nGrove - 2m - O\r\nplace\r\n2a, 1f\r\n\r\n\r\n0 / 3\r\nCondition: Played hidden.\r\nYou may play occult-types onto this card for 1m less than their play cost.\r\n\r\n\r\noccult\r\n\r\n\r\n"
 		},
 		{
 			"name": "Morgue",
-			"description": "<p><q>As many corpses as anyone could hope for.</q></p><p>Action: Place a 1 / 1 occult type token on this card. The token may not be moved.</p>",
+			"description": "<p><q>As many corpses as anyone could hope for.</q></p><p>Action: Add a 1 / 1 occult force token under this card. The token may not be moved.</p>",
 			"category": "place",
 			"attack": 0,
 			"defense": 6,
@@ -182,11 +181,11 @@
 				"force",
 				"force"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nMorgue - 3m - O\r\nplace\r\n3f\r\n\r\n\r\n0 / 6\r\n“As many corpses as anyone could hope for.”\r\nAction: Place a 1 / 1 occult type token on this card. The token may not be moved.\r\n\r\n\r\noccult\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nMorgue - 3m - O\r\nplace\r\n3f\r\n\r\n\r\n0 / 6\r\n“As many corpses as anyone could hope for.”\r\nAction: Add a 1 / 1 occult force token under this card. The token may not be moved.\r\n\r\n\r\noccult\r\n\r\n\r\n"
 		},
 		{
 			"name": "Blood Portal",
-			"description": "<p>Condition: This card may only use its action if it is weaker than 3 / 5.</p><p>Action: Destroy all children of this card. This card has +4 / +2 for each destroyed occult type, and +2 / +2 for any non-occult types.</p>",
+			"description": "<p>Condition: This card may only use its action if it is weaker than 3 / 5.</p><p>Action: Destroy all children of this card. This card gets +4 / +2 for each destroyed occult-type, and +2 / +2 for any non-occult-types.</p>",
 			"category": "place",
 			"attack": 0,
 			"defense": 6,
@@ -200,11 +199,11 @@
 				"force",
 				"force"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nBlood Portal - 1m - O\r\nplace\r\n3f\r\n\r\n\r\n0 / 6\r\nCondition: This card may only use its action if it is weaker than 3 / 5.\r\nAction: Destroy all children of this card. This card has +4 / +2 for each destroyed occult type, and +2 / +2 for any non-occult types.\r\n\r\n\r\noccult\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nBlood Portal - 1m - O\r\nplace\r\n3f\r\n\r\n\r\n0 / 6\r\nCondition: This card may only use its action if it is weaker than 3 / 5.\r\nAction: Destroy all children of this card. This card gets +4 / +2 for each destroyed occult-type, and +2 / +2 for any non-occult-types.\r\n\r\n\r\noccult\r\n\r\n\r\n"
 		},
 		{
 			"name": "Labyrinth",
-			"description": "<p>This card may not attack. Whenever you play a place on this card, this card has +1 / +1.</p>",
+			"description": "<p>This card may not attack. Whenever you play a place on this card, this card gets +1 / +1.</p>",
 			"category": "place",
 			"attack": 4,
 			"defense": 4,
@@ -217,7 +216,7 @@
 				"place",
 				"place"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nLabyrinth - 2m - O\r\nplace\r\n2p 1a\r\n\r\n\r\n4 / 4\r\nThis card may not attack. Whenever you play a place on this card, this card has +1 / +1.\r\n\r\n\r\noccult\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nLabyrinth - 2m - O\r\nplace\r\n2p 1a\r\n\r\n\r\n4 / 4\r\nThis card may not attack. Whenever you play a place on this card, this card gets +1 / +1.\r\n\r\n\r\noccult\r\n\r\n\r\n"
 		},
 		{
 			"name": "Roving Void",
@@ -256,7 +255,7 @@
 		},
 		{
 			"name": "Puppeted Swarm",
-			"description": "<p>Condition: Played on an occult type.</p><p>IF this card the child of a flying or naval type, it has that type. When attacking a single type, this card has +1 / 0.</p>",
+			"description": "<p>Condition: Played on an occult-type.</p><p>If this card is the child of a flying-type or naval-type, it has that type. When attacking a single-type, this card has +1 / 0.</p>",
 			"category": "force",
 			"attack": 1,
 			"defense": 4,
@@ -266,11 +265,11 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nPuppeted Swarm - 2m - O\r\nforce\r\nnone\r\n\r\n\r\n1 / 4\r\nCondition: Played on an occult type.\r\nIF this card the child of a flying or naval type, it has that type. When attacking a single type, this card has +1 / 0.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nPuppeted Swarm - 2m - O\r\nforce\r\nnone\r\n\r\n\r\n1 / 4\r\nCondition: Played on an occult-type.\r\nIf this card is the child of a flying-type or naval-type, it has that type. When attacking a single-type, this card has +1 / 0.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Pyromancer",
-			"description": "<p>Condition: Deal 2d to one of your places.</p><p>May be played hidden. IF Pyromancer successfully attacks a place, deal 1d to that place.</p>",
+			"description": "<p>Condition: Deal 2d to one of your places.</p><p>May be played hidden. If this card successfully attacks a place, deal 1d to that place.</p>",
 			"category": "force",
 			"attack": 3,
 			"defense": 7,
@@ -285,11 +284,11 @@
 			"arrows": [
 				"force"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nPyromancer - 2m - O\r\nforce\r\n1f\r\n\r\n\r\n3 / 7\r\nCondition: Deal 2d to one of your places.\r\nMay be played hidden. IF Pyromancer successfully attacks a place, deal 1d to that place.\r\n\r\n\r\nsingle, human\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nPyromancer - 2m - O\r\nforce\r\n1f\r\n\r\n\r\n3 / 7\r\nCondition: Deal 2d to one of your places.\r\nMay be played hidden. If this card successfully attacks a place, deal 1d to that place.\r\n\r\n\r\nsingle, human\r\n\r\n\r\n"
 		},
 		{
 			"name": "Grave Digger",
-			"description": "<p>Action: Place a human single type card from your discard pile under this card. That card has -1 / -1 and loses any abilities.</p>",
+			"description": "<p>Action: Play a human single-type from your discard pile under this card. That card gets -1 / -1 and loses any abilities.</p>",
 			"category": "force",
 			"attack": 1,
 			"defense": 2,
@@ -305,15 +304,15 @@
 				"force",
 				"force"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nGrave Digger - 2m - O\r\nforce\r\n2f\r\n\r\n\r\n1 / 2\r\nAction: Place a human single type card from your discard pile under this card. That card has -1 / -1 and loses any abilities.\r\n\r\n\r\nsingle, human\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nGrave Digger - 2m - O\r\nforce\r\n2f\r\n\r\n\r\n1 / 2\r\nAction: Play a human single-type from your discard pile under this card. That card gets -1 / -1 and loses any abilities.\r\n\r\n\r\nsingle, human\r\n\r\n\r\n"
 		},
 		{
 			"name": "Bump in the Night",
-			"description": "<p><q>What was that noise?</q></p><p>At the beginning of your turn, this card has +2 / 0. At the end of your turn, this card has 0 / +1.</p>",
+			"description": "<p><q>What was that noise?</q></p><p>At the beginning of your turn, this card gets +2 / 0.</p>",
 			"category": "force",
 			"attack": 0,
 			"defense": 1,
-			"cost": 1,
+			"cost": 0,
 			"major_types": [
 				"Occult"
 			],
@@ -323,11 +322,11 @@
 			"arrows": [
 				"force"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nBump in the Night - 1m - O\r\nforce\r\n1f\r\n\r\n\r\n0 / 1\r\n“What was that noise?”\r\nAt the beginning of your turn, this card has +2 / 0. At the end of your turn, this card has 0 / +1.\r\n\r\n\r\nsingle\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nBump in the Night - 0m - O\r\nforce\r\n1f\r\n\r\n\r\n0 / 1\r\n“What was that noise?”\r\nAt the beginning of your turn, this card gets +2 / 0.\r\n\r\n\r\nsingle\r\n\r\n\r\n"
 		},
 		{
 			"name": "Banshee",
-			"description": "<p>Condition: Played on an occult type place.</p><p>This card’s attacks do not deal d. If this card makes a successful attack, destroy its target at the end of its owner’s next turn if it is a single type; if it is a non-single type, deal 1d instead.</p>",
+			"description": "<p>Condition: Played on an occult place.</p><p>This card’s attacks do not deal d. If this card makes a successful attack against a single-type, destroy its target at the end of its owner’s next turn OR if it is a non-single-type, deal 1d instead.</p>",
 			"category": "force",
 			"attack": 3,
 			"defense": 5,
@@ -340,11 +339,27 @@
 				"flying"
 			],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nBanshee - 4m - O\r\nforce\r\nnone\r\n\r\n\r\n3 / 5\r\nCondition: Played on an occult type place.\r\nThis card’s attacks do not deal d. If this card makes a successful attack, destroy its target at the end of its owner’s next turn if it is a single type; if it is a non-single type, deal 1d instead.\r\n\r\n\r\nsingle, flying\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nBanshee - 4m - O\r\nforce\r\nnone\r\n\r\n\r\n3 / 5\r\nCondition: Played on an occult place.\r\nThis card’s attacks do not deal d. If this card makes a successful attack against a single-type, destroy its target at the end of its owner’s next turn OR if it is a non-single-type, deal 1d instead.\r\n\r\n\r\nsingle, flying\r\n\r\n\r\n"
+		},
+		{
+			"name": "What Lurks Beneath",
+			"description": "<p>Condition: Destroy a sibling force or place.</p><p>Unblockable. For every naval-type in play not including itself, this card has +2 / 0. If this card is destroyed, distribute d equal to its remaining defense among your cards.</p>",
+			"category": "force",
+			"attack": 0,
+			"defense": 9,
+			"cost": 2,
+			"major_types": [
+				"Occult"
+			],
+			"minor_types": [
+				"naval"
+			],
+			"arrows": [],
+			"source": "\r\n\r\n\r\n\r\n\r\nWhat Lurks Beneath - 2m - O\r\nforce\r\nnone\r\n\r\n\r\n0 / 9\r\nCondition: Destroy a sibling force or place.\r\nUnblockable. For every naval-type in play not including itself, this card has +2 / 0. If this card is destroyed, distribute d equal to its remaining defense among your cards.\r\n\r\n\r\nnaval\r\n"
 		},
 		{
 			"name": "Sacrifice",
-			"description": "<p><q>Anything worth having comes with a price.</q></p><p>Condition: Destroy one of your forces.</p><p>Play any occult card 2 / 6 or weaker from your hand at no cost.</p>",
+			"description": "<p><q>Anything worth having comes with a price.</q></p><p>Condition: Destroy one of your forces.</p><p>Play any occult force 2 / 6 or weaker from your hand at no cost.</p>",
 			"category": "event",
 			"cost": 0,
 			"major_types": [
@@ -352,11 +367,11 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nSacrifice - 0m - O\r\nevent\r\nnone\r\n\r\n\r\n“Anything worth having comes with a price.”\r\nCondition: Destroy one of your forces.\r\nPlay any occult card 2 / 6 or weaker from your hand at no cost.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nSacrifice - 0m - O\r\nevent\r\nnone\r\n\r\n\r\n“Anything worth having comes with a price.”\r\nCondition: Destroy one of your forces.\r\nPlay any occult force 2 / 6 or weaker from your hand at no cost.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Offering",
-			"description": "<p>Condition: Destroy an occult type in your power structure.</p><p>Draw a number of cards equal to the play cost of the destroyed card.</p>",
+			"description": "<p>Condition: Destroy an occult-type in your power structure.</p><p>Draw a number of cards equal to the play cost of the destroyed card.</p>",
 			"category": "event",
 			"cost": 0,
 			"major_types": [
@@ -364,11 +379,11 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nOffering - 0m - O\r\nevent\r\nnone\r\n\r\n\r\nCondition: Destroy an occult type in your power structure.\r\nDraw a number of cards equal to the play cost of the destroyed card.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nOffering - 0m - O\r\nevent\r\nnone\r\n\r\n\r\nCondition: Destroy an occult-type in your power structure.\r\nDraw a number of cards equal to the play cost of the destroyed card.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Coup de Gras",
-			"description": "<p>Destroy any single type force with d on it.</p>",
+			"description": "<p>Destroy any single-type force with d on it.</p>",
 			"category": "event",
 			"cost": 3,
 			"major_types": [
@@ -376,31 +391,31 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nCoup de Gras - 3m - O\r\nevent\r\nnone\r\n\r\n\r\nDestroy any single type force with d on it.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nCoup de Gras - 3m - O\r\nevent\r\nnone\r\n\r\n\r\nDestroy any single-type force with d on it.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Imbue",
-			"description": "<p>Pick an occult type force. That force has +1 / +1.</p>",
+			"description": "<p>Condition: Played on an occult force.</p><p>The target gets +1 / +1.</p>",
 			"category": "event",
-			"cost": 2,
+			"cost": 0,
 			"major_types": [
 				"Occult"
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nImbue - 2m - O\r\nevent\r\nnone\r\n\r\n\r\nPick an occult type force. That force has +1 / +1.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nImbue - 0m - O\r\nevent\r\nnone\r\n\r\n\r\nCondition: Played on an occult force. \r\nThe target gets +1 / +1.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Contort Motives",
-			"description": "<p>Condition: Destroy one of your cards.</p><p>Pick an enemy card. Make an attack with that card against any cards not owned by its owner, OR you may destroy it if it is a single type and has no child cards.</p>",
+			"description": "<p>Condition: Destroy one of your cards.</p><p>Pick an enemy card. Make an attack with the target against any cards not owned by its owner, OR you may destroy it if it is a single-type and has no children.</p>",
 			"category": "event",
-			"cost": 4,
+			"cost": 1,
 			"major_types": [
 				"Occult"
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nContort Motives - 4m - O\r\nevent\r\nnone\r\n\r\n\r\nCondition: Destroy one of your cards.\r\nPick an enemy card. Make an attack with that card against any cards not owned by its owner, OR you may destroy it if it is a single type and has no child cards.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nContort Motives - 1m - O\r\nevent\r\nnone\r\n\r\n\r\nCondition: Destroy one of your cards.\r\nPick an enemy card. Make an attack with the target against any cards not owned by its owner, OR you may destroy it if it is a single-type and has no children.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Extrasensory Perception",
@@ -428,7 +443,7 @@
 		},
 		{
 			"name": "Astral Projection",
-			"description": "<p>Condition: Played on an occult single type force.</p><p>Target has the flying type and is unblockable until the end of your turn.</p>",
+			"description": "<p>Condition: Played on an occult single-type force.</p><p>Target has flying and unblockable until the end of your turn.</p>",
 			"category": "event",
 			"cost": 1,
 			"major_types": [
@@ -436,11 +451,11 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nAstral Projection - 1m - O \r\nevent\r\nnone\r\n\r\n\r\nCondition: Played on an occult single type force.\r\nTarget has the flying type and is unblockable until the end of your turn.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nAstral Projection - 1m - O \r\nevent\r\nnone\r\n\r\n\r\nCondition: Played on an occult single-type force.\r\nTarget has flying and unblockable until the end of your turn.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Unwill Nuisance",
-			"description": "<p><q>Get off my dimension!</q></p><p>Condition: X is the play cost of the target.</p><p>Pick a permanent. Destroy that card.</p>",
+			"description": "<p><q>Get off my dimension!</q></p><p>Condition: X is the play cost of the target.</p><p>Pick a permanent. Destroy the target.</p>",
 			"category": "event",
 			"cost": "X",
 			"major_types": [
@@ -448,11 +463,11 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nUnwill Nuisance - Xm - O \r\nevent\r\nnone\r\n\r\n\r\n“Get off my dimension!”\r\nCondition: X is the play cost of the target.\r\nPick a permanent. Destroy that card.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nUnwill Nuisance - Xm - O \r\nevent\r\nnone\r\n\r\n\r\n“Get off my dimension!”\r\nCondition: X is the play cost of the target.\r\nPick a permanent. Destroy the target.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Curse",
-			"description": "<p>Play on a force or place. Target has -1 / -1.</p>",
+			"description": "<p>Target gets -1 / -1.</p>",
 			"category": "permanent",
 			"cost": 1,
 			"major_types": [
@@ -460,11 +475,11 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nCurse - 1m - O \r\npermanent\r\nnone\r\n\r\n\r\nPlay on a force or place. Target has -1 / -1.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nCurse - 1m - O \r\npermanent\r\nnone\r\n\r\n\r\nTarget gets -1 / -1.\r\n\r\n\r\n"
 		},
 		{
 			"name": "The Ark of the Covenant",
-			"description": "<p>Condition: Played on a force.</p><p>The card this card is attached to has 0 / +4 and is unblockable. Target is destroyed, destroy 2 of your forces.</p>",
+			"description": "<p>Condition: Played on a force.</p><p>The target has 0 / +4 and unblockable. If the target is destroyed, destroy 2 of your forces.</p>",
 			"category": "permanent",
 			"cost": 2,
 			"major_types": [
@@ -472,23 +487,23 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\n\r\nThe Ark of the Covenant - 2m - O\r\npermanent\r\nnone\r\n\r\n\r\nCondition: Played on a force. \r\nThe card this card is attached to has 0 / +4 and is unblockable. Target is destroyed, destroy 2 of your forces.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\n\r\nThe Ark of the Covenant - 2m - O\r\npermanent\r\nnone\r\n\r\n\r\nCondition: Played on a force. \r\nThe target has 0 / +4 and unblockable. If the target is destroyed, destroy 2 of your forces.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Bad Omen",
-			"description": "<p>Condition: Played on an enemy force.</p><p>Any time the target would attacks it takes 1d, and you must distribute 1d amongst your forces OR destroy this card.</p>",
+			"description": "<p>Condition: Played on an enemy force.</p><p>Any time the target would attack it takes 1d, and you must distribute 1d amongst your forces OR destroy this card.</p>",
 			"category": "permanent",
-			"cost": 2,
+			"cost": 0,
 			"major_types": [
 				"Occult"
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nBad Omen - 2m - O\r\npermanent\r\nnone\r\n\r\n\r\nCondition: Played on an enemy force.\r\nAny time the target would attacks it takes 1d, and you must distribute 1d amongst your forces OR destroy this card.\r\n\r\n\r\noccult\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nBad Omen - 0m - O\r\npermanent\r\nnone\r\n\r\n\r\nCondition: Played on an enemy force.\r\nAny time the target would attack it takes 1d, and you must distribute 1d amongst your forces OR destroy this card.\r\n\r\n\r\noccult\r\n\r\n\r\n"
 		},
 		{
 			"name": "Protection Magicks",
-			"description": "<p>Condition: IF played on a force, deal 1d to the target and place 2 counters on this card. IF played on a place, deal 2d to the target and place 3 counters on this card.</p><p>Action: Remove 1 counter from this card. The target may not be attacked until the beginning of your next turn.</p><p>If there are no counters on this card, destroy this card.</p>",
+			"description": "<p>Condition: If played on a force, deal 1d to the target and add 2 counters to this card. If played on a place, deal 2d to the target and add 3 counters to this card.</p><p>Action: Remove 1 counter from this card. The target may not be attacked until the beginning of your next turn.</p><p>If there are no counters on this card, destroy this card.</p>",
 			"category": "permanent",
 			"cost": 0,
 			"major_types": [
@@ -496,11 +511,11 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nProtection Magicks - 0m - O\r\npermanent\r\nnone\r\n\r\n\r\nCondition: IF played on a force, deal 1d to the target and place 2 counters on this card. IF played on a place, deal 2d to the target and place 3 counters on this card.\r\nAction: Remove 1 counter from this card. The target may not be attacked until the beginning of your next turn.\r\nIf there are no counters on this card, destroy this card.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nProtection Magicks - 0m - O\r\npermanent\r\nnone\r\n\r\n\r\nCondition: If played on a force, deal 1d to the target and add 2 counters to this card. If played on a place, deal 2d to the target and add 3 counters to this card.\r\nAction: Remove 1 counter from this card. The target may not be attacked until the beginning of your next turn.\r\nIf there are no counters on this card, destroy this card.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Reincarnation Cycle",
-			"description": "<p>Action: Remove a counter from this card. Play a force at a cost reduction of 2m.</p><p>When one of your occult type forces is destroyed, place a counter on this card.</p>",
+			"description": "<p>Action: Remove a counter from this card. Play a force at a cost reduction of 2m.</p><p>When one of your occult forces is destroyed, add 1 counter to this card.</p>",
 			"category": "permanent",
 			"cost": 2,
 			"major_types": [
@@ -510,11 +525,11 @@
 				"income"
 			],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nReincarnation Cycle - 2m - O\r\npermanent\r\nnone\r\n\r\n\r\nAction: Remove a counter from this card. Play a force at a cost reduction of 2m.\r\nWhen one of your occult type forces is destroyed, place a counter on this card. \r\n\r\n\r\nincome\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nReincarnation Cycle - 2m - O\r\npermanent\r\nnone\r\n\r\n\r\nAction: Remove a counter from this card. Play a force at a cost reduction of 2m.\r\nWhen one of your occult forces is destroyed, add 1 counter to this card. \r\n\r\n\r\nincome\r\n\r\n\r\n"
 		},
 		{
 			"name": "Deal with the Devil",
-			"description": "<p>Place 3 counters on this card.</p><p>At the beginning of your turn, remove 1 counter from this card and gain 2m.</p><p>If there are no counters on this card, destroy one of your forces OR gain 2r.</p>",
+			"description": "<p>Add 3 counters to this card.</p><p>At the beginning of your turn, remove 1 counter from this card and gain 2m.</p><p>If there are no counters on this card, destroy one of your forces OR gain 2r.</p>",
 			"category": "permanent",
 			"cost": 0,
 			"major_types": [
@@ -524,11 +539,11 @@
 				"income"
 			],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nDeal with the Devil - 0m - O\r\npermanent\r\nnone\r\n\r\n\r\nPlace 3 counters on this card.\r\nAt the beginning of your turn, remove 1 counter from this card and gain 2m.\r\nIf there are no counters on this card, destroy one of your forces OR gain 2r.\r\n\r\n\r\nincome\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nDeal with the Devil - 0m - O\r\npermanent\r\nnone\r\n\r\n\r\nAdd 3 counters to this card.\r\nAt the beginning of your turn, remove 1 counter from this card and gain 2m.\r\nIf there are no counters on this card, destroy one of your forces OR gain 2r.\r\n\r\n\r\nincome\r\n\r\n\r\n"
 		},
 		{
 			"name": "Sleeper Agent",
-			"description": "<p>Condition: May not target single types.</p><p>Deal 1d to the target. Add a 1 / 1 occult token anywhere on your power structure. Add 1r to the target’s leadership.</p>",
+			"description": "<p>Condition: May not target single-types.</p><p>Deal 1d to the target. Add a 1 / 1 occult token anywhere on your power structure. Add 1r to the target’s leadership.</p>",
 			"category": "event",
 			"cost": 3,
 			"major_types": [
@@ -538,11 +553,11 @@
 				"revolutionary"
 			],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nSleeper Agent - 3m - O \r\nevent\r\nnone\r\n\r\n\r\nCondition: May not target single types.\r\nDeal 1d to the target. Add a 1 / 1 occult token anywhere on your power structure. Add 1r to the target’s leadership.\r\n\r\n\r\nrevolutionary\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nSleeper Agent - 3m - O \r\nevent\r\nnone\r\n\r\n\r\nCondition: May not target single-types.\r\nDeal 1d to the target. Add a 1 / 1 occult token anywhere on your power structure. Add 1r to the target’s leadership.\r\n\r\n\r\nrevolutionary\r\n\r\n\r\n"
 		},
 		{
 			"name": "Sleeper Cell",
-			"description": "<p>Condition: Played on an enemy branch. Distribute 4d amongst your human types.</p><p>Action: Deal 1d to this card. Add 1r to this card’s leadership.</p>",
+			"description": "<p>Condition: Played on an enemy branch. Distribute 4d amongst your human forces.</p><p>Action: Deal 1d to this card. Add 2r to this card’s leadership.</p>",
 			"category": "force",
 			"attack": 0,
 			"defense": 4,
@@ -559,13 +574,13 @@
 				"force",
 				"force"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nSleeper Cell - 0m - O\r\nforce\r\n3f\r\n\r\n\r\n0 / 4\r\nCondition: Played on an enemy branch. Distribute 4d amongst your human types. \r\nAction: Deal 1d to this card. Add 1r to this card’s leadership.\r\n\r\n\r\nrevolutionary, human\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nSleeper Cell - 0m - O\r\nforce\r\n3f\r\n\r\n\r\n0 / 4\r\nCondition: Played on an enemy branch. Distribute 4d amongst your human forces. \r\nAction: Deal 1d to this card. Add 2r to this card’s leadership.\r\n\r\n\r\nrevolutionary, human\r\n\r\n\r\n"
 		},
 		{
 			"name": "Mind Games",
-			"description": "<p>Condition: Played immediately when r would be added to your leadership. The player whose card caused the r gains an equal amount of r.</p>",
+			"description": "<p>Condition: Played immediately when you would gain r.</p><p>The player whose card caused the r gains an equal amount of r.</p>",
 			"category": "event",
-			"cost": 3,
+			"cost": 2,
 			"major_types": [
 				"Occult"
 			],
@@ -573,16 +588,16 @@
 				"revolutionary"
 			],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nMind Games - 3m - O\r\nevent\r\n\r\n\r\nCondition: Played immediately when r would be added to your leadership. The player whose card caused the r gains an equal amount of r. \r\n\r\n\r\nrevolutionary\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nMind Games - 2m - O\r\nevent\r\n\r\n\r\nCondition: Played immediately when you would gain r.\r\nThe player whose card caused the r gains an equal amount of r. \r\n\r\n\r\nrevolutionary\r\n\r\n\r\n"
 		}
 	],
 	"Corporate": [
 		{
 			"name": "Offshore Account",
-			"description": "<p><q>Money? What money? There’s no money.</q></p><p>Condition: Not played in a slot.</p><p>You have 1 additional economy action.</p>",
+			"description": "<p><q>Money? What money? There’s no money.</q></p><p>Condition: Not played in a slot.</p><p>May not be attacked. You have 1 additional economy action.</p>",
 			"category": "place",
 			"attack": 0,
-			"defense": 2,
+			"defense": 5,
 			"cost": 3,
 			"major_types": [
 				"Corporate"
@@ -591,11 +606,11 @@
 				"electronic"
 			],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\n\r\n\r\nOffshore Account - 3m - C\r\nplace\r\nnone\r\n\r\n\r\n0 / 2\r\n“Money? What money? There’s no money.”\r\nCondition: Not played in a slot.\r\nYou have 1 additional economy action.\r\n\r\n\r\nelectronic\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\n\r\n\r\nOffshore Account - 3m - C\r\nplace\r\nnone\r\n\r\n\r\n0 / 5\r\n“Money? What money? There’s no money.”\r\nCondition: Not played in a slot.\r\nMay not be attacked. You have 1 additional economy action.\r\n\r\n\r\nelectronic\r\n\r\n\r\n"
 		},
 		{
 			"name": "Stock Exchange",
-			"description": "<p>At the beginning of your turn, you may move any amount of m from one of your cards onto this card.</p>",
+			"description": "<p>Economy Action: Move any amount of m from one of your cards onto this card. IF you move 2m or more, add 1m to this card.</p>",
 			"category": "place",
 			"attack": 0,
 			"defense": 5,
@@ -612,7 +627,7 @@
 				"force",
 				"force"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nStock Exchange - 4m - C\r\nplace\r\n2p, 2f\r\n\r\n\r\n0 / 5\r\nAt the beginning of your turn, you may move any amount of m from one of your cards onto this card.\r\n\r\n\r\nelectronic\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nStock Exchange - 4m - C\r\nplace\r\n2p, 2f\r\n\r\n\r\n0 / 5\r\nEconomy Action: Move any amount of m from one of your cards onto this card. IF you move 2m or more, add 1m to this card.\r\n\r\n\r\nelectronic\r\n\r\n\r\n"
 		},
 		{
 			"name": "Think Tank",
@@ -684,7 +699,7 @@
 		},
 		{
 			"name": "Private Military Corporation",
-			"description": "<p>Condition: Remove 2m from this card OR the card directly above it every time it attacks.</p>",
+			"description": "<p>Condition: Remove 2m from this card every time it attacks.</p>",
 			"category": "force",
 			"attack": 5,
 			"defense": 8,
@@ -700,15 +715,15 @@
 				"force",
 				"force"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nPrivate Military Corporation - 5m - C\r\nforce\r\n1a, 2f\r\n\r\n\r\n5 / 8\r\nCondition: Remove 2m from this card OR the card directly above it every time it attacks.\r\n\r\n\r\nhuman\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nPrivate Military Corporation - 5m - C\r\nforce\r\n1a, 2f\r\n\r\n\r\n5 / 8\r\nCondition: Remove 2m from this card every time it attacks.\r\n\r\n\r\nhuman\r\n\r\n\r\n"
 		},
 		{
 			"name": "High Profile Assassin",
-			"description": "<p>Condition: Played hidden.</p><p>Action: IF this card is hidden, remove 4m from its parent. Destroy a single type. This card has the stats 0 / 1 until the end of your next turn.</p><p>This card may not be defended.</p>",
+			"description": "<p>Condition: Played hidden.</p><p>Action: IF this card is hidden, remove 3m from its parent. Destroy a single-type OR deal 2d to any other force. This card has the stats 0 / 1 until the end of your next turn.</p><p>This card may not be defended.</p>",
 			"category": "force",
 			"attack": 2,
 			"defense": 2,
-			"cost": 1,
+			"cost": 0,
 			"major_types": [
 				"Corporate"
 			],
@@ -717,14 +732,14 @@
 				"human"
 			],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nHigh Profile Assassin - 1m - C\r\nforce\r\nnone\r\n\r\n\r\n2 / 2\r\nCondition: Played hidden.\r\nAction: IF this card is hidden, remove 4m from its parent. Destroy a single type. This card has the stats 0 / 1 until the end of your next turn.\r\nThis card may not be defended.\r\n\r\n\r\nsingle, human\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nHigh Profile Assassin - 0m - C\r\nforce\r\nnone\r\n\r\n\r\n2 / 2\r\nCondition: Played hidden.\r\nAction: IF this card is hidden, remove 3m from its parent. Destroy a single-type OR deal 2d to any other force. This card has the stats 0 / 1 until the end of your next turn.\r\nThis card may not be defended.\r\n\r\n\r\nsingle, human\r\n\r\n\r\n"
 		},
 		{
 			"name": "Hackers",
-			"description": "<p>Condition: This card may only attack electronic types.</p><p>Action: Remove 1m from this card. Deal 3d to an electronic type.</p><p>This card cannot be blocked.</p>",
+			"description": "<p>Condition: This card may only attack electronic-types.</p><p>Action: Remove 1m from this card. Deal 3d to an electronic-type.</p><p>Unblockable.</p>",
 			"category": "force",
-			"attack": 1,
-			"defense": 3,
+			"attack": 2,
+			"defense": 4,
 			"cost": 1,
 			"major_types": [
 				"Corporate"
@@ -736,7 +751,7 @@
 			"arrows": [
 				"force"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nHackers - 1m - C\r\nforce\r\n1f\r\n\r\n\r\n1 / 3\r\nCondition: This card may only attack electronic types.\r\nAction: Remove 1m from this card. Deal 3d to an electronic type.\r\nThis card cannot be blocked.\r\n\r\n\r\nelectronic, human\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nHackers - 1m - C\r\nforce\r\n1f\r\n\r\n\r\n2 / 4\r\nCondition: This card may only attack electronic-types.\r\nAction: Remove 1m from this card. Deal 3d to an electronic-type.\r\nUnblockable.\r\n\r\n\r\nelectronic, human\r\n\r\n\r\n"
 		},
 		{
 			"name": "Money Movers",
@@ -790,15 +805,15 @@
 		},
 		{
 			"name": "Misinformation Campaign",
-			"description": "<p>Pick any number of cards in your power structure that have no child cards, d , or counters. You may rearrange them in any order and they become hidden.</p>",
+			"description": "<p>Pick any number of cards in your power structure that have no child cards, d , m, or counters. You may rearrange them in any order and they become hidden.</p>",
 			"category": "event",
-			"cost": 4,
+			"cost": 2,
 			"major_types": [
 				"Corporate"
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\n\r\n\r\nMisinformation Campaign - 4m - C\r\nevent\r\nnone\r\n\r\n\r\nPick any number of cards in your power structure that have no child cards, d , or counters. You may rearrange them in any order and they become hidden.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\n\r\n\r\nMisinformation Campaign - 2m - C\r\nevent\r\nnone\r\n\r\n\r\nPick any number of cards in your power structure that have no child cards, d , m, or counters. You may rearrange them in any order and they become hidden.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Overhaul and Overreach",
@@ -814,7 +829,7 @@
 		},
 		{
 			"name": "Hostile Takeover",
-			"description": "<p><q>If you have enough money, you can buy no matter how much they don’t want to sell.</q></p><p>Condition: X is half the base defense of the target or its play cost, whichever is higher.</p><p>Destroy a corporate type or a place.</p>",
+			"description": "<p><q>If you have enough money, you can buy no matter how much they don’t want to sell.</q></p><p>Condition: X is half the base defense of the target or its play cost, whichever is higher.</p><p>Destroy a place OR a corporate force.</p>",
 			"category": "event",
 			"cost": "X",
 			"major_types": [
@@ -822,11 +837,11 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nHostile Takeover - Xm - C\r\nevent\r\nnone\r\n\r\n\r\n“If you have enough money, you can buy no matter how much they don’t want to sell.”\r\nCondition: X is half the base defense of the target or its play cost, whichever is higher.\r\nDestroy a corporate type or a place.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nHostile Takeover - Xm - C\r\nevent\r\nnone\r\n\r\n\r\n“If you have enough money, you can buy no matter how much they don’t want to sell.”\r\nCondition: X is half the base defense of the target or its play cost, whichever is higher.\r\nDestroy a place OR a corporate force.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Reincorporate",
-			"description": "<p>Add a corporate type from your discard to your hand.</p>",
+			"description": "<p>Add a corporate-type from your discard to your hand.</p>",
 			"category": "event",
 			"cost": 1,
 			"major_types": [
@@ -834,11 +849,23 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nReincorporate - 1m - C\r\nevent\r\nnone\r\n\r\n\r\nAdd a corporate type from your discard to your hand.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nReincorporate - 1m - C\r\nevent\r\nnone\r\n\r\n\r\nAdd a corporate-type from your discard to your hand.\r\n\r\n\r\n"
+		},
+		{
+			"name": "Asset Seizure Operation",
+			"description": "<p>Condition: Played at the beginning of your turn.</p><p>Remove up to 7m from an enemy’s leadership. At the end of their next turn, they regain the removed m.</p>",
+			"category": "instant",
+			"cost": 4,
+			"major_types": [
+				"Corporate"
+			],
+			"minor_types": [],
+			"arrows": [],
+			"source": "\r\n\r\n\r\n\r\n\r\nAsset Seizure Operation - 4m - C\r\ninstant\r\nnone\r\n\r\n\r\nCondition: Played at the beginning of your turn.\r\nRemove up to 7m from an enemy’s leadership. At the end of their next turn, they regain the removed m.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Multipass",
-			"description": "<p><q>Multipass!</q></p><p>Condition: Played on a corporate type.</p><p>Attacks made by the target may not be blocked by corporate or electronic types. IF the target is successfully attacked by a corporate or electronic type, discard this card.</p>",
+			"description": "<p><q>Multipass!</q></p><p>Condition: Played on a corporate-type.</p><p>Attacks made by the target may not be blocked by corporate or electronic-types. IF the target is successfully attacked by a corporate or electronic force, discard this card.</p>",
 			"category": "permanent",
 			"cost": 1,
 			"major_types": [
@@ -846,11 +873,11 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nMultipass - 1m - C\r\npermanent\r\nnone\r\n\r\n\r\n“Multipass!”\r\nCondition: Played on a corporate type.\r\nAttacks made by the target may not be blocked by corporate or electronic types. IF the target is successfully attacked by a corporate or electronic type, discard this card.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nMultipass - 1m - C\r\npermanent\r\nnone\r\n\r\n\r\n“Multipass!”\r\nCondition: Played on a corporate-type.\r\nAttacks made by the target may not be blocked by corporate or electronic-types. IF the target is successfully attacked by a corporate or electronic force, discard this card.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Merger",
-			"description": "<p>Condition: Destroy 2 corporate types in your power structure. X is equal to the sum of the play costs of the targets.</p><p>This card has the sum of the offenses of the targets / the sum of the defenses of the targets, and any actions or conditions of the targets.</p>",
+			"description": "<p>Condition: Destroy 2 corporate-types in your power structure. X is equal to half the sum of the play costs of the targets.</p><p>This card has the sum of the offenses of the targets / the sum of the defenses of the targets, and any actions or conditions of the targets.</p>",
 			"category": "permanent",
 			"cost": "X",
 			"major_types": [
@@ -858,11 +885,11 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nMerger - Xm - C\r\npermanent\r\nnone\r\n\r\n\r\nCondition: Destroy 2 corporate types in your power structure. X is equal to the sum of the play costs of the targets.\r\nThis card has the sum of the offenses of the targets / the sum of the defenses of the targets, and any actions or conditions of the targets.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nMerger - Xm - C\r\npermanent\r\nnone\r\n\r\n\r\nCondition: Destroy 2 corporate-types in your power structure. X is equal to half the sum of the play costs of the targets.\r\nThis card has the sum of the offenses of the targets / the sum of the defenses of the targets, and any actions or conditions of the targets.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Corporate Blockade",
-			"description": "<p>Condition: Upkeep 1m. Played on an enemy.</p><p>m may not be moved onto or off of the card this card is attached to, and cards may not be placed in its slots.</p>",
+			"description": "<p>Condition: Upkeep 1m. Played on an enemy.</p><p>m may not be moved onto or off of the target, and cards may not be played in its slots.</p>",
 			"category": "permanent",
 			"cost": 0,
 			"major_types": [
@@ -870,7 +897,7 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nCorporate Blockade - 0m - C\r\npermanent\r\nnone\r\n\r\n\r\nCondition: Upkeep 1m. Played on an enemy.\r\nm may not be moved onto or off of the card this card is attached to, and cards may not be placed in its slots.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nCorporate Blockade - 0m - C\r\npermanent\r\nnone\r\n\r\n\r\nCondition: Upkeep 1m. Played on an enemy.\r\nm may not be moved onto or off of the target, and cards may not be played in its slots.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Honeypot",
@@ -886,7 +913,7 @@
 		},
 		{
 			"name": "Oil Platform",
-			"description": "<p>Action: Remove all counters from this card. Place 3m on this card for every 3 counters removed.</p><p>At the beginning of your turn, add 1 counter to this card.</p>",
+			"description": "<p>Action: Remove all counters from this card. Add 3m to this card for every 3 counters removed.</p><p>At the beginning of your turn, add 1 counter to this card.</p>",
 			"category": "place",
 			"attack": 0,
 			"defense": 2,
@@ -902,11 +929,11 @@
 				"force",
 				"force"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nOil Platform - 3m - C\r\nplace\r\n2f\r\n\r\n\r\n0 / 2\r\nAction: Remove all counters from this card. Place 3m on this card for every 3 counters removed.\r\nAt the beginning of your turn, add 1 counter to this card.\r\n\r\n\r\nincome, naval\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nOil Platform - 3m - C\r\nplace\r\n2f\r\n\r\n\r\n0 / 2\r\nAction: Remove all counters from this card. Add 3m to this card for every 3 counters removed.\r\nAt the beginning of your turn, add 1 counter to this card.\r\n\r\n\r\nincome, naval\r\n\r\n\r\n"
 		},
 		{
 			"name": "Investment Firm",
-			"description": "<p>Economy Action: Remove 1m from this card. Place 2m on the card below this card.</p>",
+			"description": "<p>Economy Action: Remove 1m from this card. Add 2m to the child of this card.</p>",
 			"category": "place",
 			"attack": 0,
 			"defense": 5,
@@ -920,11 +947,11 @@
 			"arrows": [
 				"any"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nInvestment Firm - 2m - C\r\nplace\r\n1a\r\n\r\n\r\n0 / 5\r\nEconomy Action: Remove 1m from this card. Place 2m on the card below this card.\r\n\r\n\r\nincome\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nInvestment Firm - 2m - C\r\nplace\r\n1a\r\n\r\n\r\n0 / 5\r\nEconomy Action: Remove 1m from this card. Add 2m to the child of this card.\r\n\r\n\r\nincome\r\n\r\n\r\n"
 		},
 		{
 			"name": "Conflict Diamonds",
-			"description": "<p><q>Their pain, our profit.</q></p><p>IF an income type is destroyed, gain 2m.</p>",
+			"description": "<p><q>Their pain, our profit.</q></p><p>IF an income-type is destroyed, gain 2m.</p>",
 			"category": "permanent",
 			"cost": 1,
 			"major_types": [
@@ -934,11 +961,11 @@
 				"income"
 			],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nConflict Diamonds - 1m - C\r\npermanent\r\nnone\r\n\r\n\r\n“Their pain, our profit.”\r\nIF an income type is destroyed, gain 2m.\r\n\r\n\r\nincome\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nConflict Diamonds - 1m - C\r\npermanent\r\nnone\r\n\r\n\r\n“Their pain, our profit.”\r\nIF an income-type is destroyed, gain 2m.\r\n\r\n\r\nincome\r\n\r\n\r\n"
 		},
 		{
 			"name": "Insurance",
-			"description": "<p>Condition: X is half the play cost of the target.</p><p>If the target is destroy, gain its play cost.</p>",
+			"description": "<p>Condition: X is half the play cost of the target.</p><p>If the target is destroyed, gain its play cost.</p>",
 			"category": "permanent",
 			"cost": "X",
 			"major_types": [
@@ -948,11 +975,11 @@
 				"income"
 			],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nInsurance - Xm - C\r\npermanent\r\nnone\r\n\r\n\r\nCondition: X is half the play cost of the target.\r\nIf the target is destroy, gain its play cost.\r\n\r\n\r\nincome\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nInsurance - Xm - C\r\npermanent\r\nnone\r\n\r\n\r\nCondition: X is half the play cost of the target.\r\nIf the target is destroyed, gain its play cost.\r\n\r\n\r\nincome\r\n\r\n\r\n"
 		},
 		{
 			"name": "Defense Contractor",
-			"description": "<p><q>Cruise missiles? Assault rifles? Mines? We’ve got it all. With purchases of $300,000,000 or more we’ll throw in a free tank.</q></p><p>The first time a card takes d on a turn, add 1 counter to this card. If this card has 4 counters, remove them and place 3m on this card.</p>",
+			"description": "<p><q>Cruise missiles? Assault rifles? Mines? We’ve got it all. With purchases of $300,000,000 or more, we’ll throw in a free tank.</q></p><p>The first time a card takes d on a turn, add 1 counter to this card. If this card has 4 counters, remove them and add 3m to this card.</p>",
 			"category": "place",
 			"attack": 0,
 			"defense": 5,
@@ -968,11 +995,31 @@
 				"force",
 				"any"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nDefense Contractor - 2m - C\r\nplace\r\n2f, 1a\r\n\r\n\r\n0 / 5\r\n“Cruise missiles? Assault rifles? Mines? We’ve got it all. With purchases of $300,000,000 or more we’ll throw in a free tank.”\r\nThe first time a card takes d on a turn, add 1 counter to this card. If this card has 4 counters, remove them and place 3m on this card.\r\n\r\n\r\nincome\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nDefense Contractor - 2m - C\r\nplace\r\n2f, 1a\r\n\r\n\r\n0 / 5\r\n“Cruise missiles? Assault rifles? Mines? We’ve got it all. With purchases of $300,000,000 or more, we’ll throw in a free tank.”\r\nThe first time a card takes d on a turn, add 1 counter to this card. If this card has 4 counters, remove them and add 3m to this card.\r\n\r\n\r\nincome\r\n\r\n\r\n"
+		},
+		{
+			"name": "Pharmaceutical Company",
+			"description": "<p>At the beginning of your turn, add Xm to this card. X is 2 minus 1 for every drug-type in play, not including this card.</p>",
+			"category": "place",
+			"attack": 0,
+			"defense": 4,
+			"cost": 4,
+			"major_types": [
+				"Corporate"
+			],
+			"minor_types": [
+				"income",
+				"drug"
+			],
+			"arrows": [
+				"any",
+				"force"
+			],
+			"source": "\r\n\r\n\r\n\r\n\r\nPharmaceutical Company - 4m - C\r\nplace\r\n1a, 1f\r\n\r\n\r\n0 / 4\r\nAt the beginning of your turn, add Xm to this card. X is 2 minus 1 for every drug-type in play, not including this card.\r\n\r\n\r\nincome, drug\r\n\r\n\r\n"
 		},
 		{
 			"name": "Hacktivists",
-			"description": "<p>Condition: Played on an enemy branch.</p><p>At the beginning of your turn, add 1 counter to this card for every electronic type its power structure not including itself. IF it has 3 counters, remove them and add 1r to the leadership.</p>",
+			"description": "<p>Condition: Played on an enemy branch.</p><p>At the beginning of your turn, add 1 counter to this card for every electronic-type its power structure not including itself. IF it has 3 counters, remove them and add 1r to the leadership.</p>",
 			"category": "force",
 			"attack": 1,
 			"defense": 2,
@@ -988,11 +1035,11 @@
 			"arrows": [
 				"force"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nHacktivists - 1m - C\r\nforce\r\n1f\r\n\r\n\r\n1 / 2\r\nCondition: Played on an enemy branch.\r\nAt the beginning of your turn, add 1 counter to this card for every electronic type its power structure not including itself. IF it has 3 counters, remove them and add 1r to the leadership.\r\n\r\n\r\nrevolutionary, electronic, human\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nHacktivists - 1m - C\r\nforce\r\n1f\r\n\r\n\r\n1 / 2\r\nCondition: Played on an enemy branch.\r\nAt the beginning of your turn, add 1 counter to this card for every electronic-type its power structure not including itself. IF it has 3 counters, remove them and add 1r to the leadership.\r\n\r\n\r\nrevolutionary, electronic, human\r\n\r\n\r\n"
 		},
 		{
 			"name": "Bribe",
-			"description": "<p><q>Money talks.</q></p><p>Condition: Played on a child force of an enemy leadership.</p><p>Place 2m on the target. Add 2r to the target’s leadership.</p>",
+			"description": "<p><q>Money talks.</q></p><p>Condition: Played on a child force of an enemy leadership.</p><p>Add 2m to the target. Add 2r to the target’s leadership.</p>",
 			"category": "event",
 			"cost": 2,
 			"major_types": [
@@ -1002,7 +1049,7 @@
 				"revolutionary"
 			],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nBribe - 2m - C\r\nevent\r\nnone\r\n\r\n\r\n“Money talks.”\r\nCondition: Played on a child force of an enemy leadership.\r\nPlace 2m on the target. Add 2r to the target’s leadership.\r\n\r\n\r\nrevolutionary\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nBribe - 2m - C\r\nevent\r\nnone\r\n\r\n\r\n“Money talks.”\r\nCondition: Played on a child force of an enemy leadership.\r\nAdd 2m to the target. Add 2r to the target’s leadership.\r\n\r\n\r\nrevolutionary\r\n\r\n\r\n"
 		}
 	],
 	"Military": [
@@ -1026,7 +1073,7 @@
 		},
 		{
 			"name": "Command Center",
-			"description": "<p>Action: Remove 2m from this card. Use the action of another card.</p>",
+			"description": "<p>Action: Remove 1m from this card. Use the action of one of your cards.</p>",
 			"category": "place",
 			"attack": 0,
 			"defense": 7,
@@ -1042,7 +1089,7 @@
 				"any",
 				"any"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nCommand Center - 2m - M\r\nplace\r\n3a\r\n\r\n\r\n0 / 7\r\nAction: Remove 2m from this card. Use the action of another card.\r\n\r\n\r\nelectronic\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nCommand Center - 2m - M\r\nplace\r\n3a\r\n\r\n\r\n0 / 7\r\nAction: Remove 1m from this card. Use the action of one of your cards.\r\n\r\n\r\nelectronic\r\n\r\n\r\n"
 		},
 		{
 			"name": "Secret Underwater Base",
@@ -1101,7 +1148,7 @@
 		},
 		{
 			"name": "Militia",
-			"description": "<p>Condition: There are no Militia in your power structure.</p><p>IF militia is destroyed gain 1r.</p>",
+			"description": "<p>Condition: There are no Militia in your power structure.</p><p>IF this card is destroyed gain 1r.</p>",
 			"category": "force",
 			"attack": 2,
 			"defense": 4,
@@ -1113,7 +1160,7 @@
 				"human"
 			],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nMilitia - 0m - M\r\nforce\r\nnone\r\n\r\n\r\n2 / 4\r\nCondition: There are no Militia in your power structure. \r\nIF militia is destroyed gain 1r.\r\n\r\n\r\nhuman\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nMilitia - 0m - M\r\nforce\r\nnone\r\n\r\n\r\n2 / 4\r\nCondition: There are no Militia in your power structure. \r\nIF this card is destroyed gain 1r.\r\n\r\n\r\nhuman\r\n"
 		},
 		{
 			"name": "Bomber",
@@ -1172,11 +1219,11 @@
 		},
 		{
 			"name": "Unmanned Aerial Drone",
-			"description": "",
+			"description": "<p>Unblockable.</p>",
 			"category": "force",
 			"attack": 4,
 			"defense": 2,
-			"cost": 4,
+			"cost": 3,
 			"major_types": [
 				"Military"
 			],
@@ -1185,15 +1232,15 @@
 				"flying"
 			],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nUnmanned Aerial Drone - 4m - M\r\nforce\r\nnone\r\n\r\n\r\n4 / 2\r\n\r\n\r\nelectronic, flying\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nUnmanned Aerial Drone - 3m - M\r\nforce\r\nnone\r\n\r\n\r\n4 / 2\r\nUnblockable.\r\n\r\n\r\nelectronic, flying\r\n\r\n\r\n"
 		},
 		{
 			"name": "Anti-Aircraft Guns",
-			"description": "<p>IF a flying type attacks a child of this card or its parent, deal 3d to the attacker.</p>",
+			"description": "<p>May be played hidden. IF a flying-type attacks a child of this card or its parent, deal 3d to the attacker.</p>",
 			"category": "force",
 			"attack": 0,
 			"defense": 5,
-			"cost": 4,
+			"cost": 3,
 			"major_types": [
 				"Military"
 			],
@@ -1203,7 +1250,23 @@
 				"force",
 				"force"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nAnti-Aircraft Guns - 4m - M\r\nforce\r\n1p, 2f\r\n\r\n\r\n0 / 5\r\nIF a flying type attacks a child of this card or its parent, deal 3d to the attacker.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nAnti-Aircraft Guns - 3m - M\r\nforce\r\n1p, 2f\r\n\r\n\r\n0 / 5\r\nMay be played hidden. IF a flying-type attacks a child of this card or its parent, deal 3d to the attacker.\r\n\r\n\r\n"
+		},
+		{
+			"name": "Aurora",
+			"description": "<p>May be played hidden. Unblockable. If this card makes an attack it cannot be attacked until the beginning of your next turn. When one of your military-types (including this card) makes a successful attack, deal 1d to the target.</p>",
+			"category": "force",
+			"attack": 2,
+			"defense": 2,
+			"cost": 2,
+			"major_types": [
+				"Military"
+			],
+			"minor_types": [
+				"flying"
+			],
+			"arrows": [],
+			"source": "\r\n\r\n\r\n\r\n\r\nAurora - 2m - M\r\nForce\r\nNone\r\n\r\n\r\n2 / 2\r\nMay be played hidden. Unblockable. If this card makes an attack it cannot be attacked until the beginning of your next turn. When one of your military-types (including this card) makes a successful attack, deal 1d to the target.\r\n\r\n\r\nflying\r\n\r\n\r\n"
 		},
 		{
 			"name": "Chemical Attack",
@@ -1219,7 +1282,7 @@
 		},
 		{
 			"name": "Wet Op",
-			"description": "<p>Destroy a human type with a base defence of 2 or less.</p>",
+			"description": "<p>Destroy a human force with a base defence of 3 or less.</p>",
 			"category": "event",
 			"cost": 1,
 			"major_types": [
@@ -1227,7 +1290,7 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nWet Op - 1m - M\r\nevent\r\nnone\r\n\r\n\r\nDestroy a human type with a base defence of 2 or less.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nWet Op - 1m - M\r\nevent\r\nnone\r\n\r\n\r\nDestroy a human force with a base defence of 3 or less.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Domestic Exercise",
@@ -1240,6 +1303,18 @@
 			"minor_types": [],
 			"arrows": [],
 			"source": "\r\n\r\n\r\n\r\n\r\nDomestic Exercise - 1m - M\r\nevent\r\nnone\r\n\r\n\r\n“Just a drill, citizen.”\r\nGain 1r. Destroy permanent in your power structure.\r\n\r\n\r\n"
+		},
+		{
+			"name": "Duck and Cover",
+			"description": "<p><q>Get down!</q></p><p>Condition: Played immediately when you are attacked, on a human type force. Incoming D is reduced by up to 4 to a minimum of 1.</p>",
+			"category": "event",
+			"cost": 1,
+			"major_types": [
+				"Military"
+			],
+			"minor_types": [],
+			"arrows": [],
+			"source": "\r\n\r\n\r\n\r\n\r\nDuck and Cover - 1m - M\r\nevent\r\nnone\r\n\r\n\r\n“Get down!”\r\nCondition: Played immediately when you are attacked, on a human type force. Incoming D is reduced by up to 4 to a minimum of 1. \r\n"
 		},
 		{
 			"name": "Scorched Earth Policy",
@@ -1255,7 +1330,7 @@
 		},
 		{
 			"name": "Minefield",
-			"description": "<p>Condition: Played hidden, on a place.</p><p>IF this card’s parent is attacked by a non-flying type, deal 3d to the attacker and destroy this card.</p>",
+			"description": "<p>Condition: Played hidden, on a place.</p><p>IF this card’s parent is attacked by a non-flying-type, deal 3d to the attacker and destroy this card.</p>",
 			"category": "permanent",
 			"cost": 1,
 			"major_types": [
@@ -1263,7 +1338,7 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nMinefield - 1m - M\r\npermanent\r\nnone\r\n\r\n\r\nCondition: Played hidden, on a place.\r\nIF this card’s parent is attacked by a non-flying type, deal 3d to the attacker and destroy this card.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nMinefield - 1m - M\r\npermanent\r\nnone\r\n\r\n\r\nCondition: Played hidden, on a place.\r\nIF this card’s parent is attacked by a non-flying-type, deal 3d to the attacker and destroy this card.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Supply Chain",
@@ -1279,7 +1354,7 @@
 		},
 		{
 			"name": "Oil Fields",
-			"description": "<p>Condition: Requires 2 play actions.</p><p>Economy Action: Remove all counters from this card. Place 3m on this card for every 3 counters removed.</p><p>At the beginning of your turn, add 1 counter to this card.</p>",
+			"description": "<p>Condition: Requires 2 play actions.</p><p>Economy Action: Remove all counters from this card. Add 3m to this card for every 3 counters removed.</p><p>At the beginning of your turn, add 1 counter to this card.</p>",
 			"category": "place",
 			"attack": 0,
 			"defense": 4,
@@ -1296,7 +1371,7 @@
 				"force",
 				"force"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nOil Fields - 0m - M\r\nplace\r\n1p, 3f\r\n\r\n\r\n0 / 4\r\nCondition: Requires 2 play actions.\r\nEconomy Action: Remove all counters from this card. Place 3m on this card for every 3 counters removed.\r\nAt the beginning of your turn, add 1 counter to this card.\r\n\r\n\r\nincome\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nOil Fields - 0m - M\r\nplace\r\n1p, 3f\r\n\r\n\r\n0 / 4\r\nCondition: Requires 2 play actions.\r\nEconomy Action: Remove all counters from this card. Add 3m to this card for every 3 counters removed.\r\nAt the beginning of your turn, add 1 counter to this card.\r\n\r\n\r\nincome\r\n\r\n\r\n"
 		},
 		{
 			"name": "Draft",
@@ -1346,19 +1421,19 @@
 		},
 		{
 			"name": "Police Militarization",
-			"description": "<p>For every 2 military types in your power structure, remove 1r and spend 1m.</p>",
+			"description": "<p>For every 2 military-types in your power structure, remove 2r and spend 1m.</p>",
 			"category": "event",
-			"cost": 1,
+			"cost": 0,
 			"major_types": [
 				"Military"
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nPolice Militarization - 1m - M\r\nevent\r\nnone\r\n\r\n\r\nFor every 2 military types in your power structure, remove 1r and spend 1m.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nPolice Militarization - 0m - M\r\nevent\r\nnone\r\n\r\n\r\nFor every 2 military-types in your power structure, remove 2r and spend 1m.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Martial Law",
-			"description": "<p>Action: Destroy this card.</p><p>You may not place or move m onto your leadership, or use card actions that require m . Place 3 counters on this card. When you would gain r, instead remove 1 counter from this card.</p>",
+			"description": "<p>Action: Destroy this card.</p><p>You may not add or move m onto your leadership, or use card actions that require m . Add 3 counters to this card. When you would gain r, instead remove 1 counter from this card.</p>",
 			"category": "permanent",
 			"cost": 0,
 			"major_types": [
@@ -1366,7 +1441,7 @@
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nMartial Law - 0m - M\r\npermanent\r\nnone\r\n\r\n\r\nAction: Destroy this card.\r\nYou may not place or move m onto your leadership, or use card actions that require m . Place 3 counters on this card. When you would gain r, instead remove 1 counter from this card.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nMartial Law - 0m - M\r\npermanent\r\nnone\r\n\r\n\r\nAction: Destroy this card.\r\nYou may not add or move m onto your leadership, or use card actions that require m . Add 3 counters to this card. When you would gain r, instead remove 1 counter from this card.\r\n\r\n\r\n"
 		}
 	],
 	"Neutral": [
@@ -1376,7 +1451,7 @@
 			"category": "place",
 			"attack": 3,
 			"defense": 4,
-			"cost": 5,
+			"cost": 3,
 			"major_types": [
 				"Neutral"
 			],
@@ -1388,7 +1463,7 @@
 				"force",
 				"force"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nAirship - 5m - N\r\nplace\r\n3f\r\n\r\n\r\n3 / 4\r\nCondition: Non-flying forces attached to Airship may not attack.\r\nFying forces attached to Airship have -1 / +3.\r\n\r\n\r\nflying\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nAirship - 3m - N\r\nplace\r\n3f\r\n\r\n\r\n3 / 4\r\nCondition: Non-flying forces attached to Airship may not attack.\r\nFying forces attached to Airship have -1 / +3.\r\n\r\n\r\nflying\r\n\r\n\r\n"
 		},
 		{
 			"name": "Desert",
@@ -1410,20 +1485,20 @@
 		},
 		{
 			"name": "Patriot Act",
-			"description": "<p><q>For your own safety.</q></p><p>Condition: Played immediately after a revolutionary type is played against you.</p><p>Remove 1r.</p>",
-			"category": "instant",
+			"description": "<p><q>For your own safety.</q></p><p>Condition: Played immediately after a revolutionary-type is played against you.</p><p>Remove 1r.</p>",
+			"category": "event",
 			"cost": 0,
 			"major_types": [
 				"Neutral"
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\n\r\n\r\nPatriot Act - 0m - N\r\ninstant\r\nnone\r\n\r\n\r\n“For your own safety.”\r\nCondition: Played immediately after a revolutionary type is played against you.\r\nRemove 1r.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\n\r\n\r\nPatriot Act - 0m - N\r\nevent\r\nnone\r\n\r\n\r\n“For your own safety.”\r\nCondition: Played immediately after a revolutionary-type is played against you.\r\nRemove 1r.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Drug Bust",
-			"description": "<p>Destroy a drug type.</p>",
-			"category": "instant",
+			"description": "<p>Destroy a drug-type.</p>",
+			"category": "event",
 			"cost": 2,
 			"major_types": [
 				"Neutral"
@@ -1432,43 +1507,31 @@
 				"drug"
 			],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nDrug Bust - 2m - N\r\ninstant\r\nnone\r\n\r\n\r\nDestroy a drug type.\r\n\r\n\r\ndrug\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nDrug Bust - 2m - N\r\nevent\r\nnone\r\n\r\n\r\nDestroy a drug-type.\r\n\r\n\r\ndrug\r\n\r\n\r\n"
 		},
 		{
 			"name": "Hostages",
-			"description": "<p>Condition: Played immediately when you destroy an enemy human type.</p><p>Remove Xm from the enemy’s leadership, where X is half the starting defense of the attacked card, and gain Xm.</p>",
-			"category": "instant",
+			"description": "<p>Condition: Played immediately when you destroy an enemy human force.</p><p>Remove Xm from the enemy’s leadership, where X is half the base defense of the destroyed card, and gain Xm.</p>",
+			"category": "event",
 			"cost": 0,
 			"major_types": [
 				"Neutral"
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nHostages - 0m - N\r\ninstant\r\nnone\r\n\r\n\r\nCondition: Played immediately when you destroy an enemy human type.\r\nRemove Xm from the enemy’s leadership, where X is half the starting defense of the attacked card, and gain Xm.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nHostages - 0m - N\r\nevent\r\nnone\r\n\r\n\r\nCondition: Played immediately when you destroy an enemy human force.\r\nRemove Xm from the enemy’s leadership, where X is half the base defense of the destroyed card, and gain Xm.\r\n\r\n\r\n"
 		},
 		{
 			"name": "Secret Backup Plan",
-			"description": "<p>Condition: Played immediately when an instant targets your power structure.</p><p>Instant does nothing. The player of the instant regains any costs from playing the card, but the instant is discarded.</p>",
-			"category": "instant",
+			"description": "<p>Condition: Played immediately when an event targets your power structure.</p><p>Event does nothing. The player of the event regains any costs from playing the card, but the event is discarded.</p>",
+			"category": "event",
 			"cost": 2,
 			"major_types": [
 				"Neutral"
 			],
 			"minor_types": [],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nSecret Backup Plan - 2m - N\r\ninstant\r\nnone\r\n\r\n\r\nCondition: Played immediately when an instant targets your power structure.\r\nInstant does nothing. The player of the instant regains any costs from playing the card, but the instant is discarded. \r\n\r\n\r\n"
-		},
-		{
-			"name": "Asset Seizure Operation",
-			"description": "<p>Condition: Played at the beginning of your turn.</p><p>Remove up to 7m from an enemy’s leadership. At the end of their next turn, they regain the removed m.</p>",
-			"category": "instant",
-			"cost": 4,
-			"major_types": [
-				"Neutral"
-			],
-			"minor_types": [],
-			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nAsset Seizure Operation - 4m - N\r\ninstant\r\nnone\r\n\r\n\r\nCondition: Played at the beginning of your turn.\r\nRemove up to 7m from an enemy’s leadership. At the end of their next turn, they regain the removed m.\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nSecret Backup Plan - 2m - N\r\nevent\r\nnone\r\n\r\n\r\nCondition: Played immediately when an event targets your power structure.\r\nEvent does nothing. The player of the event regains any costs from playing the card, but the event is discarded. \r\n\r\n\r\n"
 		},
 		{
 			"name": "Escape Pod",
@@ -1484,7 +1547,7 @@
 		},
 		{
 			"name": "Nuclear Power Plant",
-			"description": "<p>At the beginning of your turn, place 1m on this card.</p>",
+			"description": "<p>At the beginning of your turn, add 1m to this card.</p>",
 			"category": "place",
 			"attack": 0,
 			"defense": 4,
@@ -1500,15 +1563,15 @@
 				"place",
 				"any"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nNuclear Power Plant - 3m - N\r\nplace\r\n1p, 1a\r\n\r\n\r\n0 / 4\r\nAt the beginning of your turn, place 1m on this card.\r\n\r\n\r\nincome, electronic\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nNuclear Power Plant - 3m - N\r\nplace\r\n1p, 1a\r\n\r\n\r\n0 / 4\r\nAt the beginning of your turn, add 1m to this card.\r\n\r\n\r\nincome, electronic\r\n\r\n\r\n"
 		},
 		{
 			"name": "Jungle",
-			"description": "<p>Economy Action: Deal 1d to this card. Place 1m on a card attached to this card.</p><p>Children of this card have +1 / 0 when defending.</p>",
+			"description": "<p>Economy Action: Deal 1d to this card. Add 1m onto a card attached to this card.</p><p>Children of this card have +1 / 0 when defending.</p>",
 			"category": "place",
 			"attack": 0,
 			"defense": 6,
-			"cost": 1,
+			"cost": 2,
 			"major_types": [
 				"Neutral"
 			],
@@ -1519,7 +1582,7 @@
 				"any",
 				"any"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nJungle - 1m - N\r\nplace\r\n2a\r\n\r\n\r\n0 / 6\r\nEconomy Action: Deal 1d to this card. Place 1m on a card attached to this card.\r\nChildren of this card have +1 / 0 when defending.\r\n\r\n\r\nincome\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nJungle - 2m - N\r\nplace\r\n2a\r\n\r\n\r\n0 / 6\r\nEconomy Action: Deal 1d to this card. Add 1m onto a card attached to this card.\r\nChildren of this card have +1 / 0 when defending.\r\n\r\n\r\nincome\r\n\r\n\r\n"
 		},
 		{
 			"name": "Platinum",
@@ -1555,7 +1618,7 @@
 		},
 		{
 			"name": "Coca Plantation",
-			"description": "<p>Economy Action: Spend 1m.  Add 1 counter to this card.</p><p>If this card has 2 counters, remove them and place 3m on this card. Remove 1m from an enemy leadership.</p>",
+			"description": "<p>Economy Action: Spend 1m.  Add 1 counter to this card.</p><p>IF this card has 2 counters, remove them and add 3m to this card, and remove 1m from an enemy leadership.</p>",
 			"category": "place",
 			"attack": 0,
 			"defense": 4,
@@ -1571,14 +1634,14 @@
 				"force",
 				"place"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nCoca Plantation - 4m - N\r\nplace\r\n1f, 1p\r\n\r\n\r\n0 / 4\r\nEconomy Action: Spend 1m.  Add 1 counter to this card.\r\nIf this card has 2 counters, remove them and place 3m on this card. Remove 1m from an enemy leadership.\r\n\r\n\r\ndrug, income\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nCoca Plantation - 4m - N\r\nplace\r\n1f, 1p\r\n\r\n\r\n0 / 4\r\nEconomy Action: Spend 1m.  Add 1 counter to this card.\r\nIF this card has 2 counters, remove them and add 3m to this card, and remove 1m from an enemy leadership.\r\n\r\n\r\ndrug, income\r\n\r\n\r\n"
 		},
 		{
 			"name": "Legitimate Dispensary",
-			"description": "<p><q>Purely for medicinal purposes.</q></p><p>Economy Action: Remove 1 counter from this card.</p><p>At the beginning of your turn, place 1m and 1 counter on this card. IF this card has 3 counters, destroy this card.</p>",
+			"description": "<p><q>Purely for medicinal purposes.</q></p><p>Economy Action: Remove 1 counter from this card.</p><p>At the beginning of your turn, add 1m and 1 counter to this card. IF this card has 4 counters, destroy this card.</p>",
 			"category": "place",
 			"attack": 0,
-			"defense": 2,
+			"defense": 4,
 			"cost": 2,
 			"major_types": [
 				"Neutral"
@@ -1590,15 +1653,15 @@
 			"arrows": [
 				"any"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nLegitimate Dispensary - 2m - N\r\nplace\r\n1a\r\n\r\n\r\n0 / 2\r\n“Purely for medicinal purposes.”\r\nEconomy Action: Remove 1 counter from this card.\r\nAt the beginning of your turn, place 1m and 1 counter on this card. IF this card has 3 counters, destroy this card.\r\n\r\n\r\ndrug, income\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nLegitimate Dispensary - 2m - N\r\nplace\r\n1a\r\n\r\n\r\n0 / 4\r\n“Purely for medicinal purposes.”\r\nEconomy Action: Remove 1 counter from this card.\r\nAt the beginning of your turn, add 1m and 1 counter to this card. IF this card has 4 counters, destroy this card.\r\n\r\n\r\ndrug, income\r\n\r\n\r\n"
 		},
 		{
 			"name": "Drug Lab",
-			"description": "<p>Economy Action: Remove 2 counters from this card.</p><p>At the beginning of your turn, place 1m and 1 counter on this card. IF this card has 3 counters, destroy this card.</p>",
+			"description": "<p>Economy Action: Remove 2 counters from this card.</p><p>At the beginning of your turn, add 1m and 1 counter to this card. IF this card has 3 counters, destroy this card.</p>",
 			"category": "place",
 			"attack": 0,
-			"defense": 4,
-			"cost": 5,
+			"defense": 6,
+			"cost": 3,
 			"major_types": [
 				"Neutral"
 			],
@@ -1610,7 +1673,7 @@
 				"force",
 				"force"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nDrug Lab - 5m - N\r\nplace\r\n2f\r\n\r\n\r\n0 / 4\r\nEconomy Action: Remove 2 counters from this card.\r\nAt the beginning of your turn, place 1m and 1 counter on this card. IF this card has 3 counters, destroy this card.\r\n\r\n\r\ndrug, income\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nDrug Lab - 3m - N\r\nplace\r\n2f\r\n\r\n\r\n0 / 6\r\nEconomy Action: Remove 2 counters from this card.\r\nAt the beginning of your turn, add 1m and 1 counter to this card. IF this card has 3 counters, destroy this card.\r\n\r\n\r\ndrug, income\r\n\r\n\r\n"
 		},
 		{
 			"name": "Basic Industry",
@@ -1629,7 +1692,7 @@
 		{
 			"name": "Terrorist Attack",
 			"description": "<p>Condition: Played on an enemy. Cannot destroy a place.</p><p>Deal 1d to a place and add 1r to that place’s leadership.</p>",
-			"category": "instant",
+			"category": "event",
 			"cost": 2,
 			"major_types": [
 				"Neutral"
@@ -1638,15 +1701,15 @@
 				"revolutionary"
 			],
 			"arrows": [],
-			"source": "\r\n\r\n\r\n\r\n\r\nTerrorist Attack - 2m - N\r\ninstant\r\nnone\r\n\r\n\r\nCondition: Played on an enemy. Cannot destroy a place.\r\nDeal 1d to a place and add 1r to that place’s leadership.\r\n\r\n\r\nrevolutionary\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nTerrorist Attack - 2m - N\r\nevent\r\nnone\r\n\r\n\r\nCondition: Played on an enemy. Cannot destroy a place.\r\nDeal 1d to a place and add 1r to that place’s leadership.\r\n\r\n\r\nrevolutionary\r\n\r\n\r\n"
 		},
 		{
 			"name": "Drug Cartel",
-			"description": "<p>Action: Place 1m on this card for every drug type in your power structure, not including itself. Add 1 counter to this card.</p><p>IF this card has 2 counters, remove them and gain 1r.</p>",
+			"description": "<p>Action: Add 1m to this card for every drug-type in your power structure, not including itself. Add 1 counter to this card.</p><p>IF this card has 2 counters, remove them and gain 1r.</p>",
 			"category": "force",
 			"attack": 2,
 			"defense": 6,
-			"cost": 2,
+			"cost": 1,
 			"major_types": [
 				"Neutral"
 			],
@@ -1659,7 +1722,7 @@
 				"any",
 				"any"
 			],
-			"source": "\r\n\r\n\r\n\r\n\r\nDrug Cartel - 2m - N\r\nforce\r\n1f, 2a\r\n\r\n\r\n2 / 6\r\nAction: Place 1m on this card for every drug type in your power structure, not including itself. Add 1 counter to this card.\r\nIF this card has 2 counters, remove them and gain 1r.\r\n\r\n\r\ndrug, revolutionary\r\n\r\n\r\n"
+			"source": "\r\n\r\n\r\n\r\n\r\nDrug Cartel - 1m - N\r\nforce\r\n1f, 2a\r\n\r\n\r\n2 / 6\r\nAction: Add 1m to this card for every drug-type in your power structure, not including itself. Add 1 counter to this card.\r\nIF this card has 2 counters, remove them and gain 1r.\r\n\r\n\r\ndrug, revolutionary\r\n\r\n\r\n"
 		}
 	]
 }
