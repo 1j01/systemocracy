@@ -4,7 +4,7 @@ every = (ms, fn)-> setInterval(fn, ms)
 
 $cards = $("<main class='cards'/>").appendTo("body")
 
-render_$card = ({name, description, category, attack, defense, cost, major_types, minor_types, arrows, source})->
+render_$card = ({name, description, flavor_text, category, attack, defense, cost, major_types, minor_types, arrows, source})->
 	$card = $("<div class='card'/>")
 	
 	arrow_order = ["place", "any", "force"]
@@ -42,9 +42,12 @@ render_$card = ({name, description, category, attack, defense, cost, major_types
 		<div class='image'>
 			<img class='img' src='images/cards/#{name}.png'>
 		</div>
+		<div class='flavor-text'>#{
+			flavor_text
+		}</div>
 		<div class='description'>#{
 			description
-				.replace /\b(Condition:|(?:Economy )?Action:|Stability:)/g, bold
+				.replace /\b(Condition:|(?:Economy )?Action:|Stability:)/gi, bold
 				.replace ///
 				\b(
 					# Attributes
@@ -58,15 +61,15 @@ render_$card = ({name, description, category, attack, defense, cost, major_types
 					# Catagories
 					Revolution|Forces?|Places?|Events?|Permanents?|Systems?|
 					# Types
-					Types?|Occult|Military|Corporate|Electronic|Single|Human|Flying|Naval|Income|Revolutionary|
+					-?Types?|Occult|Military|Corporate|Electronic|Single|Human|Flying|Naval|Income|Revolutionary|Drug|
 					# Logic
 					If|Else|Or|Not|Unless|Non-
 				)\b
 				///gi, bold
 				# Attack/defense
-				.replace /\b(X|\d*)m\b/g, money_symbol
-				.replace /\b(X|\d*)d\b/g, damage_symbol
-				.replace /\b(X|\d*)r\b/g, revolution_symbol
+				.replace /\b(X|\d*)m\b/gi, money_symbol
+				.replace /\b(X|\d*)d\b/gi, damage_symbol
+				.replace /\b(X|\d*)r\b/gi, revolution_symbol
 				.replace /(\ [+-]?\d+(?:\ \/\ [+-]?\d+)?)/g, bold
 		}</div>
 		<div class='lower'>

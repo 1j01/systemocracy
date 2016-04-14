@@ -17,6 +17,7 @@ module.exports = (all_card_data)->
 	parse_card = (card_data)->
 		name = ""
 		description = ""
+		flavor_text = ""
 		major_types = []
 		minor_types = []
 		arrows = []
@@ -47,7 +48,7 @@ module.exports = (all_card_data)->
 						yes
 				else if m = line.match /^["“](.*)["”]$/
 					# Flavor Text
-					description += "<p><q>#{m[1]}</q></p>"
+					flavor_text = "<p><q>#{m[1]}</q></p>"
 				else
 					# Description
 					description += "<p>#{line}</p>"
@@ -85,7 +86,7 @@ module.exports = (all_card_data)->
 		
 		console?.assert? category?, "no category"
 		
-		{name, description, category, attack, defense, cost, major_types, minor_types, arrows, source: card_data}
+		{name, description, flavor_text, category, attack, defense, cost, major_types, minor_types, arrows, source: card_data}
 	
 	
 	card_datas = all_card_data.split /\f|________________/
