@@ -4698,6 +4698,426 @@
         }
       ],
       "GUID": "48d1a6"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 1.3000000000000007,
+        "posY": 5,
+        "posZ": 5,
+        "rotX": -0.00005922744,
+        "rotY": 359.563446,
+        "rotZ": -0.003366101,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -1.57679212,
+            "posY": 1.1973033,
+            "posZ": 6.25402451,
+            "rotX": 0.203478456,
+            "rotY": 165.02063,
+            "rotZ": 0.12986508,
+            "scaleX": 0.165484071,
+            "scaleY": 1,
+            "scaleZ": 0.165484071
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/1j01/cards/gh-pages/images/counters/damage.svg.png",
+            "ImageSecondaryURL": "",
+            "WidthScale": 0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 5,
+              "Stackable": true
+            }
+          },
+          "LuaScript": "",
+          "GUID": "a6f7c1"
+        }
+      ],
+      "GUID": "431ce5"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 3.6000000000000014,
+        "posY": 5,
+        "posZ": 5,
+        "rotX": -0.00005922744,
+        "rotY": 359.563446,
+        "rotZ": -0.003366101,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -11.6647787,
+            "posY": 2.44301963,
+            "posZ": 1.71856892,
+            "rotX": 11.5853672,
+            "rotY": 330.263062,
+            "rotZ": 351.876923,
+            "scaleX": 0.274931431,
+            "scaleY": 1,
+            "scaleZ": 0.274931431
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0,
+            "g": 0,
+            "b": 0.122524768
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/1j01/cards/gh-pages/images/counters/defense-plus.svg.png",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/1j01/cards/gh-pages/images/counters/defense-minus.svg.png",
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": true
+            }
+          },
+          "LuaScript": "",
+          "GUID": "3c4df3"
+        }
+      ],
+      "GUID": "431ce5"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 5.900000000000002,
+        "posY": 5,
+        "posZ": 5,
+        "rotX": -0.00005922744,
+        "rotY": 359.563446,
+        "rotZ": -0.003366101,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -1.57679212,
+            "posY": 1.1973033,
+            "posZ": 6.25402451,
+            "rotX": 0.203478456,
+            "rotY": 165.02063,
+            "rotZ": 0.12986508,
+            "scaleX": 0.165484071,
+            "scaleY": 1,
+            "scaleZ": 0.165484071
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/1j01/cards/gh-pages/images/counters/generic.svg.png",
+            "ImageSecondaryURL": "",
+            "WidthScale": 0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 5,
+              "Stackable": true
+            }
+          },
+          "LuaScript": "",
+          "GUID": "a6f7c1"
+        }
+      ],
+      "GUID": "431ce5"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 8.200000000000003,
+        "posY": 5,
+        "posZ": 5,
+        "rotX": -0.00005922744,
+        "rotY": 359.563446,
+        "rotZ": -0.003366101,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -1.57679212,
+            "posY": 1.1973033,
+            "posZ": 6.25402451,
+            "rotX": 0.203478456,
+            "rotY": 165.02063,
+            "rotZ": 0.12986508,
+            "scaleX": 0.165484071,
+            "scaleY": 1,
+            "scaleZ": 0.165484071
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/1j01/cards/gh-pages/images/counters/money.svg.png",
+            "ImageSecondaryURL": "",
+            "WidthScale": 0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 5,
+              "Stackable": true
+            }
+          },
+          "LuaScript": "",
+          "GUID": "a6f7c1"
+        }
+      ],
+      "GUID": "431ce5"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 10.500000000000004,
+        "posY": 5,
+        "posZ": 5,
+        "rotX": -0.00005922744,
+        "rotY": 359.563446,
+        "rotZ": -0.003366101,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Tile",
+          "Transform": {
+            "posX": -11.6647787,
+            "posY": 2.44301963,
+            "posZ": 1.71856892,
+            "rotX": 11.5853672,
+            "rotY": 330.263062,
+            "rotZ": 351.876923,
+            "scaleX": 0.274931431,
+            "scaleY": 1,
+            "scaleZ": 0.274931431
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0,
+            "g": 0,
+            "b": 0.122524768
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/1j01/cards/gh-pages/images/counters/offense-plus.svg.png",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/1j01/cards/gh-pages/images/counters/offense-minus.svg.png",
+            "WidthScale": 0,
+            "CustomTile": {
+              "Type": 2,
+              "Thickness": 0.1,
+              "Stackable": true
+            }
+          },
+          "LuaScript": "",
+          "GUID": "3c4df3"
+        }
+      ],
+      "GUID": "431ce5"
+    },
+    {
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 12.800000000000004,
+        "posY": 5,
+        "posZ": 5,
+        "rotX": -0.00005922744,
+        "rotY": 359.563446,
+        "rotZ": -0.003366101,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "ContainedObjects": [
+        {
+          "Name": "Custom_Token",
+          "Transform": {
+            "posX": -1.57679212,
+            "posY": 1.1973033,
+            "posZ": 6.25402451,
+            "rotX": 0.203478456,
+            "rotY": 165.02063,
+            "rotZ": 0.12986508,
+            "scaleX": 0.165484071,
+            "scaleY": 1,
+            "scaleZ": 0.165484071
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/1j01/cards/gh-pages/images/counters/revolution.svg.png",
+            "ImageSecondaryURL": "",
+            "WidthScale": 0,
+            "CustomToken": {
+              "Thickness": 0.1,
+              "MergeDistancePixels": 5,
+              "Stackable": true
+            }
+          },
+          "LuaScript": "",
+          "GUID": "a6f7c1"
+        }
+      ],
+      "GUID": "431ce5"
     }
   ],
   "TabStates": {}
