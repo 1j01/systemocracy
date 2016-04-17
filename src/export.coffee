@@ -4,7 +4,7 @@ async = require "async"
 
 try fs.mkdirSync "images/export"
 
-zoom = 2
+zoom = if gui.App.argv[0] is "--low-res" then 1 else 2
 
 css = """
 	body {
