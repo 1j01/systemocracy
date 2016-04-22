@@ -1,6 +1,7 @@
 {
   "name": "cards",
   "version": "1.0.0",
+  "private": true,
   "description": "A card game",
   "repository": {
     "type": "git",
@@ -13,11 +14,10 @@
     "import": "coffee src/import.coffee",
     "export": "coffee src/export.coffee"
   },
-  "main": "export.html",
   "devDependencies": {
     "coffee-script": "^1.10.0",
     "google-auth-library": "^0.9.7",
     "googleapis": "^2.1.7",
-    "card-game-generator": "^0.1.0"
+    "card-game-generator": "^0.2.2"
   }
 }

@@ -35,7 +35,8 @@ In Tabletop Simulator, go to Host > Chest > Saved Objects and find Card Game.
 
 You can `set PARALLEL_EXPORT=ON` before running `export` to speed it up significantly if it's on a powerful enough machine. (If it's not powerful enough it might freeze up the entire computer.)
 
-The credentials for importing may eventually expire, in which case they must be deleted manually before importing again. (`%USERPROFILE%\.credentials\nodejs-drive-access.json`)
+The credentials for importing may eventually expire, in which case they must be deleted manually before importing again.
+(`rm %USERPROFILE%\.credentials\nodejs-drive-access.json`)
 
 
 [Cards]: http://1j01.github.io/cards/
