@@ -13,12 +13,12 @@ The rules are in another castle.
 ## Installation
 
 * Clone the repo
-* Have Node.js
+* Have [Node.js][]
 * Open a console in the project directory 
 * `npm i`
 
 
-## Import into Tabletop Simulator
+## Import into [Tabletop Simulator]
 
 Without installing, you can save [Card Game.json][] to `%USERPROFILE%\Documents\My Games\Tabletop Simulator\Saves\Chest\`
 
@@ -40,3 +40,5 @@ The credentials for importing may eventually expire, in which case they must be 
 
 [Cards]: http://1j01.github.io/cards/
 [Card Game.json]: https://raw.githubusercontent.com/1j01/cards/gh-pages/data/export/Card%20Game.json
+[Node.js]: https://nodejs.org/en/
+[Tabletop Simulator]: http://store.steampowered.com/app/286160/
