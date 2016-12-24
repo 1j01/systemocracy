@@ -40,7 +40,7 @@ render_$card = ({name, description, flavor_text, category, attack, defense, cost
 			<div class='major-types'>#{major_types_text}</div>
 		</div>
 		<div class='image'>
-			<img class='img' src='images/cards/#{name}.png'>
+			<img class='img' src='images/cards/#{name}.jpg'>
 		</div>
 		<div class='flavor-text'>#{
 			flavor_text
