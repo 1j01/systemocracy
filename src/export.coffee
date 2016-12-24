@@ -17,6 +17,7 @@ cardSets = JSON.parse(fs.readFileSync("data/cards.json", "utf8"))
 
 cgg = new CardGameGenerator {cardSets, counters}
 
+console.log "render cards"
 cgg.renderCards
 	page: "index.html"
 	cardWidth: 225
@@ -26,6 +27,7 @@ cgg.renderCards
 	to: "images/export/"
 	(err)->
 		throw err if err
+		console.log "export Tabletop Simulator save"
 		cgg.exportTabletopSimulatorSave
 			to: "data/export/"
 			saveName: "Systemocracy"
@@ -33,4 +35,6 @@ cgg.renderCards
 			renderedImagesURL: "https://raw.githubusercontent.com/1j01/systemocracy/gh-pages/images/export"
 			(err)->
 				throw err if err
+				console.log "export save to Tabletop Simulator's Chest"
 				cgg.exportSaveToTabletopSimulatorChest()
+				console.log "done"
