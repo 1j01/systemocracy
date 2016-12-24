@@ -1,7 +1,4 @@
 
-after = (ms, fn)-> setTimeout(fn, ms)
-every = (ms, fn)-> setInterval(fn, ms)
-
 $cards = $("<main class='cards'/>").appendTo("body")
 
 render_$card = ({name, description, flavor_text, category, attack, defense, cost, major_types, minor_types, arrows, source})->
