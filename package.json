@@ -1,14 +1,14 @@
 {
-  "name": "cards",
+  "name": "systemocracy",
   "version": "1.0.0",
   "private": true,
   "description": "A card game",
   "repository": {
     "type": "git",
-    "url": "http://github.com/1j01/cards.git"
+    "url": "http://github.com/1j01/systemocracy.git"
   },
   "bugs": {
-    "url": "http://github.com/1j01/cards/issues"
+    "url": "http://github.com/1j01/systemocracy/issues"
   },
   "scripts": {
     "import": "coffee src/import.coffee",

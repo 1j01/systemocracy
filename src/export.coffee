@@ -28,9 +28,9 @@ cgg.renderCards
 		throw err if err
 		cgg.exportTabletopSimulatorSave
 			to: "data/export/"
-			saveName: "Card Game"
-			imagesURL: "https://raw.githubusercontent.com/1j01/cards/gh-pages/images"
-			renderedImagesURL: "https://raw.githubusercontent.com/1j01/cards/gh-pages/images/export"
+			saveName: "Systemocracy"
+			imagesURL: "https://raw.githubusercontent.com/1j01/systemocracy/gh-pages/images"
+			renderedImagesURL: "https://raw.githubusercontent.com/1j01/systemocracy/gh-pages/images/export"
 			(err)->
 				throw err if err
 				cgg.exportSaveToTabletopSimulatorChest()
