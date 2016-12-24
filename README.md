@@ -7,7 +7,7 @@ There are also minor types like Income, Naval, or Revolutionary.
 
 The rules are in another castle.
 
-[View the cards online][Website] (Warning: placeholder art uses unnecessarily high-resolution images!)
+[View the cards online][Website] (card images are placeholder art)
 
 The first thing prototyped with [Card Game Generator][].
 
