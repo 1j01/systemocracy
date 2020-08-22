@@ -4,7 +4,7 @@ path = require("path")
 readline = require("readline")
 async = require("async")
 google = require("googleapis")
-GoogleAuth = require("google-auth-library")
+{GoogleAuth} = require("google-auth-library")
 parse_card_data = require("./parse.coffee")
 
 # If modifying these scopes, delete your previously saved credentials
@@ -72,16 +72,16 @@ authorize = (credentials, callback)->
 	clientSecret = credentials.client_secret
 	clientId = credentials.client_id
 	[redirectUrl] = credentials.redirect_uris
-	auth = new GoogleAuth()
-	oauth2Client = new auth.OAuth2(clientId, clientSecret, redirectUrl)
-
-	# Check if we have previously stored a token.
-	fs.readFile TOKEN_PATH, (err, token)->
-		if err
-			getNewToken(oauth2Client, callback)
-		else
-			oauth2Client.credentials = JSON.parse(token)
-			callback(oauth2Client)
+	auth = new GoogleAuth({clientId, clientSecret, redirectUrl})
+	auth.getClient().then((oauth2Client)->
+		# Check if we have previously stored a token.
+		fs.readFile TOKEN_PATH, (err, token)->
+			if err
+				getNewToken(oauth2Client, callback)
+			else
+				oauth2Client.credentials = JSON.parse(token)
+				callback(oauth2Client)
+	)
 
 ###
 # Get and store new token after prompting for user authorization, and then
