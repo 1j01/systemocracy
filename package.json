@@ -15,9 +15,9 @@
     "export": "coffee src/export.coffee"
   },
   "devDependencies": {
+    "card-game-generator": "^0.8.0",
     "coffee-script": "^1.10.0",
     "google-auth-library": "^0.9.7",
-    "googleapis": "^2.1.7",
-    "card-game-generator": "^0.3.1"
+    "googleapis": "^2.1.7"
   }
 }
