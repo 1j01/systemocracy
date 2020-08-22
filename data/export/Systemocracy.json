@@ -4749,9 +4749,9 @@
             "b": 1
           },
           "Locked": false,
-          "Grid": true,
+          "Grid": false,
           "Snap": true,
-          "Autoraise": true,
+          "Autoraise": false,
           "Sticky": true,
           "CustomImage": {
             "ImageURL": "https://raw.githubusercontent.com/1j01/systemocracy/gh-pages/images/counters/damage.svg.png",
@@ -4819,9 +4819,9 @@
             "b": 0.122524768
           },
           "Locked": false,
-          "Grid": true,
+          "Grid": false,
           "Snap": true,
-          "Autoraise": true,
+          "Autoraise": false,
           "Sticky": true,
           "CustomImage": {
             "ImageURL": "https://raw.githubusercontent.com/1j01/systemocracy/gh-pages/images/counters/defense-plus.svg.png",
@@ -4889,9 +4889,9 @@
             "b": 1
           },
           "Locked": false,
-          "Grid": true,
+          "Grid": false,
           "Snap": true,
-          "Autoraise": true,
+          "Autoraise": false,
           "Sticky": true,
           "CustomImage": {
             "ImageURL": "https://raw.githubusercontent.com/1j01/systemocracy/gh-pages/images/counters/generic.svg.png",
@@ -4959,9 +4959,9 @@
             "b": 1
           },
           "Locked": false,
-          "Grid": true,
+          "Grid": false,
           "Snap": true,
-          "Autoraise": true,
+          "Autoraise": false,
           "Sticky": true,
           "CustomImage": {
             "ImageURL": "https://raw.githubusercontent.com/1j01/systemocracy/gh-pages/images/counters/money.svg.png",
@@ -5029,9 +5029,9 @@
             "b": 0.122524768
           },
           "Locked": false,
-          "Grid": true,
+          "Grid": false,
           "Snap": true,
-          "Autoraise": true,
+          "Autoraise": false,
           "Sticky": true,
           "CustomImage": {
             "ImageURL": "https://raw.githubusercontent.com/1j01/systemocracy/gh-pages/images/counters/offense-plus.svg.png",
@@ -5099,9 +5099,9 @@
             "b": 1
           },
           "Locked": false,
-          "Grid": true,
+          "Grid": false,
           "Snap": true,
-          "Autoraise": true,
+          "Autoraise": false,
           "Sticky": true,
           "CustomImage": {
             "ImageURL": "https://raw.githubusercontent.com/1j01/systemocracy/gh-pages/images/counters/revolution.svg.png",
