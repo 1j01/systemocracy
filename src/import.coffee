@@ -125,5 +125,5 @@ storeToken = (token)->
 		unless err.code is "EEXIST"
 			throw err
 	
-	fs.writeFile(TOKEN_PATH, JSON.stringify(token))
+	fs.writeFileSync(TOKEN_PATH, JSON.stringify(token))
 	console.log "Token stored to #{TOKEN_PATH}"
