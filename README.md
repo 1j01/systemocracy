@@ -11,6 +11,7 @@ The rules are in another castle.
 
 The first thing prototyped with [Card Game Generator][].
 
+![](images/screenshot.png)
 
 ## Import into [Tabletop Simulator][]
 
