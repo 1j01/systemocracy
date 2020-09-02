@@ -18,6 +18,6 @@
     "card-game-generator": "^0.8.0",
     "coffeescript": "^2.5.1",
     "google-auth-library": "^0.9.7",
-    "googleapis": "^2.1.7"
+    "googleapis": "^39.1.0"
   }
 }
